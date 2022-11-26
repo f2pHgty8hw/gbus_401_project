@@ -1,0 +1,2221 @@
+schoolid,schoolname,CalendarYear,TransIn,TransOut,TransOut1L,TransJD1GPA75,TransJD1GPA50,TransJD1GPA25
+00100300,Faulkner University,2011,0,9,,,,
+00100300,Faulkner University,2012,2,16,,,,
+00100300,Faulkner University,2013,0,9,,,,
+00100300,Faulkner University,2014,4,9,,,,
+00100300,Faulkner University,2015,1,13,,,,
+00100300,Faulkner University,2016,0,9,,,,
+00100300,Faulkner University,2017,3,,7,0,0,0
+00100300,Faulkner University,2018,1,,4,0,0,0
+00100300,Faulkner University,2019,2,,2,0,0,0
+00100300,Faulkner University,2020,1,,7,0,0,0
+00100300,Faulkner University,2021,3,,1,0,0,0
+00103600,Samford University,2011,7,14,,,,
+00103600,Samford University,2012,2,8,,,,
+00103600,Samford University,2013,7,6,,,,
+00103600,Samford University,2014,4,15,,,,
+00103600,Samford University,2015,6,7,,,2.96,
+00103600,Samford University,2016,0,8,,,,
+00103600,Samford University,2017,1,,10,0,0,0
+00103600,Samford University,2018,3,,7,0,0,0
+00103600,Samford University,2019,0,,9,0,0,0
+00103600,Samford University,2020,1,,8,0,0,0
+00103600,Samford University,2021,1,,5,0,0,0
+00105100,University of Alabama,2011,10,2,,,,
+00105100,University of Alabama,2012,13,0,,,,
+00105100,University of Alabama,2013,15,1,,,,
+00105100,University of Alabama,2014,12,5,,3.52,3.3,3.27
+00105100,University of Alabama,2015,6,1,,,3.35,
+00105100,University of Alabama,2016,5,10,,,,
+00105100,University of Alabama,2017,9,,4,0,0,0
+00105100,University of Alabama,2018,7,,0,0,3.46,0
+00105100,University of Alabama,2019,8,,1,0,3.48,0
+00105100,University of Alabama,2020,6,,2,0,3.33,0
+00105100,University of Alabama,2021,7,,0,0,3.7,0
+00108100,Arizona State University,2011,34,3,,,,
+00108100,Arizona State University,2012,42,8,,,,
+00108100,Arizona State University,2013,73,4,,,,
+00108100,Arizona State University,2014,66,3,,3.51,3.23,2.97
+00108100,Arizona State University,2015,65,4,,3.5,3.17,2.95
+00108100,Arizona State University,2016,65,6,,3.4,3.09,2.96
+00108100,Arizona State University,2017,56,,0,3.44,3.22,3.06
+00108100,Arizona State University,2018,50,,0,3.53,3.25,3.11
+00108100,Arizona State University,2019,22,,4,3.35,3.29,3.11
+00108100,Arizona State University,2020,22,,5,3.23,3.14,3.1
+00108100,Arizona State University,2021,43,,7,3.85,3.77,3.28
+00108300,University of Arizona,2011,6,11,,,,
+00108300,University of Arizona,2012,24,14,,,,
+00108300,University of Arizona,2013,44,5,,,,
+00108300,University of Arizona,2014,4,5,,,,
+00108300,University of Arizona,2015,6,6,,,2.64,
+00108300,University of Arizona,2016,7,5,,,2.95,
+00108300,University of Arizona,2017,10,,2,0,0,0
+00108300,University of Arizona,2018,1,,0,0,0,0
+00108300,University of Arizona,2019,0,,0,0,0,0
+00108300,University of Arizona,2020,2,,5,0,0,0
+00108300,University of Arizona,2021,4,,6,0,0,0
+00110101,University of Arkansas-Little Rock,2011,2,7,,,,
+00110101,University of Arkansas-Little Rock,2012,1,4,,,,
+00110101,University of Arkansas-Little Rock,2013,4,2,,,,
+00110101,University of Arkansas-Little Rock,2014,2,4,,,,
+00110101,University of Arkansas-Little Rock,2015,2,5,,,,
+00110101,University of Arkansas-Little Rock,2016,1,0,,,,
+00110101,University of Arkansas-Little Rock,2017,0,,5,0,0,0
+00110101,University of Arkansas-Little Rock,2018,4,,4,0,0,0
+00110101,University of Arkansas-Little Rock,2019,3,,5,0,0,0
+00110101,University of Arkansas-Little Rock,2020,0,,2,0,0,0
+00110101,University of Arkansas-Little Rock,2021,3,,5,0,0,0
+00110800,University of Arkansas-Fayetteville,2011,7,2,,,,
+00110800,University of Arkansas-Fayetteville,2012,6,2,,,,
+00110800,University of Arkansas-Fayetteville,2013,11,2,,,,
+00110800,University of Arkansas-Fayetteville,2014,8,2,,,2.69,
+00110800,University of Arkansas-Fayetteville,2015,4,1,,,,
+00110800,University of Arkansas-Fayetteville,2016,2,2,,,,
+00110800,University of Arkansas-Fayetteville,2017,2,,0,0,0,0
+00110800,University of Arkansas-Fayetteville,2018,7,,3,0,3.15,0
+00110800,University of Arkansas-Fayetteville,2019,3,,3,0,0,0
+00110800,University of Arkansas-Fayetteville,2020,7,,6,0,3.11,0
+00110800,University of Arkansas-Fayetteville,2021,5,,0,0,2.98,0
+00116453,Chapman University,2011,9,10,,,,
+00116453,Chapman University,2012,7,8,,,,
+00116453,Chapman University,2013,3,6,,,,
+00116453,Chapman University,2014,13,5,,2.64,2.76,2.91
+00116453,Chapman University,2015,9,7,,,2.85,
+00116453,Chapman University,2016,7,9,,,3.16,
+00116453,Chapman University,2017,12,,0,3.16,3.11,3.05
+00116453,Chapman University,2018,8,,0,0,3.06,0
+00116453,Chapman University,2019,9,,4,0,3.23,0
+00116453,Chapman University,2020,14,,3,2.91,2.86,2.84
+00116453,Chapman University,2021,6,,3,0,3.07,0
+00120529,Golden Gate University,2011,2,36,,,,
+00120529,Golden Gate University,2012,0,19,,,,
+00120529,Golden Gate University,2013,0,29,,,,
+00120529,Golden Gate University,2014,0,17,,,,
+00120529,Golden Gate University,2015,0,18,,,,
+00120529,Golden Gate University,2016,5,12,,,,
+00120529,Golden Gate University,2017,11,,9,0,0,0
+00120529,Golden Gate University,2018,7,,15,0,2.38,0
+00120529,Golden Gate University,2019,3,,31,0,0,0
+00120529,Golden Gate University,2020,5,,9,0,0,0
+00120529,Golden Gate University,2021,3,,8,0,0,0
+00121601,University of La Verne,2011,1,34,,,,
+00121601,University of La Verne,2012,2,4,,,,
+00121601,University of La Verne,2013,1,1,,,,
+00121601,University of La Verne,2014,0,3,,,,
+00121601,University of La Verne,2015,2,1,,,,
+00121601,University of La Verne,2016,3,8,,,,
+00121601,University of La Verne,2017,2,,4,0,0,0
+00121601,University of La Verne,2018,3,,6,0,0,0
+00121601,University of La Verne,2019,0,,2,0,0,0
+00129500,Southwestern Law School,2011,6,19,,,,
+00129500,Southwestern Law School,2012,7,24,,,,
+00129500,Southwestern Law School,2013,4,19,,,,
+00129500,Southwestern Law School,2014,6,22,,,2.91,
+00129500,Southwestern Law School,2015,2,22,,,,
+00129500,Southwestern Law School,2016,2,20,,,,
+00129500,Southwestern Law School,2017,0,,11,0,0,0
+00129500,Southwestern Law School,2018,0,,18,0,0,0
+00129500,Southwestern Law School,2019,8,,11,0,3.11,0
+00129500,Southwestern Law School,2020,1,,17,0,0,0
+00129500,Southwestern Law School,2021,0,,15,0,0,0
+00130503,Stanford University,2011,15,1,,,,
+00130503,Stanford University,2012,15,1,,,,
+00130503,Stanford University,2013,10,0,,,,
+00130503,Stanford University,2014,12,0,,4.1,3.91,3.85
+00130503,Stanford University,2015,16,0,,3.97,3.78,3.67
+00130503,Stanford University,2016,10,0,,,3.88,
+00130503,Stanford University,2017,8,,1,0,0,0
+00130503,Stanford University,2018,10,,1,0,4,0
+00130503,Stanford University,2019,6,,0,0,3.89,0
+00130503,Stanford University,2020,14,,0,4.08,3.97,3.93
+00130503,Stanford University,2021,11,,0,0,3.9,0
+00131273,University of California-Berkeley,2011,19,7,,,,
+00131273,University of California-Berkeley,2012,41,3,,,,
+00131273,University of California-Berkeley,2013,32,8,,,,
+00131273,University of California-Berkeley,2014,55,2,,3.9,3.75,3.68
+00131273,University of California-Berkeley,2015,49,7,,3.87,3.81,3.69
+00131273,University of California-Berkeley,2016,33,7,,3.92,3.8,3.75
+00131273,University of California-Berkeley,2017,33,,5,3.9,3.81,3.71
+00131273,University of California-Berkeley,2018,36,,3,3.93,3.85,3.75
+00131273,University of California-Berkeley,2019,24,,0,3.97,3.77,3.71
+00131273,University of California-Berkeley,2020,43,,6,3.94,3.84,3.77
+00131273,University of California-Berkeley,2021,1,,8,0,0,0
+00131373,University of California-Davis,2011,25,12,,,,
+00131373,University of California-Davis,2012,8,13,,,,
+00131373,University of California-Davis,2013,6,13,,,,
+00131373,University of California-Davis,2014,4,11,,,,
+00131373,University of California-Davis,2015,5,7,,,,
+00131373,University of California-Davis,2016,8,11,,,3.31,
+00131373,University of California-Davis,2017,9,,10,0,0,0
+00131373,University of California-Davis,2018,4,,9,0,0,0
+00131373,University of California-Davis,2019,7,,8,0,3.45,0
+00131373,University of California-Davis,2020,4,,12,0,0,0
+00131373,University of California-Davis,2021,0,,9,0,0,0
+00131400,University of California-Irvine,2011,6,1,,,,
+00131400,University of California-Irvine,2012,6,1,,,,
+00131400,University of California-Irvine,2013,0,1,,,,
+00131400,University of California-Irvine,2014,2,5,,,,
+00131400,University of California-Irvine,2015,7,0,,,3.34,
+00131400,University of California-Irvine,2016,7,6,,,3.31,
+00131400,University of California-Irvine,2017,11,,0,0,0,0
+00131400,University of California-Irvine,2018,3,,15,0,0,0
+00131400,University of California-Irvine,2019,2,,14,0,0,0
+00131400,University of California-Irvine,2020,0,,15,0,0,0
+00131400,University of California-Irvine,2021,5,,14,0,0,0
+00131500,University of California-Los Angeles,2011,40,5,,,,
+00131500,University of California-Los Angeles,2012,39,6,,,,
+00131500,University of California-Los Angeles,2013,41,5,,,,
+00131500,University of California-Los Angeles,2014,44,11,,3.73,3.58,3.44
+00131500,University of California-Los Angeles,2015,43,2,,3.7,3.58,3.46
+00131500,University of California-Los Angeles,2016,43,2,,3.67,3.56,3.52
+00131500,University of California-Los Angeles,2017,36,,2,3.71,3.58,3.42
+00131500,University of California-Los Angeles,2018,31,,6,3.8,3.66,3.51
+00131500,University of California-Los Angeles,2019,34,,4,3.76,3.63,3.56
+00131500,University of California-Los Angeles,2020,39,,8,3.66,3.59,3.47
+00131500,University of California-Los Angeles,2021,24,,10,3.97,3.81,3.67
+00132500,University of San Francisco,2011,6,20,,,,
+00132500,University of San Francisco,2012,1,19,,,,
+00132500,University of San Francisco,2013,5,24,,,,
+00132500,University of San Francisco,2014,8,22,,,2.89,
+00132500,University of San Francisco,2015,8,9,,,2.87,
+00132500,University of San Francisco,2016,4,20,,,,
+00132500,University of San Francisco,2017,2,,17,0,0,0
+00132500,University of San Francisco,2018,4,,12,0,0,0
+00132500,University of San Francisco,2019,4,,6,0,0,0
+00132500,University of San Francisco,2020,1,,9,0,0,0
+00132500,University of San Francisco,2021,3,,8,0,0,0
+00132600,Santa Clara University,2011,22,9,,,,
+00132600,Santa Clara University,2012,23,6,,,,
+00132600,Santa Clara University,2013,14,19,,,,
+00132600,Santa Clara University,2014,4,12,,,,
+00132600,Santa Clara University,2015,3,3,,,,
+00132600,Santa Clara University,2016,9,14,,,3.14,
+00132600,Santa Clara University,2017,8,,12,0,0,0
+00132600,Santa Clara University,2018,6,,1,0,3.09,0
+00132600,Santa Clara University,2019,3,,9,0,0,0
+00132600,Santa Clara University,2020,1,,9,0,0,0
+00132600,Santa Clara University,2021,5,,9,0,0,0
+00132800,University of Southern California,2011,24,4,,,,
+00132800,University of Southern California,2012,29,1,,,,
+00132800,University of Southern California,2013,37,3,,,,
+00132800,University of Southern California,2014,30,3,,3.71,3.59,3.44
+00132800,University of Southern California,2015,13,3,,3.64,3.55,3.47
+00132800,University of Southern California,2016,28,4,,3.73,3.57,3.49
+00132800,University of Southern California,2017,2,,0,0,0,0
+00132800,University of Southern California,2018,7,,4,0,3.83,0
+00132800,University of Southern California,2019,7,,2,0,3.46,0
+00132800,University of Southern California,2020,13,,3,3.84,3.77,3.62
+00132800,University of Southern California,2021,7,,3,0,0,0
+00132901,McGeorge School of Law,2011,15,24,,,,
+00132901,McGeorge School of Law,2012,9,7,,,,
+00132901,McGeorge School of Law,2013,2,6,,,,
+00132901,McGeorge School of Law,2014,2,7,,,,
+00132901,McGeorge School of Law,2015,0,5,,,,
+00132901,McGeorge School of Law,2016,0,7,,,,
+00132901,McGeorge School of Law,2017,3,,0,0,0,0
+00132901,McGeorge School of Law,2018,3,,0,0,0,0
+00132901,McGeorge School of Law,2019,6,,1,0,2.99,0
+00132901,McGeorge School of Law,2020,4,,6,0,0,0
+00132901,McGeorge School of Law,2021,1,,5,0,0,0
+00134201,Whittier Law School,2011,20,32,,,,
+00134201,Whittier Law School,2012,13,36,,,,
+00134201,Whittier Law School,2013,3,29,,,,
+00134201,Whittier Law School,2014,2,28,,,,
+00134201,Whittier Law School,2015,3,25,,,,
+00134201,Whittier Law School,2016,1,28,,,,
+00134201,Whittier Law School,2017,1,,62,0,0,0
+00134201,Whittier Law School,2018,0,,0,0,0,0
+00137000,University of Colorado,2011,14,2,,,,
+00137000,University of Colorado,2012,11,9,,,,
+00137000,University of Colorado,2013,18,3,,,,
+00137000,University of Colorado,2014,7,2,,,3.37,
+00137000,University of Colorado,2015,7,3,,,3.5,
+00137000,University of Colorado,2016,0,7,,,,
+00137000,University of Colorado,2017,1,,0,0,0,0
+00137000,University of Colorado,2018,0,,6,0,0,0
+00137000,University of Colorado,2019,0,,4,0,0,0
+00137000,University of Colorado,2020,0,,5,0,0,0
+00137000,University of Colorado,2021,0,,4,0,0,0
+00137100,University of Denver,2011,16,11,,,,
+00137100,University of Denver,2012,6,5,,,,
+00137100,University of Denver,2013,16,7,,,,
+00137100,University of Denver,2014,12,8,,3.21,3.06,2.96
+00137100,University of Denver,2015,9,8,,,3.13,
+00137100,University of Denver,2016,7,10,,,3.09,
+00137100,University of Denver,2017,10,,5,0,0,0
+00137100,University of Denver,2018,6,,4,0,3.27,0
+00137100,University of Denver,2019,5,,4,0,0,0
+00137100,University of Denver,2020,16,,1,3.59,3.12,3.08
+00137100,University of Denver,2021,9,,4,0,3.3,0
+00140201,Quinnipiac University,2011,4,6,,,,
+00140201,Quinnipiac University,2012,4,7,,,,
+00140201,Quinnipiac University,2013,3,7,,,,
+00140201,Quinnipiac University,2014,1,8,,,,
+00140201,Quinnipiac University,2015,4,5,,,,
+00140201,Quinnipiac University,2016,3,5,,,,
+00140201,Quinnipiac University,2017,2,,0,0,0,0
+00140201,Quinnipiac University,2018,3,,2,0,0,0
+00140201,Quinnipiac University,2019,0,,2,0,0,0
+00140201,Quinnipiac University,2020,1,,7,0,0,0
+00140201,Quinnipiac University,2021,1,,3,0,0,0
+00141706,University of Connecticut,2011,12,5,,,,
+00141706,University of Connecticut,2012,11,5,,,,
+00141706,University of Connecticut,2013,8,7,,,,
+00141706,University of Connecticut,2014,14,3,,3.36,3.23,2.98
+00141706,University of Connecticut,2015,4,11,,,,
+00141706,University of Connecticut,2016,9,10,,,3.26,
+00141706,University of Connecticut,2017,2,,6,0,0,0
+00141706,University of Connecticut,2018,4,,5,0,0,0
+00141706,University of Connecticut,2019,1,,3,0,0,0
+00141706,University of Connecticut,2020,4,,4,0,0,0
+00141706,University of Connecticut,2021,2,,9,0,0,0
+00142600,Yale University,2011,8,0,,,,
+00142600,Yale University,2012,10,0,,,,
+00142600,Yale University,2013,13,0,,,,
+00142600,Yale University,2014,15,0,,4.01,3.87,3.77
+00142600,Yale University,2015,14,0,,3.98,3.89,3.83
+00142600,Yale University,2016,9,0,,,4.05,
+00142600,Yale University,2017,8,,0,0,0,0
+00142600,Yale University,2018,11,,1,0,3.9,0
+00142600,Yale University,2019,15,,0,3.95,3.9,3.86
+00142600,Yale University,2020,11,,0,0,3.88,0
+00142600,Yale University,2021,12,,0,4.03,3.96,3.86
+00143401,American University,2011,53,50,,,,
+00143401,American University,2012,49,57,,,,
+00143401,American University,2013,68,89,,,,
+00143401,American University,2014,44,106,,3.25,2.94,2.78
+00143401,American University,2015,33,77,,3.04,2.89,2.74
+00143401,American University,2016,31,93,,3.17,2.99,2.81
+00143401,American University,2017,26,,60,3.22,3.09,2.88
+00143401,American University,2018,19,,42,3.34,2.98,2.82
+00143401,American University,2019,2,,49,0,0,0
+00143401,American University,2020,5,,57,0,0,0
+00143401,American University,2021,3,,25,0,0,0
+00143711,Catholic University of America,2011,5,33,,,,
+00143711,Catholic University of America,2012,8,54,,,,
+00143711,Catholic University of America,2013,8,23,,,,
+00143711,Catholic University of America,2014,6,27,,,2.84,
+00143711,Catholic University of America,2015,4,23,,,,
+00143711,Catholic University of America,2016,1,19,,,,
+00143711,Catholic University of America,2017,1,,10,0,0,0
+00143711,Catholic University of America,2018,4,,11,0,0,0
+00143711,Catholic University of America,2019,1,,17,0,0,0
+00143711,Catholic University of America,2020,2,,17,0,0,0
+00143711,Catholic University of America,2021,2,,8,0,0,0
+00144102,District of Columbia,2011,8,15,,,,
+00144102,District of Columbia,2012,4,7,,,,
+00144102,District of Columbia,2013,5,12,,,,
+00144102,District of Columbia,2014,6,12,,,2.34,
+00144102,District of Columbia,2015,4,9,,,,
+00144102,District of Columbia,2016,8,12,,,2.19,
+00144102,District of Columbia,2017,2,,14,0,0,0
+00144102,District of Columbia,2018,4,,10,0,0,0
+00144102,District of Columbia,2019,1,,5,0,0,0
+00144102,District of Columbia,2020,1,,7,0,0,0
+00144102,District of Columbia,2021,0,,2,0,0,0
+00144402,George Washington University,2011,104,10,,,,
+00144402,George Washington University,2012,63,17,,,,
+00144402,George Washington University,2013,93,22,,,,
+00144402,George Washington University,2014,97,20,,3.51,3.35,3.21
+00144402,George Washington University,2015,109,38,,3.46,3.32,3.15
+00144402,George Washington University,2016,106,32,,3.45,3.26,3.14
+00144402,George Washington University,2017,67,,37,3.13,3.33,3.44
+00144402,George Washington University,2018,31,,23,3.48,3.38,3.24
+00144402,George Washington University,2019,74,,34,3.41,3.23,3.11
+00144402,George Washington University,2020,95,,37,3.47,3.33,3.18
+00144402,George Washington University,2021,64,,37,3.62,3.46,3.38
+00144503,Georgetown University,2011,71,8,,,,
+00144503,Georgetown University,2012,85,10,,,,
+00144503,Georgetown University,2013,122,7,,,,
+00144503,Georgetown University,2014,113,8,,3.77,3.67,3.55
+00144503,Georgetown University,2015,110,14,,3.77,3.66,3.59
+00144503,Georgetown University,2016,111,11,,3.76,3.63,3.54
+00144503,Georgetown University,2017,105,,3,3.73,3.64,3.56
+00144503,Georgetown University,2018,105,,6,3.79,3.69,3.56
+00144503,Georgetown University,2019,105,,5,3.77,3.67,3.56
+00144503,Georgetown University,2020,109,,16,3.85,3.71,3.62
+00144503,Georgetown University,2021,104,,12,3.82,3.71,3.6
+00144802,Howard University,2011,1,7,,,,
+00144802,Howard University,2012,1,7,,,,
+00144802,Howard University,2013,5,4,,,,
+00144802,Howard University,2014,3,4,,,,
+00144802,Howard University,2015,1,3,,,,
+00144802,Howard University,2016,1,4,,,,
+00144802,Howard University,2017,1,,0,0,0,0
+00144802,Howard University,2018,2,,1,0,0,0
+00144802,Howard University,2019,0,,4,0,0,0
+00144802,Howard University,2020,0,,0,0,0,0
+00144802,Howard University,2021,0,,0,0,0,0
+00146601,Barry University,2011,6,28,,,,
+00146601,Barry University,2012,9,21,,,,
+00146601,Barry University,2013,21,27,,,,
+00146601,Barry University,2014,12,30,,2.65,2.41,2.17
+00146601,Barry University,2015,6,38,,,2.43,
+00146601,Barry University,2016,7,34,,,2.55,
+00146601,Barry University,2017,7,,16,0,0,0
+00146601,Barry University,2018,2,,15,0,0,0
+00146601,Barry University,2019,1,,25,0,0,0
+00146601,Barry University,2020,4,,20,0,0,0
+00146601,Barry University,2021,6,,21,0,2.82,0
+00146800,St. Thomas University (Florida),2011,4,12,,,,
+00146800,St. Thomas University (Florida),2012,8,9,,,,
+00146800,St. Thomas University (Florida),2013,3,22,,,,
+00146800,St. Thomas University (Florida),2014,11,14,,,2.54,
+00146800,St. Thomas University (Florida),2015,10,33,,,2.61,
+00146800,St. Thomas University (Florida),2016,11,6,,,2.63,
+00146800,St. Thomas University (Florida),2017,9,,17,0,0,0
+00146800,St. Thomas University (Florida),2018,5,,7,0,2.75,0
+00146800,St. Thomas University (Florida),2019,5,,14,0,0,0
+00146800,St. Thomas University (Florida),2020,3,,19,0,0,0
+00146800,St. Thomas University (Florida),2021,8,,14,0,2.88,0
+00148001,Florida A&M University,2011,0,9,,,,
+00148001,Florida A&M University,2012,2,37,,,,
+00148001,Florida A&M University,2013,0,21,,,,
+00148001,Florida A&M University,2014,3,10,,,,
+00148001,Florida A&M University,2015,14,10,,2.97,2.61,2.35
+00148001,Florida A&M University,2016,4,6,,,,
+00148001,Florida A&M University,2017,4,,9,0,0,0
+00148001,Florida A&M University,2018,6,,0,0,2.63,0
+00148001,Florida A&M University,2019,0,,13,0,0,0
+00148001,Florida A&M University,2020,0,,17,0,0,0
+00148001,Florida A&M University,2021,2,,4,0,0,0
+00148900,Florida State University,2011,57,8,,,,
+00148900,Florida State University,2012,89,8,,,,
+00148900,Florida State University,2013,90,6,,,,
+00148900,Florida State University,2014,31,6,,3.29,3.1,2.9
+00148900,Florida State University,2015,32,4,,3.32,3.14,2.96
+00148900,Florida State University,2016,30,6,,3.33,3.22,3.01
+00148900,Florida State University,2017,18,,4,3.55,3.34,3.18
+00148900,Florida State University,2018,18,,5,3.39,3.18,2.96
+00148900,Florida State University,2019,13,,9,3.53,3.13,3
+00148900,Florida State University,2020,38,,5,3.35,3.14,3.04
+00148900,Florida State University,2021,37,,11,2.95,3.06,3.25
+00150900,Nova Southeastern University,2011,8,55,,,,
+00150900,Nova Southeastern University,2012,6,25,,,,
+00150900,Nova Southeastern University,2013,2,35,,,,
+00150900,Nova Southeastern University,2014,3,41,,,,
+00150900,Nova Southeastern University,2015,1,12,,,,
+00150900,Nova Southeastern University,2016,3,18,,,,
+00150900,Nova Southeastern University,2017,17,,17,2.91,2.72,2.55
+00150900,Nova Southeastern University,2018,10,,13,0,2.87,0
+00150900,Nova Southeastern University,2019,8,,8,0,2.87,0
+00150900,Nova Southeastern University,2020,8,,39,0,2.67,0
+00150900,Nova Southeastern University,2021,10,,21,0,3.06,0
+00153101,Stetson University,2011,16,15,,,,
+00153101,Stetson University,2012,13,29,,,,
+00153101,Stetson University,2013,19,18,,,,
+00153101,Stetson University,2014,18,10,,3.27,3.07,2.95
+00153101,Stetson University,2015,9,4,,,2.8,
+00153101,Stetson University,2016,15,8,,3.06,2.89,2.81
+00153101,Stetson University,2017,11,,12,0,0,0
+00153101,Stetson University,2018,10,,7,0,3.07,0
+00153101,Stetson University,2019,5,,7,0,0,0
+00153101,Stetson University,2020,6,,17,0,3,0
+00153101,Stetson University,2021,1,,16,0,0,0
+00153505,University of Florida,2011,0,4,,,,
+00153505,University of Florida,2012,37,2,,,,
+00153505,University of Florida,2013,33,6,,,,
+00153505,University of Florida,2014,25,8,,3.51,3.28,3.07
+00153505,University of Florida,2015,25,3,,3.65,3.5,3.31
+00153505,University of Florida,2016,39,10,,3.44,3.29,3.09
+00153505,University of Florida,2017,31,,5,3.57,3.4,3.17
+00153505,University of Florida,2018,27,,7,3.56,3.33,3.1
+00153505,University of Florida,2019,40,,3,3.52,3.27,3.13
+00153505,University of Florida,2020,51,,0,3.6,3.36,3.25
+00153505,University of Florida,2021,25,,0,3.69,3.49,3.27
+00153601,University of Miami,2011,9,33,,,,
+00153601,University of Miami,2012,21,17,,,,
+00153601,University of Miami,2013,24,24,,,,
+00153601,University of Miami,2014,29,17,,3.3,3.07,2.87
+00153601,University of Miami,2015,44,10,,3.26,3.05,2.9
+00153601,University of Miami,2016,31,12,,3.16,3.01,2.88
+00153601,University of Miami,2017,33,,11,3.2,3.08,3.02
+00153601,University of Miami,2018,23,,16,3.35,3.24,3.02
+00153601,University of Miami,2019,20,,9,3.29,3.16,3.05
+00153601,University of Miami,2020,31,,22,3.3,3.13,3.08
+00153601,University of Miami,2021,28,,23,3.46,3.34,3.15
+00156400,Emory University,2011,19,11,,,,
+00156400,Emory University,2012,41,9,,,,
+00156400,Emory University,2013,75,6,,,,
+00156400,Emory University,2014,53,6,,3.42,3.27,2.93
+00156400,Emory University,2015,51,14,,3.45,3.3,3.06
+00156400,Emory University,2016,51,7,,3.41,3.16,3.02
+00156400,Emory University,2017,41,,11,3.35,3.2,2.96
+00156400,Emory University,2018,42,,5,3.42,3.23,3.09
+00156400,Emory University,2019,16,,15,3.41,3.3,3
+00156400,Emory University,2020,18,,15,3.52,3.45,3.3
+00156400,Emory University,2021,22,,13,3.9,3.8,3.47
+00157400,Georgia State University,2011,4,4,,,,
+00157400,Georgia State University,2012,10,2,,,,
+00157400,Georgia State University,2013,12,2,,,,
+00157400,Georgia State University,2014,21,2,,153,151,149
+00157400,Georgia State University,2015,0,1,,,,
+00157400,Georgia State University,2016,13,2,,3.5,3.2,2.89
+00157400,Georgia State University,2017,3,,0,0,0,0
+00157400,Georgia State University,2018,18,,0,3.19,3.04,2.89
+00157400,Georgia State University,2019,9,,2,0,3.08,0
+00157400,Georgia State University,2020,17,,4,3.19,3.13,2.9
+00157400,Georgia State University,2021,12,,0,3.61,3.36,3.16
+00158015,Mercer University,2011,8,10,,,,
+00158015,Mercer University,2012,7,9,,,,
+00158015,Mercer University,2013,7,14,,,,
+00158015,Mercer University,2014,9,25,,,2.8,
+00158015,Mercer University,2015,0,18,,,,
+00158015,Mercer University,2016,2,5,,,,
+00158015,Mercer University,2017,1,,7,0,0,0
+00158015,Mercer University,2018,15,,3,3.24,3.03,2.85
+00158015,Mercer University,2019,0,,7,0,0,0
+00158015,Mercer University,2020,1,,0,0,0,0
+00158015,Mercer University,2021,2,,7,0,0,0
+00159800,University of Georgia,2011,6,4,,,,
+00159800,University of Georgia,2012,13,2,,,,
+00159800,University of Georgia,2013,11,4,,,,
+00159800,University of Georgia,2014,9,2,,,3.26,
+00159800,University of Georgia,2015,11,1,,,3.24,
+00159800,University of Georgia,2016,10,3,,,3.37,
+00159800,University of Georgia,2017,10,,0,0,0,0
+00159800,University of Georgia,2018,5,,4,0,0,0
+00159800,University of Georgia,2019,2,,1,0,0,0
+00159800,University of Georgia,2020,1,,3,0,0,0
+00159800,University of Georgia,2021,5,,2,0,0,0
+00161000,University of Hawaii,2011,1,7,,,,
+00161000,University of Hawaii,2012,4,2,,,,
+00161000,University of Hawaii,2013,3,1,,,,
+00161000,University of Hawaii,2014,3,2,,,,
+00161000,University of Hawaii,2015,1,3,,,,
+00161000,University of Hawaii,2016,4,1,,,,
+00161000,University of Hawaii,2017,2,,1,0,0,0
+00161000,University of Hawaii,2018,3,,1,0,0,0
+00161000,University of Hawaii,2019,3,,1,0,0,0
+00161000,University of Hawaii,2020,1,,3,0,0,0
+00161000,University of Hawaii,2021,3,,3,0,0,0
+00162600,University of Idaho,2011,4,5,,,,
+00162600,University of Idaho,2012,1,0,,,,
+00162600,University of Idaho,2013,3,9,,,,
+00162600,University of Idaho,2014,57,9,,3.25,2.87,2.63
+00162600,University of Idaho,2015,5,4,,,,
+00162600,University of Idaho,2016,5,3,,,,
+00162600,University of Idaho,2017,6,,1,0,0,0
+00162600,University of Idaho,2018,1,,6,0,0,0
+00162600,University of Idaho,2019,1,,4,0,0,0
+00162600,University of Idaho,2020,105,,4,3.47,3.08,2.77
+00162600,University of Idaho,2021,2,,3,0,0,0
+00167100,Depaul University,2011,18,17,,,,
+00167100,Depaul University,2012,16,19,,,,
+00167100,Depaul University,2013,18,21,,,,
+00167100,Depaul University,2014,8,24,,,2.79,
+00167100,Depaul University,2015,4,18,,,,
+00167100,Depaul University,2016,7,7,,,2.94,
+00167100,Depaul University,2017,1,,0,0,0,0
+00167100,Depaul University,2018,5,,20,0,0,0
+00167100,Depaul University,2019,1,,18,0,0,0
+00167100,Depaul University,2020,2,,8,0,0,0
+00167100,Depaul University,2021,2,,8,0,0,0
+00169101,Chicago-Kent College of Law-IIT,2011,24,7,,,,
+00169101,Chicago-Kent College of Law-IIT,2012,19,17,,,,
+00169101,Chicago-Kent College of Law-IIT,2013,16,13,,,,
+00169101,Chicago-Kent College of Law-IIT,2014,10,20,,,3.13,
+00169101,Chicago-Kent College of Law-IIT,2015,5,17,,,,
+00169101,Chicago-Kent College of Law-IIT,2016,9,7,,,3.21,
+00169101,Chicago-Kent College of Law-IIT,2017,9,,16,0,0,0
+00169101,Chicago-Kent College of Law-IIT,2018,10,,6,0,3.33,0
+00169101,Chicago-Kent College of Law-IIT,2019,4,,5,0,0,0
+00169101,Chicago-Kent College of Law-IIT,2020,7,,11,0,3.5,0
+00169101,Chicago-Kent College of Law-IIT,2021,3,,8,0,0,0
+00169800,University of Illinois Chicago School of Law,2011,12,40,,,,
+00169800,University of Illinois Chicago School of Law,2012,13,28,,,,
+00169800,University of Illinois Chicago School of Law,2013,9,47,,,,
+00169800,University of Illinois Chicago School of Law,2014,8,50,,,2.5,
+00169800,University of Illinois Chicago School of Law,2015,7,26,,,2.68,
+00169800,University of Illinois Chicago School of Law,2016,6,31,,,,
+00169800,University of Illinois Chicago School of Law,2017,5,,22,0,0,0
+00169800,University of Illinois Chicago School of Law,2018,4,,4,0,0,0
+00169800,University of Illinois Chicago School of Law,2019,2,,1,0,0,0
+00169800,University of Illinois Chicago School of Law,2020,4,,2,0,0,0
+00169800,University of Illinois Chicago School of Law,2021,5,,1,0,0,0
+00171000,Loyola University-Chicago,2011,13,23,,,,
+00171000,Loyola University-Chicago,2012,5,13,,,,
+00171000,Loyola University-Chicago,2013,5,14,,,,
+00171000,Loyola University-Chicago,2014,5,8,,,,
+00171000,Loyola University-Chicago,2015,7,20,,,3.17,
+00171000,Loyola University-Chicago,2016,0,24,,,,
+00171000,Loyola University-Chicago,2017,2,,8,0,0,0
+00171000,Loyola University-Chicago,2018,7,,11,0,3.29,0
+00171000,Loyola University-Chicago,2019,0,,16,0,0,0
+00171000,Loyola University-Chicago,2020,0,,10,0,0,0
+00171000,Loyola University-Chicago,2021,0,,5,0,0,0
+00173700,Northern Illinois University,2011,0,4,,,,
+00173700,Northern Illinois University,2012,4,5,,,,
+00173700,Northern Illinois University,2013,4,2,,,,
+00173700,Northern Illinois University,2014,0,1,,,,
+00173700,Northern Illinois University,2015,2,1,,,,
+00173700,Northern Illinois University,2016,3,2,,,,
+00173700,Northern Illinois University,2017,0,,0,0,0,0
+00173700,Northern Illinois University,2018,1,,6,0,0,0
+00173700,Northern Illinois University,2019,2,,3,0,0,0
+00173700,Northern Illinois University,2020,1,,0,0,0,0
+00173700,Northern Illinois University,2021,0,,6,0,0,0
+00173900,Northwestern University,2011,39,9,,,,
+00173900,Northwestern University,2012,38,6,,,,
+00173900,Northwestern University,2013,44,3,,,,
+00173900,Northwestern University,2014,35,2,,3.73,3.56,3.4
+00173900,Northwestern University,2015,25,6,,3.89,3.69,3.59
+00173900,Northwestern University,2016,25,5,,3.76,3.65,3.57
+00173900,Northwestern University,2017,27,,0,3.82,3.71,3.54
+00173900,Northwestern University,2018,33,,0,3.78,3.57,3.47
+00173900,Northwestern University,2019,34,,3,3.76,3.63,3.48
+00173900,Northwestern University,2020,36,,3,3.81,3.71,3.58
+00173900,Northwestern University,2021,34,,3,3.83,3.73,3.66
+00175800,Southern Illinois University-Carbondale,2011,1,6,,,,
+00175800,Southern Illinois University-Carbondale,2012,1,4,,,,
+00175800,Southern Illinois University-Carbondale,2013,4,3,,,,
+00175800,Southern Illinois University-Carbondale,2014,2,6,,,,
+00175800,Southern Illinois University-Carbondale,2015,2,3,,,,
+00175800,Southern Illinois University-Carbondale,2016,1,4,,,,
+00175800,Southern Illinois University-Carbondale,2017,3,,4,0,0,0
+00175800,Southern Illinois University-Carbondale,2018,2,,4,0,0,0
+00175800,Southern Illinois University-Carbondale,2019,0,,4,0,0,0
+00175800,Southern Illinois University-Carbondale,2020,0,,0,0,0,0
+00175800,Southern Illinois University-Carbondale,2021,0,,3,0,0,0
+00177400,University of Chicago,2011,16,1,,,,
+00177400,University of Chicago,2012,24,1,,,,
+00177400,University of Chicago,2013,23,2,,,,
+00177400,University of Chicago,2014,23,2,,3.89,3.78,3.72
+00177400,University of Chicago,2015,23,0,,3.91,3.83,3.71
+00177400,University of Chicago,2016,21,4,,3.9,3.8,3.67
+00177400,University of Chicago,2017,17,,0,3.86,3.74,3.63
+00177400,University of Chicago,2018,18,,1,3.79,3.69,3.62
+00177400,University of Chicago,2019,27,,3,3.84,3.74,3.69
+00177400,University of Chicago,2020,28,,3,3.85,3.74,3.65
+00177400,University of Chicago,2021,26,,2,3.92,3.78,3.69
+00177500,University of Illinois,2011,16,6,,,,
+00177500,University of Illinois,2012,16,12,,,,
+00177500,University of Illinois,2013,2,15,,,,
+00177500,University of Illinois,2014,9,12,,,3.55,
+00177500,University of Illinois,2015,2,10,,,,
+00177500,University of Illinois,2016,0,8,,,,
+00177500,University of Illinois,2017,1,,2,0,0,0
+00177500,University of Illinois,2018,2,,6,0,0,0
+00177500,University of Illinois,2019,2,,4,0,0,0
+00177500,University of Illinois,2020,7,,4,0,3.4,0
+00177500,University of Illinois,2021,7,,2,0,3.54,0
+00180500,Indiana Tech Law School,2016,1,0,,,,
+00180900,Indiana University - Bloomington,2011,0,9,,,,
+00180900,Indiana University - Bloomington,2012,2,10,,,,
+00180900,Indiana University - Bloomington,2013,0,7,,,,
+00180900,Indiana University - Bloomington,2014,1,4,,,,
+00180900,Indiana University - Bloomington,2015,3,7,,,,
+00180900,Indiana University - Bloomington,2016,2,2,,,,
+00180900,Indiana University - Bloomington,2017,4,,0,0,0,0
+00180900,Indiana University - Bloomington,2018,2,,0,0,0,0
+00180900,Indiana University - Bloomington,2019,1,,5,0,0,0
+00180900,Indiana University - Bloomington,2020,1,,3,0,0,0
+00180900,Indiana University - Bloomington,2021,0,,4,0,0,0
+00181300,Indiana University - Indianapolis,2011,17,7,,,,
+00181300,Indiana University - Indianapolis,2012,18,1,,,,
+00181300,Indiana University - Indianapolis,2013,14,3,,,,
+00181300,Indiana University - Indianapolis,2014,8,7,,,2.72,
+00181300,Indiana University - Indianapolis,2015,1,12,,,,
+00181300,Indiana University - Indianapolis,2016,4,2,,,,
+00181300,Indiana University - Indianapolis,2017,3,,1,0,0,0
+00181300,Indiana University - Indianapolis,2018,10,,5,0,3.41,0
+00181300,Indiana University - Indianapolis,2019,7,,4,0,2.97,0
+00181300,Indiana University - Indianapolis,2020,4,,1,0,0,0
+00181300,Indiana University - Indianapolis,2021,5,,2,0,0,0
+00184000,University of Notre Dame,2011,18,4,,,,
+00184000,University of Notre Dame,2012,11,10,,,,
+00184000,University of Notre Dame,2013,17,10,,,,
+00184000,University of Notre Dame,2014,20,7,,3.51,3.41,3.17
+00184000,University of Notre Dame,2015,12,3,,3.53,3.38,3.35
+00184000,University of Notre Dame,2016,16,1,,3.55,3.4,3.23
+00184000,University of Notre Dame,2017,12,,0,3.49,3.29,3.26
+00184000,University of Notre Dame,2018,6,,8,0,3.4,0
+00184000,University of Notre Dame,2019,2,,4,0,0,0
+00184000,University of Notre Dame,2020,0,,2,0,0,0
+00184000,University of Notre Dame,2021,9,,0,0,3.5,0
+00184200,Valparaiso University,2011,1,28,,,,
+00184200,Valparaiso University,2012,1,25,,,,
+00184200,Valparaiso University,2013,0,18,,,,
+00184200,Valparaiso University,2014,0,17,,,,
+00184200,Valparaiso University,2015,2,17,,,,
+00184200,Valparaiso University,2016,0,22,,,,
+00184200,Valparaiso University,2017,1,,5,0,0,0
+00184200,Valparaiso University,2018,0,,13,0,0,0
+00186000,Drake University,2011,1,8,,,,
+00186000,Drake University,2012,1,5,,,,
+00186000,Drake University,2013,1,5,,,,
+00186000,Drake University,2014,4,3,,,,
+00186000,Drake University,2015,4,3,,,,
+00186000,Drake University,2016,2,1,,,,
+00186000,Drake University,2017,2,,0,0,0,0
+00186000,Drake University,2018,3,,1,0,0,0
+00186000,Drake University,2019,1,,1,0,0,0
+00186000,Drake University,2020,2,,0,0,0,0
+00186000,Drake University,2021,2,,1,0,0,0
+00189200,University of Iowa,2011,4,4,,,,
+00189200,University of Iowa,2012,4,9,,,,
+00189200,University of Iowa,2013,3,7,,,,
+00189200,University of Iowa,2014,4,3,,,,
+00189200,University of Iowa,2015,3,3,,,,
+00189200,University of Iowa,2016,3,4,,,,
+00189200,University of Iowa,2017,2,,0,0,0,0
+00189200,University of Iowa,2018,4,,0,0,0,0
+00189200,University of Iowa,2019,1,,1,0,0,0
+00189200,University of Iowa,2020,3,,0,0,0,0
+00189200,University of Iowa,2021,1,,5,0,0,0
+00194800,University of Kansas,2011,17,1,,,,
+00194800,University of Kansas,2012,7,6,,,,
+00194800,University of Kansas,2013,6,2,,,,
+00194800,University of Kansas,2014,3,0,,,,
+00194800,University of Kansas,2015,1,0,,,,
+00194800,University of Kansas,2016,1,3,,,,
+00194800,University of Kansas,2017,1,,0,0,0,0
+00194800,University of Kansas,2018,0,,0,0,0,0
+00194800,University of Kansas,2019,3,,0,0,0,0
+00194800,University of Kansas,2020,1,,0,0,0,0
+00194800,University of Kansas,2021,2,,0,0,0,0
+00194900,Washburn University,2011,6,6,,,,
+00194900,Washburn University,2012,5,1,,,,
+00194900,Washburn University,2013,3,4,,,,
+00194900,Washburn University,2014,2,3,,,,
+00194900,Washburn University,2015,1,2,,,,
+00194900,Washburn University,2016,1,2,,,,
+00194900,Washburn University,2017,1,,0,0,0,0
+00194900,Washburn University,2018,1,,1,0,0,0
+00194900,Washburn University,2019,2,,2,0,0,0
+00194900,Washburn University,2020,2,,1,0,0,0
+00194900,Washburn University,2021,28,,0,3.1,2.82,2.51
+00198903,University of Kentucky,2011,9,3,,,,
+00198903,University of Kentucky,2012,8,1,,,,
+00198903,University of Kentucky,2013,3,1,,,,
+00198903,University of Kentucky,2014,6,1,,,2.97,
+00198903,University of Kentucky,2015,7,2,,,3.05,
+00198903,University of Kentucky,2016,8,4,,,3.01,
+00198903,University of Kentucky,2017,4,,5,0,0,0
+00198903,University of Kentucky,2018,1,,0,0,0,0
+00198903,University of Kentucky,2019,1,,1,0,0,0
+00198903,University of Kentucky,2020,3,,1,0,0,0
+00198903,University of Kentucky,2021,1,,0,0,0,0
+00199900,University of Louisville,2011,8,4,,,,
+00199900,University of Louisville,2012,5,2,,,,
+00199900,University of Louisville,2013,4,2,,,,
+00199900,University of Louisville,2014,4,6,,,,
+00199900,University of Louisville,2015,2,0,,,,
+00199900,University of Louisville,2016,2,1,,,,
+00199900,University of Louisville,2017,0,,1,0,0,0
+00199900,University of Louisville,2018,2,,4,0,0,0
+00199900,University of Louisville,2019,0,,4,0,0,0
+00199900,University of Louisville,2020,0,,1,0,0,0
+00199900,University of Louisville,2021,7,,0,0,3.29,0
+00201000,Louisiana State University,2011,2,6,,,,
+00201000,Louisiana State University,2012,2,1,,,,
+00201000,Louisiana State University,2013,3,2,,,,
+00201000,Louisiana State University,2014,3,2,,,,
+00201000,Louisiana State University,2015,4,6,,,,
+00201000,Louisiana State University,2016,4,3,,,,
+00201000,Louisiana State University,2017,3,,3,0,0,0
+00201000,Louisiana State University,2018,3,,3,0,0,0
+00201000,Louisiana State University,2019,0,,4,0,0,0
+00201000,Louisiana State University,2020,1,,1,0,0,0
+00201000,Louisiana State University,2021,2,,0,0,0,0
+00201600,Loyola University-New Orleans,2011,4,4,,,,
+00201600,Loyola University-New Orleans,2012,6,10,,,,
+00201600,Loyola University-New Orleans,2013,0,23,,,,
+00201600,Loyola University-New Orleans,2014,6,16,,,2.95,
+00201600,Loyola University-New Orleans,2015,0,7,,,,
+00201600,Loyola University-New Orleans,2016,0,3,,,,
+00201600,Loyola University-New Orleans,2017,0,,4,0,0,0
+00201600,Loyola University-New Orleans,2018,4,,5,0,0,0
+00201600,Loyola University-New Orleans,2019,3,,2,0,0,0
+00201600,Loyola University-New Orleans,2020,1,,4,0,0,0
+00201600,Loyola University-New Orleans,2021,4,,10,0,0,0
+00202500,Southern University,2011,0,5,,,,
+00202500,Southern University,2012,1,8,,,,
+00202500,Southern University,2013,1,10,,,,
+00202500,Southern University,2014,2,11,,,,
+00202500,Southern University,2015,1,4,,,,
+00202500,Southern University,2016,2,8,,,,
+00202500,Southern University,2017,2,,0,0,0,0
+00202500,Southern University,2018,1,,11,0,0,0
+00202500,Southern University,2019,0,,8,0,0,0
+00202500,Southern University,2020,1,,0,0,0,0
+00202500,Southern University,2021,0,,12,0,0,0
+00202900,Tulane University,2011,0,13,,,,
+00202900,Tulane University,2012,22,24,,,,
+00202900,Tulane University,2013,16,16,,,,
+00202900,Tulane University,2014,6,10,,,3.07,
+00202900,Tulane University,2015,6,6,,,2.71,
+00202900,Tulane University,2016,5,5,,,,
+00202900,Tulane University,2017,6,,15,0,0,0
+00202900,Tulane University,2018,5,,8,0,0,0
+00202900,Tulane University,2019,3,,11,0,0,0
+00202900,Tulane University,2020,4,,22,0,0,0
+00202900,Tulane University,2021,4,,6,0,0,0
+00205400,University of Maine,2011,5,0,,,,
+00205400,University of Maine,2012,6,1,,,,
+00205400,University of Maine,2013,6,1,,,,
+00205400,University of Maine,2014,3,3,,,,
+00205400,University of Maine,2015,4,5,,,,
+00205400,University of Maine,2016,4,3,,,,
+00205400,University of Maine,2017,5,,1,0,0,0
+00205400,University of Maine,2018,2,,0,0,0,0
+00205400,University of Maine,2019,1,,2,0,0,0
+00205400,University of Maine,2020,1,,3,0,0,0
+00205400,University of Maine,2021,0,,1,0,0,0
+00210200,University of Baltimore,2011,22,26,,,,
+00210200,University of Baltimore,2012,17,22,,,,
+00210200,University of Baltimore,2013,5,36,,,,
+00210200,University of Baltimore,2014,9,20,,,2.86,
+00210200,University of Baltimore,2015,6,9,,,2.87,
+00210200,University of Baltimore,2016,5,7,,,,
+00210200,University of Baltimore,2017,23,,2,2.97,2.68,2.57
+00210200,University of Baltimore,2018,7,,12,0,2.9,0
+00210200,University of Baltimore,2019,4,,8,0,0,0
+00210200,University of Baltimore,2020,5,,17,0,2.68,0
+00210200,University of Baltimore,2021,13,,13,3.1,2.8,2.67
+00210400,University of Maryland,2011,22,18,,,,
+00210400,University of Maryland,2012,34,8,,,,
+00210400,University of Maryland,2013,29,21,,,,
+00210400,University of Maryland,2014,10,13,,,3.22,
+00210400,University of Maryland,2015,10,15,,,3.28,
+00210400,University of Maryland,2016,10,10,,,3.3,
+00210400,University of Maryland,2017,11,,10,0,0,0
+00210400,University of Maryland,2018,5,,15,0,0,0
+00210400,University of Maryland,2019,7,,13,0,3.31,0
+00210400,University of Maryland,2020,11,,12,0,3.12,0
+00210400,University of Maryland,2021,10,,11,0,3.06,0
+00212801,Boston College,2011,15,8,,,,
+00212801,Boston College,2012,18,7,,,,
+00212801,Boston College,2013,17,11,,,,
+00212801,Boston College,2014,13,12,,3.43,3.37,3.16
+00212801,Boston College,2015,18,12,,3.52,3.44,3.36
+00212801,Boston College,2016,6,5,,,3.31,
+00212801,Boston College,2017,9,,9,0,0,0
+00212801,Boston College,2018,10,,0,0,3.45,0
+00212801,Boston College,2019,9,,1,0,3.47,0
+00212801,Boston College,2020,20,,0,3.57,3.46,3.31
+00212801,Boston College,2021,4,,0,0,0,0
+00213007,Boston University,2011,27,13,,,,
+00213007,Boston University,2012,0,16,,,,
+00213007,Boston University,2013,16,12,,,,
+00213007,Boston University,2014,18,10,,3.65,3.5,3.43
+00213007,Boston University,2015,16,9,,3.52,3.45,3.38
+00213007,Boston University,2016,16,13,,3.66,3.59,3.48
+00213007,Boston University,2017,5,,0,0,0,0
+00213007,Boston University,2018,4,,0,0,0,0
+00213007,Boston University,2019,2,,5,0,0,0
+00213007,Boston University,2020,14,,13,3.66,3.49,3.42
+00213007,Boston University,2021,8,,12,0,3.86,0
+00215510,Harvard University,2011,30,0,,,,
+00215510,Harvard University,2012,31,0,,,,
+00215510,Harvard University,2013,34,0,,,,
+00215510,Harvard University,2014,33,0,,3.95,3.9,3.83
+00215510,Harvard University,2015,55,2,,3.98,3.92,3.85
+00215510,Harvard University,2016,35,1,,4,3.94,3.88
+00215510,Harvard University,2017,40,,0,3.96,3.92,3.87
+00215510,Harvard University,2018,32,,1,4,3.95,3.89
+00215510,Harvard University,2019,43,,1,4.02,3.95,3.89
+00215510,Harvard University,2020,65,,0,4,3.95,3.82
+00215510,Harvard University,2021,71,,2,4,3.97,3.88
+00219900,Northeastern University,2011,9,2,,,,
+00219900,Northeastern University,2012,7,3,,,,
+00219900,Northeastern University,2013,5,6,,,,
+00219900,Northeastern University,2014,16,9,,3.31,3.22,2.92
+00219900,Northeastern University,2015,10,3,,,3.08,
+00219900,Northeastern University,2016,8,2,,,3.19,
+00219900,Northeastern University,2017,17,,0,3.38,3.22,2.87
+00219900,Northeastern University,2018,5,,0,0,3.01,0
+00219900,Northeastern University,2019,6,,0,0,3.32,0
+00219900,Northeastern University,2020,5,,0,0,0,0
+00219900,Northeastern University,2021,5,,3,0,0,0
+00221007,University of Massachusetts Dartmouth,2011,0,5,,,,
+00221007,University of Massachusetts Dartmouth,2012,2,2,,,,
+00221007,University of Massachusetts Dartmouth,2013,1,1,,,,
+00221007,University of Massachusetts Dartmouth,2014,2,10,,,,
+00221007,University of Massachusetts Dartmouth,2015,1,2,,,,
+00221007,University of Massachusetts Dartmouth,2016,1,4,,,,
+00221007,University of Massachusetts Dartmouth,2017,3,,2,0,0,0
+00221007,University of Massachusetts Dartmouth,2018,1,,6,0,0,0
+00221007,University of Massachusetts Dartmouth,2019,0,,1,0,0,0
+00221007,University of Massachusetts Dartmouth,2020,1,,6,0,0,0
+00221007,University of Massachusetts Dartmouth,2021,3,,10,0,0,0
+00221810,Suffolk University,2011,23,19,,,,
+00221810,Suffolk University,2012,7,29,,,,
+00221810,Suffolk University,2013,6,33,,,,
+00221810,Suffolk University,2014,4,37,,,,
+00221810,Suffolk University,2015,3,43,,,,
+00221810,Suffolk University,2016,0,21,,,,
+00221810,Suffolk University,2017,2,,18,0,0,0
+00221810,Suffolk University,2018,1,,15,0,0,0
+00221810,Suffolk University,2019,3,,8,0,0,0
+00221810,Suffolk University,2020,0,,17,0,0,0
+00221810,Suffolk University,2021,1,,10,0,0,0
+00222600,Western New England University,2011,2,22,,,,
+00222600,Western New England University,2012,3,7,,,,
+00222600,Western New England University,2013,2,4,,,,
+00222600,Western New England University,2014,4,10,,,,
+00222600,Western New England University,2015,3,13,,,,
+00222600,Western New England University,2016,2,9,,,,
+00222600,Western New England University,2017,2,,7,0,0,0
+00222600,Western New England University,2018,0,,4,0,0,0
+00222600,Western New England University,2019,1,,7,0,0,0
+00222600,Western New England University,2020,1,,0,0,0,0
+00222600,Western New England University,2021,1,,8,0,0,0
+00225400,Michigan State University,2011,52,13,,,,
+00225400,Michigan State University,2012,54,11,,,,
+00225400,Michigan State University,2013,20,8,,,,
+00225400,Michigan State University,2014,33,18,,3.19,3.05,2.83
+00225400,Michigan State University,2015,20,13,,3.08,3,2.83
+00225400,Michigan State University,2016,7,16,,,,
+00225400,Michigan State University,2017,6,,0,0,0,0
+00225400,Michigan State University,2018,4,,0,0,0,0
+00225400,Michigan State University,2019,2,,10,0,0,0
+00225400,Michigan State University,2020,4,,5,0,0,0
+00225400,Michigan State University,2021,3,,0,0,0,0
+00232300,University of Detroit Mercy,2011,0,25,,,,
+00232300,University of Detroit Mercy,2012,1,23,,,,
+00232300,University of Detroit Mercy,2013,1,23,,,,
+00232300,University of Detroit Mercy,2014,1,19,,,,
+00232300,University of Detroit Mercy,2015,0,19,,,,
+00232300,University of Detroit Mercy,2016,0,18,,,,
+00232300,University of Detroit Mercy,2017,2,,9,0,0,0
+00232300,University of Detroit Mercy,2018,1,,7,0,0,0
+00232300,University of Detroit Mercy,2019,0,,11,0,0,0
+00232300,University of Detroit Mercy,2020,0,,0,0,0,0
+00232300,University of Detroit Mercy,2021,3,,0,0,0,0
+00232503,University of Michigan,2011,39,3,,,,
+00232503,University of Michigan,2012,33,5,,,,
+00232503,University of Michigan,2013,23,3,,,,
+00232503,University of Michigan,2014,19,5,,3.91,3.82,3.67
+00232503,University of Michigan,2015,15,3,,3.85,3.74,3.57
+00232503,University of Michigan,2016,25,2,,3.81,3.64,3.55
+00232503,University of Michigan,2017,14,,0,3.85,3.81,3.71
+00232503,University of Michigan,2018,14,,1,3.86,3.78,3.59
+00232503,University of Michigan,2019,14,,1,3.9,3.85,3.74
+00232503,University of Michigan,2020,8,,2,0,3.83,0
+00232503,University of Michigan,2021,16,,4,3.78,3.72,3.67
+00232902,Wayne State University,2011,5,11,,,,
+00232902,Wayne State University,2012,2,7,,,,
+00232902,Wayne State University,2013,1,8,,,,
+00232902,Wayne State University,2014,3,5,,,,
+00232902,Wayne State University,2015,3,4,,,,
+00232902,Wayne State University,2016,11,3,,,2.9,
+00232902,Wayne State University,2017,3,,7,0,0,0
+00232902,Wayne State University,2018,6,,0,0,3.35,0
+00232902,Wayne State University,2019,6,,4,0,3.02,0
+00232902,Wayne State University,2020,6,,2,0,3,0
+00232902,Wayne State University,2021,5,,1,0,0,0
+00234500,University of St. Thomas (Minnesota),2011,3,11,,,,
+00234500,University of St. Thomas (Minnesota),2012,1,11,,,,
+00234500,University of St. Thomas (Minnesota),2013,3,5,,,,
+00234500,University of St. Thomas (Minnesota),2014,1,4,,,,
+00234500,University of St. Thomas (Minnesota),2015,2,5,,,,
+00234500,University of St. Thomas (Minnesota),2016,1,1,,,,
+00234500,University of St. Thomas (Minnesota),2017,1,,4,0,0,0
+00234500,University of St. Thomas (Minnesota),2018,2,,4,0,0,0
+00234500,University of St. Thomas (Minnesota),2019,1,,3,0,0,0
+00234500,University of St. Thomas (Minnesota),2020,3,,0,0,0,0
+00234500,University of St. Thomas (Minnesota),2021,2,,5,0,0,0
+00235401,Hamline University,2011,3,8,,,,
+00235401,Hamline University,2012,4,6,,,,
+00235401,Hamline University,2013,1,3,,,,
+00235401,Hamline University,2014,3,2,,,,
+00235401,Hamline University,2015,1,14,,,,
+00239100,William Mitchell College of Law,2011,7,14,,,,
+00239100,William Mitchell College of Law,2012,4,23,,,,
+00239100,William Mitchell College of Law,2013,1,15,,,,
+00239100,William Mitchell College of Law,2014,5,9,,,,
+00239100,William Mitchell College of Law,2015,2,6,,,,
+00239101,Mitchell Hamline School of Law,2016,5,7,,,,
+00239101,Mitchell Hamline School of Law,2017,7,,0,0,0,0
+00239101,Mitchell Hamline School of Law,2018,5,,6,0,2.96,0
+00239101,Mitchell Hamline School of Law,2019,10,,5,0,149,0
+00239101,Mitchell Hamline School of Law,2020,5,,2,0,0,0
+00239101,Mitchell Hamline School of Law,2021,5,,5,0,0,0
+00241501,Mississippi College,2011,0,10,,,,
+00241501,Mississippi College,2012,0,11,,,,
+00241501,Mississippi College,2013,0,3,,,,
+00241501,Mississippi College,2014,1,4,,,,
+00241501,Mississippi College,2015,0,7,,,,
+00241501,Mississippi College,2016,2,4,,,,
+00241501,Mississippi College,2017,2,,2,0,0,0
+00241501,Mississippi College,2018,1,,6,0,0,0
+00241501,Mississippi College,2019,0,,6,0,0,0
+00241501,Mississippi College,2020,0,,2,0,0,0
+00241501,Mississippi College,2021,0,,8,0,0,0
+00244000,University of Mississippi,2011,1,6,,,,
+00244000,University of Mississippi,2012,3,3,,,,
+00244000,University of Mississippi,2013,4,5,,,,
+00244000,University of Mississippi,2014,9,1,,,2.77,
+00244000,University of Mississippi,2015,4,5,,,,
+00244000,University of Mississippi,2016,4,3,,,,
+00244000,University of Mississippi,2017,5,,0,0,0,0
+00244000,University of Mississippi,2018,6,,4,0,2.69,0
+00244000,University of Mississippi,2019,7,,2,0,3,0
+00244000,University of Mississippi,2020,6,,2,0,2.73,0
+00244000,University of Mississippi,2021,3,,2,0,0,0
+00250609,Saint Louis University,2011,9,17,,,,
+00250609,Saint Louis University,2012,3,16,,,,
+00250609,Saint Louis University,2013,4,11,,,,
+00250609,Saint Louis University,2014,3,7,,,,
+00250609,Saint Louis University,2015,3,6,,,,
+00250609,Saint Louis University,2016,1,3,,,,
+00250609,Saint Louis University,2017,1,,1,0,0,0
+00250609,Saint Louis University,2018,7,,0,0,3.1,0
+00250609,Saint Louis University,2019,5,,3,0,0,0
+00250609,Saint Louis University,2020,2,,4,0,0,0
+00250609,Saint Louis University,2021,2,,1,0,0,0
+00251600,University of Missouri,2011,9,3,,,,
+00251600,University of Missouri,2012,8,2,,,,
+00251600,University of Missouri,2013,3,2,,,,
+00251600,University of Missouri,2014,2,2,,,,
+00251600,University of Missouri,2015,7,5,,,2.98,
+00251600,University of Missouri,2016,0,6,,,,
+00251600,University of Missouri,2017,2,,3,0,0,0
+00251600,University of Missouri,2018,1,,2,0,0,0
+00251600,University of Missouri,2019,3,,1,0,0,0
+00251600,University of Missouri,2020,2,,1,0,0,0
+00251600,University of Missouri,2021,1,,0,0,0,0
+00251800,University of Missouri-Kansas City,2011,9,5,,,,
+00251800,University of Missouri-Kansas City,2012,6,1,,,,
+00251800,University of Missouri-Kansas City,2013,14,8,,,,
+00251800,University of Missouri-Kansas City,2014,3,3,,,,
+00251800,University of Missouri-Kansas City,2015,13,3,,3.05,2.89,2.67
+00251800,University of Missouri-Kansas City,2016,8,1,,,2.78,
+00251800,University of Missouri-Kansas City,2017,9,,1,0,0,0
+00251800,University of Missouri-Kansas City,2018,8,,0,0,3.03,0
+00251800,University of Missouri-Kansas City,2019,7,,0,0,3.05,0
+00251800,University of Missouri-Kansas City,2020,5,,3,0,0,0
+00251800,University of Missouri-Kansas City,2021,1,,0,0,0,0
+00252000,Washington University,2011,42,16,,,,
+00252000,Washington University,2012,21,18,,,,
+00252000,Washington University,2013,44,14,,,,
+00252000,Washington University,2014,44,13,,3.43,3.2,3.06
+00252000,Washington University,2015,7,32,,,3.4,
+00252000,Washington University,2016,4,13,,,,
+00252000,Washington University,2017,16,,11,3.45,3.2,3.11
+00252000,Washington University,2018,13,,6,3.58,3.42,3.29
+00252000,Washington University,2019,11,,10,0,3.29,0
+00252000,Washington University,2020,16,,10,3.6,3.48,3.02
+00252000,Washington University,2021,9,,3,0,3.24,0
+00253600,University of Montana,2011,6,5,,,,
+00253600,University of Montana,2012,3,3,,,,
+00253600,University of Montana,2013,6,1,,,,
+00253600,University of Montana,2014,0,1,,,,
+00253600,University of Montana,2015,6,0,,,3.24,
+00253600,University of Montana,2016,1,2,,,,
+00253600,University of Montana,2017,1,,1,0,0,0
+00253600,University of Montana,2018,0,,2,0,0,0
+00253600,University of Montana,2019,0,,2,0,0,0
+00253600,University of Montana,2020,1,,0,0,0,0
+00253600,University of Montana,2021,0,,0,0,0,0
+00254200,Creighton University,2011,4,7,,,,
+00254200,Creighton University,2012,0,3,,,,
+00254200,Creighton University,2013,1,6,,,,
+00254200,Creighton University,2014,3,10,,,,
+00254200,Creighton University,2015,3,2,,,,
+00254200,Creighton University,2016,0,2,,,,
+00254200,Creighton University,2017,3,,4,0,0,0
+00254200,Creighton University,2018,3,,0,0,0,0
+00254200,Creighton University,2019,0,,3,0,0,0
+00254200,Creighton University,2020,8,,1,0,2.83,0
+00254200,Creighton University,2021,2,,4,0,0,0
+00256500,University of Nebraska,2011,1,2,,,,
+00256500,University of Nebraska,2012,1,2,,,,
+00256500,University of Nebraska,2013,2,0,,,,
+00256500,University of Nebraska,2014,3,1,,,,
+00256500,University of Nebraska,2015,0,0,,,,
+00256500,University of Nebraska,2016,2,1,,,,
+00256500,University of Nebraska,2017,0,,0,0,0,0
+00256500,University of Nebraska,2018,0,,0,0,0,0
+00256500,University of Nebraska,2019,2,,3,0,0,0
+00256500,University of Nebraska,2020,1,,0,0,0,0
+00256500,University of Nebraska,2021,2,,3,0,0,0
+00256900,University of Nevada - Las Vegas,2011,5,5,,,,
+00256900,University of Nevada - Las Vegas,2012,7,6,,,,
+00256900,University of Nevada - Las Vegas,2013,10,7,,,,
+00256900,University of Nevada - Las Vegas,2014,6,3,,,3.26,
+00256900,University of Nevada - Las Vegas,2015,16,1,,3.17,2.99,2.62
+00256900,University of Nevada - Las Vegas,2016,16,5,,3.33,3.18,2.92
+00256900,University of Nevada - Las Vegas,2017,6,,2,0,0,0
+00256900,University of Nevada - Las Vegas,2018,14,,3,3.14,3.05,2.72
+00256900,University of Nevada - Las Vegas,2019,24,,2,2.8,2.95,3.19
+00256900,University of Nevada - Las Vegas,2020,18,,5,3.24,3.06,2.93
+00256900,University of Nevada - Las Vegas,2021,22,,4,3.41,3.16,2.96
+00258903,University of New Hampshire,2011,0,11,,,,
+00258903,University of New Hampshire,2012,1,7,,,,
+00258903,University of New Hampshire,2013,3,2,,,,
+00258903,University of New Hampshire,2014,2,1,,,,
+00258903,University of New Hampshire,2015,2,2,,,,
+00258903,University of New Hampshire,2016,1,2,,,,
+00258903,University of New Hampshire,2017,0,,2,0,0,0
+00258903,University of New Hampshire,2018,1,,0,0,0,0
+00258903,University of New Hampshire,2019,4,,1,0,0,0
+00258903,University of New Hampshire,2020,4,,4,0,0,0
+00258903,University of New Hampshire,2021,7,,8,0,3.28,0
+00262900,Rutgers University,2015,45,11,,3.29,3.05,2.75
+00262900,Rutgers University,2016,21,2,,3.24,3.06,2.91
+00262900,Rutgers University,2017,19,,2,3.22,3.07,2.92
+00262900,Rutgers University,2018,20,,4,3.26,3.11,2.87
+00262900,Rutgers University,2019,21,,12,3.33,3.12,2.96
+00262900,Rutgers University,2020,26,,14,2.9,3.07,3.24
+00262900,Rutgers University,2021,24,,11,3.39,3.18,3.02
+00262901,Rutgers University-Camden,2011,36,16,,,,
+00262901,Rutgers University-Camden,2012,42,13,,,,
+00262901,Rutgers University-Camden,2013,24,4,,,,
+00262901,Rutgers University-Camden,2014,24,2,,3.03,2.75,2.56
+00262902,Rutgers University-Newark,2011,22,8,,,,
+00262902,Rutgers University-Newark,2012,28,7,,,,
+00262902,Rutgers University-Newark,2013,20,8,,,,
+00262902,Rutgers University-Newark,2014,12,7,,3.32,3.15,2.99
+00263201,Seton Hall University,2011,16,14,,,,
+00263201,Seton Hall University,2012,26,12,,,,
+00263201,Seton Hall University,2013,11,7,,,,
+00263201,Seton Hall University,2014,24,3,,3.21,2.84,2.69
+00263201,Seton Hall University,2015,14,4,,3.17,3.05,3
+00263201,Seton Hall University,2016,9,3,,,3.13,
+00263201,Seton Hall University,2017,6,,0,0,0,0
+00263201,Seton Hall University,2018,3,,3,0,0,0
+00263201,Seton Hall University,2019,10,,8,0,2.99,0
+00263201,Seton Hall University,2020,12,,1,0,0,0
+00263201,Seton Hall University,2021,6,,4,0,3.09,0
+00266300,University of New Mexico,2011,4,0,,,,
+00266300,University of New Mexico,2012,3,4,,,,
+00266300,University of New Mexico,2013,4,3,,,,
+00266300,University of New Mexico,2014,4,0,,,,
+00266300,University of New Mexico,2015,2,0,,,,
+00266300,University of New Mexico,2016,2,2,,,,
+00266300,University of New Mexico,2017,6,,1,0,0,0
+00266300,University of New Mexico,2018,5,,0,0,0,0
+00266300,University of New Mexico,2019,3,,1,0,0,0
+00266300,University of New Mexico,2020,2,,1,0,0,0
+00266300,University of New Mexico,2021,2,,0,0,0,0
+00267700,Brooklyn Law School,2011,33,20,,,,
+00267700,Brooklyn Law School,2012,27,15,,,,
+00267700,Brooklyn Law School,2013,14,24,,,,
+00267700,Brooklyn Law School,2014,19,14,,3.21,3.11,3.02
+00267700,Brooklyn Law School,2015,11,22,,,3.13,
+00267700,Brooklyn Law School,2016,12,31,,3.26,3.07,2.89
+00267700,Brooklyn Law School,2017,3,,8,0,0,0
+00267700,Brooklyn Law School,2018,12,,21,3.36,3.12,2.95
+00267700,Brooklyn Law School,2019,5,,17,0,0,0
+00267700,Brooklyn Law School,2020,16,,21,3.36,3.15,3.05
+00267700,Brooklyn Law School,2021,14,,21,3.36,3.2,3.01
+00270711,Columbia University,2011,46,2,,,,
+00270711,Columbia University,2012,58,1,,,,
+00270711,Columbia University,2013,52,2,,,,
+00270711,Columbia University,2014,46,5,,3.81,3.75,3.69
+00270711,Columbia University,2015,44,2,,3.82,3.76,3.66
+00270711,Columbia University,2016,50,4,,3.84,3.71,3.6
+00270711,Columbia University,2017,46,,0,3.86,3.76,3.68
+00270711,Columbia University,2018,35,,0,3.87,3.8,3.76
+00270711,Columbia University,2019,44,,1,3.87,3.82,3.78
+00270711,Columbia University,2020,48,,4,3.93,3.85,3.79
+00270711,Columbia University,2021,31,,2,3.91,3.87,3.82
+00271101,Cornell University,2011,6,10,,,,
+00271101,Cornell University,2012,6,13,,,,
+00271101,Cornell University,2013,13,17,,,,
+00271101,Cornell University,2014,5,17,,,,
+00271101,Cornell University,2015,4,8,,,,
+00271101,Cornell University,2016,9,7,,,3.47,
+00271101,Cornell University,2017,8,,6,0,0,0
+00271101,Cornell University,2018,7,,4,0,3.4,0
+00271101,Cornell University,2019,10,,7,0,3.42,0
+00271101,Cornell University,2020,10,,8,0,3.51,0
+00271101,Cornell University,2021,4,,5,0,0,0
+00272203,Fordham University,2011,17,10,,,,
+00272203,Fordham University,2012,21,20,,,,
+00272203,Fordham University,2013,21,15,,,,
+00272203,Fordham University,2014,11,20,,,3.49,
+00272203,Fordham University,2015,13,20,,3.49,3.33,3.28
+00272203,Fordham University,2016,15,17,,3.48,3.4,3.21
+00272203,Fordham University,2017,11,,1,0,0,0
+00272203,Fordham University,2018,19,,0,3.75,3.47,3.23
+00272203,Fordham University,2019,21,,19,3.32,3.38,3.55
+00272203,Fordham University,2020,20,,21,3.55,3.46,3.36
+00272203,Fordham University,2021,21,,9,3.59,3.55,3.45
+00273200,Hofstra University,2011,11,24,,,,
+00273200,Hofstra University,2012,24,34,,,,
+00273200,Hofstra University,2013,30,36,,,,
+00273200,Hofstra University,2014,17,18,,2.93,2.76,2.56
+00273200,Hofstra University,2015,18,24,,2.73,2.59,2.26
+00273200,Hofstra University,2016,27,16,,3.07,2.65,2.4
+00273200,Hofstra University,2017,19,,8,2.67,2.63,2.45
+00273200,Hofstra University,2018,24,,14,3.04,2.86,2.59
+00273200,Hofstra University,2019,26,,7,3.06,2.78,2.73
+00273200,Hofstra University,2020,14,,6,3.15,2.94,2.79
+00273200,Hofstra University,2021,16,,0,3.17,2.97,2.79
+00278300,New York Law School,2011,14,54,,,,
+00278300,New York Law School,2012,12,54,,,,
+00278300,New York Law School,2013,10,43,,,,
+00278300,New York Law School,2014,7,21,,,3.12,
+00278300,New York Law School,2015,14,27,,3.07,3.01,2.92
+00278300,New York Law School,2016,9,16,,,2.88,
+00278300,New York Law School,2017,5,,10,0,0,0
+00278300,New York Law School,2018,10,,9,0,3.07,0
+00278300,New York Law School,2019,2,,9,0,0,0
+00278300,New York Law School,2020,5,,12,0,0,0
+00278300,New York Law School,2021,1,,13,0,0,0
+00278500,New York University,2011,56,1,,,,
+00278500,New York University,2012,53,3,,,,
+00278500,New York University,2013,47,1,,,,
+00278500,New York University,2014,50,2,,3.74,3.62,3.47
+00278500,New York University,2015,51,4,,3.76,3.68,3.52
+00278500,New York University,2016,43,5,,3.72,3.6,3.41
+00278500,New York University,2017,58,,0,3.66,3.57,3.49
+00278500,New York University,2018,58,,2,3.77,3.57,3.51
+00278500,New York University,2019,51,,5,3.76,3.68,3.61
+00278500,New York University,2020,53,,2,3.81,3.74,3.6
+00278500,New York University,2021,19,,0,3.85,3.78,3.74
+00279102,Pace University,2011,7,19,,,,
+00279102,Pace University,2012,1,25,,,,
+00279102,Pace University,2013,9,13,,,,
+00279102,Pace University,2014,1,15,,,,
+00279102,Pace University,2015,3,11,,,,
+00279102,Pace University,2016,2,9,,,,
+00279102,Pace University,2017,5,,9,0,0,0
+00279102,Pace University,2018,1,,10,0,0,0
+00279102,Pace University,2019,7,,4,0,3.02,0
+00279102,Pace University,2020,4,,18,0,0,0
+00279102,Pace University,2021,5,,10,0,0,0
+00282300,"St. John's University",2011,2,2,,,,
+00282300,"St. John's University",2012,4,2,,,,
+00282300,"St. John's University",2013,14,6,,,,
+00282300,"St. John's University",2014,21,10,,3.55,3.18,3.06
+00282300,"St. John's University",2015,16,1,,3.45,3.33,3.12
+00282300,"St. John's University",2016,22,3,,3.58,3.26,3.12
+00282300,"St. John's University",2017,5,,2,0,0,0
+00282300,"St. John's University",2018,15,,0,3.41,3.23,3.04
+00282300,"St. John's University",2019,10,,0,0,3.45,0
+00282300,"St. John's University",2020,6,,0,0,3.24,0
+00282300,"St. John's University",2021,17,,0,3.55,3.3,3.29
+00283700,University of Buffalo-SUNY,2011,24,11,,,,
+00283700,University of Buffalo-SUNY,2012,25,8,,,,
+00283700,University of Buffalo-SUNY,2013,20,8,,,,
+00283700,University of Buffalo-SUNY,2014,14,12,,3.32,2.93,2.82
+00283700,University of Buffalo-SUNY,2015,10,5,,,2.74,
+00283700,University of Buffalo-SUNY,2016,8,5,,,2.78,
+00283700,University of Buffalo-SUNY,2017,8,,3,0,0,0
+00283700,University of Buffalo-SUNY,2018,6,,6,0,3.31,0
+00283700,University of Buffalo-SUNY,2019,1,,8,0,0,0
+00283700,University of Buffalo-SUNY,2020,0,,5,0,0,0
+00283700,University of Buffalo-SUNY,2021,4,,0,0,0,0
+00288200,Syracuse University,2011,3,17,,,,
+00288200,Syracuse University,2012,2,11,,,,
+00288200,Syracuse University,2013,4,23,,,,
+00288200,Syracuse University,2014,2,3,,,,
+00288200,Syracuse University,2015,6,5,,,3.05,
+00288200,Syracuse University,2016,3,6,,,,
+00288200,Syracuse University,2017,6,,0,0,0,0
+00288200,Syracuse University,2018,0,,5,0,0,0
+00288200,Syracuse University,2019,5,,6,0,2.97,0
+00288200,Syracuse University,2020,0,,21,0,0,0
+00288200,Syracuse University,2021,5,,6,0,3.35,0
+00288600,Albany Law School of Union University,2011,4,15,,,,
+00288600,Albany Law School of Union University,2012,5,18,,,,
+00288600,Albany Law School of Union University,2013,6,7,,,,
+00288600,Albany Law School of Union University,2014,3,5,,,,
+00288600,Albany Law School of Union University,2015,1,5,,,,
+00288600,Albany Law School of Union University,2016,1,4,,,,
+00288600,Albany Law School of Union University,2017,0,,0,0,0,0
+00288600,Albany Law School of Union University,2018,2,,0,0,0,0
+00288600,Albany Law School of Union University,2019,0,,0,0,0,0
+00288600,Albany Law School of Union University,2020,0,,3,0,0,0
+00288600,Albany Law School of Union University,2021,3,,7,0,0,0
+00290301,Cardozo School of Law,2011,45,13,,,,
+00290301,Cardozo School of Law,2012,48,15,,,,
+00290301,Cardozo School of Law,2013,38,23,,,,
+00290301,Cardozo School of Law,2014,21,10,,3.37,3.23,3.07
+00290301,Cardozo School of Law,2015,19,16,,3.56,3.33,3.13
+00290301,Cardozo School of Law,2016,9,14,,,3.14,
+00290301,Cardozo School of Law,2017,2,,9,0,0,0
+00290301,Cardozo School of Law,2018,2,,9,0,0,0
+00290301,Cardozo School of Law,2019,8,,5,0,3.35,0
+00290301,Cardozo School of Law,2020,2,,20,0,0,0
+00290301,Cardozo School of Law,2021,7,,12,0,3.36,0
+00291300,Campbell University,2011,1,3,,,,
+00291300,Campbell University,2012,3,4,,,,
+00291300,Campbell University,2013,1,2,,,,
+00291300,Campbell University,2014,0,4,,,,
+00291300,Campbell University,2015,0,3,,,,
+00291300,Campbell University,2016,0,3,,,,
+00291300,Campbell University,2017,3,,2,0,0,0
+00291300,Campbell University,2018,2,,5,0,0,0
+00291300,Campbell University,2019,1,,0,0,0,0
+00291300,Campbell University,2020,2,,5,0,0,0
+00291300,Campbell University,2021,2,,6,0,0,0
+00292002,Duke University,2011,7,1,,,,
+00292002,Duke University,2012,9,4,,,,
+00292002,Duke University,2013,10,1,,,,
+00292002,Duke University,2014,10,2,,,3.63,
+00292002,Duke University,2015,10,4,,,3.69,
+00292002,Duke University,2016,5,1,,,,
+00292002,Duke University,2017,4,,0,0,0,0
+00292002,Duke University,2018,6,,3,0,3.65,0
+00292002,Duke University,2019,5,,0,0,0,0
+00292002,Duke University,2020,4,,3,0,0,0
+00292002,Duke University,2021,0,,1,0,0,0
+00292701,Elon University,2011,4,4,,,,
+00292701,Elon University,2012,3,11,,,,
+00292701,Elon University,2013,2,10,,,,
+00292701,Elon University,2014,2,8,,,,
+00292701,Elon University,2015,4,9,,,,
+00292701,Elon University,2016,3,3,,,,
+00292701,Elon University,2017,2,,7,0,0,0
+00292701,Elon University,2018,1,,3,0,0,0
+00292701,Elon University,2019,0,,1,0,0,0
+00292701,Elon University,2020,0,,2,0,0,0
+00292701,Elon University,2021,0,,5,0,0,0
+00295000,North Carolina Central University,2011,0,1,,,,
+00295000,North Carolina Central University,2012,5,3,,,,
+00295000,North Carolina Central University,2013,5,4,,,,
+00295000,North Carolina Central University,2014,4,4,,,,
+00295000,North Carolina Central University,2015,1,0,,,,
+00295000,North Carolina Central University,2016,3,2,,,,
+00295000,North Carolina Central University,2017,5,,0,0,0,0
+00295000,North Carolina Central University,2018,3,,3,0,0,0
+00295000,North Carolina Central University,2019,2,,1,0,0,0
+00295000,North Carolina Central University,2020,0,,2,0,0,0
+00295000,North Carolina Central University,2021,2,,2,0,0,0
+00297400,University of North Carolina,2011,4,6,,,,
+00297400,University of North Carolina,2012,9,8,,,,
+00297400,University of North Carolina,2013,12,9,,,,
+00297400,University of North Carolina,2014,3,6,,,,
+00297400,University of North Carolina,2015,5,7,,,,
+00297400,University of North Carolina,2016,6,4,,,3.01,
+00297400,University of North Carolina,2017,7,,7,0,0,0
+00297400,University of North Carolina,2018,1,,5,0,0,0
+00297400,University of North Carolina,2019,6,,3,0,3.53,0
+00297400,University of North Carolina,2020,0,,5,3.58,3.27,3.06
+00297400,University of North Carolina,2021,12,,5,3.56,3.45,3.34
+00297805,Wake Forest University,2011,8,6,,,,
+00297805,Wake Forest University,2012,19,4,,,,
+00297805,Wake Forest University,2013,12,4,,,,
+00297805,Wake Forest University,2014,14,5,,3.46,3.36,3.23
+00297805,Wake Forest University,2015,2,3,,,,
+00297805,Wake Forest University,2016,6,0,,,3.28,
+00297805,Wake Forest University,2017,8,,0,0,0,0
+00297805,Wake Forest University,2018,8,,0,0,3.45,0
+00297805,Wake Forest University,2019,0,,1,0,0,0
+00297805,Wake Forest University,2020,0,,0,0,0,0
+00297805,Wake Forest University,2021,4,,0,0,0,0
+00300500,University of North Dakota,2011,2,5,,,,
+00300500,University of North Dakota,2012,5,3,,,,
+00300500,University of North Dakota,2013,3,2,,,,
+00300500,University of North Dakota,2014,1,4,,,,
+00300500,University of North Dakota,2015,1,4,,,,
+00300500,University of North Dakota,2016,3,4,,,,
+00300500,University of North Dakota,2017,14,,0,2.91,2.47,2.14
+00300500,University of North Dakota,2018,28,,3,2.93,2.58,2.36
+00300500,University of North Dakota,2019,5,,0,0,2.82,0
+00300500,University of North Dakota,2020,6,,0,0,2.57,0
+00300500,University of North Dakota,2021,0,,8,0,0,0
+00302302,Capital University,2011,6,10,,,,
+00302302,Capital University,2012,3,12,,,,
+00302302,Capital University,2013,4,5,,,,
+00302302,Capital University,2014,2,10,,,,
+00302302,Capital University,2015,2,8,,,,
+00302302,Capital University,2016,3,1,,,,
+00302302,Capital University,2017,5,,3,0,0,0
+00302302,Capital University,2018,3,,6,0,0,0
+00302302,Capital University,2019,1,,3,0,0,0
+00302302,Capital University,2020,2,,0,0,0,0
+00302302,Capital University,2021,0,,3,0,0,0
+00302400,Case Western Reserve University,2011,19,21,,,,
+00302400,Case Western Reserve University,2012,12,20,,,,
+00302400,Case Western Reserve University,2013,10,16,,,,
+00302400,Case Western Reserve University,2014,6,7,,,2.84,
+00302400,Case Western Reserve University,2015,6,4,,,2.9,
+00302400,Case Western Reserve University,2016,5,5,,,,
+00302400,Case Western Reserve University,2017,5,,0,0,0,0
+00302400,Case Western Reserve University,2018,5,,2,0,0,0
+00302400,Case Western Reserve University,2019,0,,3,0,0,0
+00302400,Case Western Reserve University,2020,2,,1,0,0,0
+00302400,Case Western Reserve University,2021,3,,4,0,0,0
+00303200,Cleveland State University,2011,4,3,,,,
+00303200,Cleveland State University,2012,5,6,,,,
+00303200,Cleveland State University,2013,3,5,,,,
+00303200,Cleveland State University,2014,4,2,,,,
+00303200,Cleveland State University,2015,1,2,,,,
+00303200,Cleveland State University,2016,1,3,,,,
+00303200,Cleveland State University,2017,4,,0,0,0,0
+00303200,Cleveland State University,2018,3,,5,0,0,0
+00303200,Cleveland State University,2019,6,,0,0,3.26,0
+00303200,Cleveland State University,2020,2,,1,0,0,0
+00303200,Cleveland State University,2021,1,,2,0,0,0
+00308900,Ohio Northern University,2011,1,3,,,,
+00308900,Ohio Northern University,2012,1,4,,,,
+00308900,Ohio Northern University,2013,1,9,,,,
+00308900,Ohio Northern University,2014,1,1,,,,
+00308900,Ohio Northern University,2015,2,0,,,,
+00308900,Ohio Northern University,2016,1,3,,,,
+00308900,Ohio Northern University,2017,8,,1,0,0,0
+00308900,Ohio Northern University,2018,1,,0,0,0,0
+00308900,Ohio Northern University,2019,2,,0,0,0,0
+00308900,Ohio Northern University,2020,0,,0,0,0,0
+00308900,Ohio Northern University,2021,0,,0,0,0,0
+00309000,Ohio State University,2011,9,1,,,,
+00309000,Ohio State University,2012,11,2,,,,
+00309000,Ohio State University,2013,15,4,,,,
+00309000,Ohio State University,2014,9,4,,,3.61,
+00309000,Ohio State University,2015,6,4,,,3.5,
+00309000,Ohio State University,2016,7,6,,,3.11,
+00309000,Ohio State University,2017,3,,3,0,0,0
+00309000,Ohio State University,2018,2,,2,0,0,0
+00309000,Ohio State University,2019,1,,5,0,0,0
+00309000,Ohio State University,2020,0,,4,0,0,0
+00309000,Ohio State University,2021,0,,2,0,0,0
+00312300,University of Akron,2011,3,7,,,,
+00312300,University of Akron,2012,0,4,,,,
+00312300,University of Akron,2013,1,10,,,,
+00312300,University of Akron,2014,2,7,,,,
+00312300,University of Akron,2015,2,4,,,,
+00312300,University of Akron,2016,0,4,,,,
+00312300,University of Akron,2017,2,,1,0,0,0
+00312300,University of Akron,2018,1,,4,0,0,0
+00312300,University of Akron,2019,2,,3,0,0,0
+00312300,University of Akron,2020,4,,0,0,0,0
+00312300,University of Akron,2021,0,,1,0,0,0
+00312500,University of Cincinnati,2011,9,3,,,,
+00312500,University of Cincinnati,2012,17,3,,,,
+00312500,University of Cincinnati,2013,18,2,,,,
+00312500,University of Cincinnati,2014,6,1,,,3.05,
+00312500,University of Cincinnati,2015,4,2,,,,
+00312500,University of Cincinnati,2016,0,2,,,,
+00312500,University of Cincinnati,2017,0,,1,0,0,0
+00312500,University of Cincinnati,2018,3,,0,0,0,0
+00312500,University of Cincinnati,2019,2,,2,0,0,0
+00312500,University of Cincinnati,2020,3,,3,0,0,0
+00312500,University of Cincinnati,2021,1,,0,0,0,0
+00312700,University of Dayton,2011,2,48,,,,
+00312700,University of Dayton,2012,0,14,,,,
+00312700,University of Dayton,2013,2,26,,,,
+00312700,University of Dayton,2014,2,11,,0,0,0
+00312700,University of Dayton,2015,2,9,,,,
+00312700,University of Dayton,2016,2,8,,,,
+00312700,University of Dayton,2017,2,,2,0,0,0
+00312700,University of Dayton,2018,0,,0,0,0,0
+00312700,University of Dayton,2019,0,,3,0,0,0
+00312700,University of Dayton,2020,0,,3,0,0,0
+00312700,University of Dayton,2021,4,,3,0,0,0
+00313100,University of Toledo,2011,3,22,,,,
+00313100,University of Toledo,2012,7,12,,,,
+00313100,University of Toledo,2013,6,6,,,,
+00313100,University of Toledo,2014,5,9,,,,
+00313100,University of Toledo,2015,4,1,,,,
+00313100,University of Toledo,2016,4,5,,,,
+00313100,University of Toledo,2017,13,,2,3.36,3.15,2.9
+00313100,University of Toledo,2018,1,,6,0,0,0
+00313100,University of Toledo,2019,1,,2,0,0,0
+00313100,University of Toledo,2020,1,,2,0,0,0
+00313100,University of Toledo,2021,2,,1,0,0,0
+00316614,Oklahoma City University,2011,4,24,,,,
+00316614,Oklahoma City University,2012,2,16,,,,
+00316614,Oklahoma City University,2013,2,10,,,,
+00316614,Oklahoma City University,2014,1,5,,,,
+00316614,Oklahoma City University,2015,0,17,,,,
+00316614,Oklahoma City University,2016,1,21,,,,
+00316614,Oklahoma City University,2017,2,,15,0,0,0
+00316614,Oklahoma City University,2018,3,,13,0,0,0
+00316614,Oklahoma City University,2019,2,,4,0,0,0
+00316614,Oklahoma City University,2020,0,,7,0,0,0
+00316614,Oklahoma City University,2021,0,,7,0,0,0
+00318400,University of Oklahoma,2011,13,1,,,,
+00318400,University of Oklahoma,2012,13,1,,,,
+00318400,University of Oklahoma,2013,6,4,,,,
+00318400,University of Oklahoma,2014,6,1,,,2.91,
+00318400,University of Oklahoma,2015,13,5,,3.35,3.01,2.61
+00318400,University of Oklahoma,2016,18,5,,3.18,2.99,2.86
+00318400,University of Oklahoma,2017,11,,3,0,0,0
+00318400,University of Oklahoma,2018,5,,3,0,0,0
+00318400,University of Oklahoma,2019,3,,1,0,0,0
+00318400,University of Oklahoma,2020,5,,3,0,0,0
+00318400,University of Oklahoma,2021,10,,4,0,3.19,0
+00318500,University of Tulsa,2011,2,9,,,,
+00318500,University of Tulsa,2012,1,7,,,,
+00318500,University of Tulsa,2013,1,4,,,,
+00318500,University of Tulsa,2014,2,2,,,,
+00318500,University of Tulsa,2015,2,3,,,,
+00318500,University of Tulsa,2016,2,1,,,,
+00318500,University of Tulsa,2017,5,,0,0,0,0
+00318500,University of Tulsa,2018,3,,3,0,0,0
+00318500,University of Tulsa,2019,1,,0,0,0,0
+00318500,University of Tulsa,2020,0,,0,0,0,0
+00318500,University of Tulsa,2021,1,,11,0,0,0
+00319100,Concordia Law School,2013,3,1,,,,
+00319100,Concordia Law School,2014,1,24,,,,
+00319100,Concordia Law School,2015,6,15,,,3.03,
+00319100,Concordia Law School,2016,3,5,,,,
+00319100,Concordia Law School,2017,1,,1,0,0,0
+00319100,Concordia Law School,2018,3,,4,0,0,0
+00319100,Concordia Law School,2019,1,,1,0,0,0
+00319700,Lewis and Clark College,2011,30,6,,,,
+00319700,Lewis and Clark College,2012,17,0,,,,
+00319700,Lewis and Clark College,2013,6,3,,,,
+00319700,Lewis and Clark College,2014,16,3,,3.34,3.03,2.83
+00319700,Lewis and Clark College,2015,13,7,,3.09,2.63,2.06
+00319700,Lewis and Clark College,2016,9,3,,,2.88,
+00319700,Lewis and Clark College,2017,14,,0,3.27,2.87,2.83
+00319700,Lewis and Clark College,2018,13,,5,3.08,2.86,2.48
+00319700,Lewis and Clark College,2019,12,,3,3.54,3.16,2.69
+00319700,Lewis and Clark College,2020,13,,3,3.55,3.3,3.08
+00319700,Lewis and Clark College,2021,13,,2,3.53,3.04,2.84
+00322300,University of Oregon,2011,4,7,,,,
+00322300,University of Oregon,2012,2,7,,,,
+00322300,University of Oregon,2013,4,8,,,,
+00322300,University of Oregon,2014,8,5,,,2.85,
+00322300,University of Oregon,2015,1,5,,,,
+00322300,University of Oregon,2016,2,1,,,,
+00322300,University of Oregon,2017,1,,0,0,0,0
+00322300,University of Oregon,2018,0,,4,0,0,0
+00322300,University of Oregon,2019,3,,1,0,0,0
+00322300,University of Oregon,2020,3,,5,0,0,0
+00322300,University of Oregon,2021,4,,4,0,0,0
+00322700,Willamette University,2011,4,15,,,,
+00322700,Willamette University,2012,3,16,,,,
+00322700,Willamette University,2013,4,8,,,,
+00322700,Willamette University,2014,0,8,,,,
+00322700,Willamette University,2015,2,3,,,,
+00322700,Willamette University,2016,2,3,,,,
+00322700,Willamette University,2017,5,,8,0,0,0
+00322700,Willamette University,2018,1,,4,0,0,0
+00322700,Willamette University,2019,1,,5,0,0,0
+00322700,Willamette University,2020,2,,11,0,0,0
+00322700,Willamette University,2021,1,,8,0,0,0
+00325600,Drexel University,2011,0,5,,,,
+00325600,Drexel University,2012,4,3,,,,
+00325600,Drexel University,2013,7,4,,,,
+00325600,Drexel University,2014,2,4,,,,
+00325600,Drexel University,2015,3,3,,,,
+00325600,Drexel University,2016,2,3,,,,
+00325600,Drexel University,2017,1,,2,0,0,0
+00325600,Drexel University,2018,3,,5,0,0,0
+00325600,Drexel University,2019,1,,5,0,0,0
+00325600,Drexel University,2020,0,,3,0,0,0
+00325600,Drexel University,2021,1,,1,0,0,0
+00325800,Duquesne University,2011,0,14,,,,
+00325800,Duquesne University,2012,2,6,,,,
+00325800,Duquesne University,2013,2,2,,,,
+00325800,Duquesne University,2014,2,1,,,,
+00325800,Duquesne University,2015,2,1,,,,
+00325800,Duquesne University,2016,0,3,,,,
+00325800,Duquesne University,2017,2,,0,0,0,0
+00325800,Duquesne University,2018,1,,2,0,0,0
+00325800,Duquesne University,2019,0,,0,0,0,0
+00325800,Duquesne University,2020,1,,3,0,0,0
+00325800,Duquesne University,2021,1,,2,0,0,0
+00331301,Widener University-Delaware,2011,2,40,,,,
+00331301,Widener University-Delaware,2012,3,40,,,,
+00331301,Widener University-Delaware,2013,4,35,,,,
+00331301,Widener University-Delaware,2014,0,26,,,,
+00331301,Widener University-Delaware,2015,1,19,,,,
+00331301,Widener University-Delaware,2016,1,19,,,,
+00331301,Widener University-Delaware,2017,1,,10,0,0,0
+00331301,Widener University-Delaware,2018,1,,19,0,0,0
+00331301,Widener University-Delaware,2019,0,,13,0,0,0
+00331301,Widener University-Delaware,2020,0,,15,0,0,0
+00331301,Widener University-Delaware,2021,0,,16,0,0,0
+00331302,Widener Commonwealth,2011,1,17,,,,
+00331302,Widener Commonwealth,2012,1,9,,,,
+00331302,Widener Commonwealth,2013,4,2,,,,
+00331302,Widener Commonwealth,2014,2,2,,,,
+00331302,Widener Commonwealth,2015,2,8,,,,
+00331302,Widener Commonwealth,2016,0,0,,,,
+00331302,Widener Commonwealth,2017,8,,2,0,0,0
+00331302,Widener Commonwealth,2018,5,,4,0,0,0
+00331302,Widener Commonwealth,2019,2,,7,0,0,0
+00331302,Widener Commonwealth,2020,1,,5,0,0,0
+00331302,Widener Commonwealth,2021,3,,7,0,0,0
+00332900,Pennsylvania State University-Penn State Law,2015,0,5,,,,
+00332900,Pennsylvania State University-Penn State Law,2016,0,3,,,,
+00332900,Pennsylvania State University-Penn State Law,2017,0,,2,0,0,0
+00332900,Pennsylvania State University-Penn State Law,2018,0,,1,0,0,0
+00332900,Pennsylvania State University-Penn State Law,2019,0,,0,0,0,0
+00332900,Pennsylvania State University-Penn State Law,2020,0,,1,0,0,0
+00332900,Pennsylvania State University-Penn State Law,2021,1,,3,0,0,0
+00332922,Pennsylvania State University,2011,5,20,,,,
+00332922,Pennsylvania State University,2012,4,8,,,,
+00332922,Pennsylvania State University,2013,9,8,,,,
+00332922,Pennsylvania State University,2014,1,5,,,,
+00332923,Pennsylvania State University-Dickinson School of Law,2015,0,2,,,,
+00332923,Pennsylvania State University-Dickinson School of Law,2016,0,0,,,,
+00332923,Pennsylvania State University-Dickinson School of Law,2017,2,,1,0,0,0
+00332923,Pennsylvania State University-Dickinson School of Law,2018,2,,0,0,0,0
+00332923,Pennsylvania State University-Dickinson School of Law,2019,4,,2,0,0,0
+00332923,Pennsylvania State University-Dickinson School of Law,2020,6,,0,0,3,0
+00332923,Pennsylvania State University-Dickinson School of Law,2021,2,,0,0,0,0
+00337101,Temple University,2011,3,7,,,,
+00337101,Temple University,2012,4,8,,,,
+00337101,Temple University,2013,7,6,,,,
+00337101,Temple University,2014,6,8,,,3.17,
+00337101,Temple University,2015,11,3,,,3.36,
+00337101,Temple University,2016,8,3,,,3.21,
+00337101,Temple University,2017,5,,0,0,0,0
+00337101,Temple University,2018,12,,3,3.37,3.3,3.11
+00337101,Temple University,2019,12,,2,3.41,3.17,3.04
+00337101,Temple University,2020,13,,3,3.45,3.31,3.09
+00337101,Temple University,2021,4,,1,0,0,0
+00337800,University of Pennsylvania,2011,25,4,,,,
+00337800,University of Pennsylvania,2012,24,6,,,,
+00337800,University of Pennsylvania,2013,12,3,,,,
+00337800,University of Pennsylvania,2014,12,2,,3.77,3.73,3.63
+00337800,University of Pennsylvania,2015,16,2,,3.72,3.67,3.64
+00337800,University of Pennsylvania,2016,15,4,,3.88,3.71,3.67
+00337800,University of Pennsylvania,2017,9,,4,0,0,0
+00337800,University of Pennsylvania,2018,10,,1,0,3.77,0
+00337800,University of Pennsylvania,2019,11,,1,0,3.69,0
+00337800,University of Pennsylvania,2020,22,,4,3.73,3.69,3.64
+00337800,University of Pennsylvania,2021,2,,2,0,0,0
+00337900,University of Pittsburgh,2011,10,10,,,,
+00337900,University of Pittsburgh,2012,6,4,,,,
+00337900,University of Pittsburgh,2013,3,6,,,,
+00337900,University of Pittsburgh,2014,6,3,,,3.08,
+00337900,University of Pittsburgh,2015,5,3,,,,
+00337900,University of Pittsburgh,2016,4,1,,,,
+00337900,University of Pittsburgh,2017,1,,6,0,0,0
+00337900,University of Pittsburgh,2018,2,,2,0,0,0
+00337900,University of Pittsburgh,2019,5,,2,0,0,0
+00337900,University of Pittsburgh,2020,3,,0,0,0,0
+00337900,University of Pittsburgh,2021,1,,0,0,0,0
+00338801,Villanova University,2011,20,17,,,,
+00338801,Villanova University,2012,14,5,,,,
+00338801,Villanova University,2013,14,4,,,,
+00338801,Villanova University,2014,5,0,,,,
+00338801,Villanova University,2015,11,3,,,2.93,
+00338801,Villanova University,2016,5,1,,,,
+00338801,Villanova University,2017,3,,4,0,0,0
+00338801,Villanova University,2018,2,,1,0,0,0
+00338801,Villanova University,2019,1,,4,0,0,0
+00338801,Villanova University,2020,5,,1,0,0,0
+00338801,Villanova University,2021,5,,1,0,0,0
+00341001,Roger Williams University,2011,5,11,,,,
+00341001,Roger Williams University,2012,5,5,,,,
+00341001,Roger Williams University,2013,0,6,,,,
+00341001,Roger Williams University,2014,4,4,,,,
+00341001,Roger Williams University,2015,5,8,,,,
+00341001,Roger Williams University,2016,3,4,,,,
+00341001,Roger Williams University,2017,4,,8,0,0,0
+00341001,Roger Williams University,2018,1,,7,0,0,0
+00341001,Roger Williams University,2019,2,,2,0,0,0
+00341001,Roger Williams University,2020,0,,3,0,0,0
+00341001,Roger Williams University,2021,2,,5,0,0,0
+00344800,University of South Carolina,2011,9,5,,,,
+00344800,University of South Carolina,2012,8,7,,,,
+00344800,University of South Carolina,2013,14,3,,,,
+00344800,University of South Carolina,2014,10,5,,,3.22,
+00344800,University of South Carolina,2015,13,6,,3.47,3.37,3.13
+00344800,University of South Carolina,2016,3,6,,,,
+00344800,University of South Carolina,2017,9,,2,0,0,0
+00344800,University of South Carolina,2018,7,,0,0,3.18,0
+00344800,University of South Carolina,2019,3,,3,0,0,0
+00344800,University of South Carolina,2020,4,,3,0,0,0
+00344800,University of South Carolina,2021,0,,1,0,0,0
+00347400,University of South Dakota,2011,2,1,,,,
+00347400,University of South Dakota,2012,2,5,,,,
+00347400,University of South Dakota,2013,1,1,,,,
+00347400,University of South Dakota,2014,1,4,,,,
+00347400,University of South Dakota,2015,3,4,,,,
+00347400,University of South Dakota,2016,2,1,,,,
+00347400,University of South Dakota,2017,1,,0,0,0,0
+00347400,University of South Dakota,2018,1,,2,0,0,0
+00347400,University of South Dakota,2019,0,,1,0,0,0
+00347400,University of South Dakota,2020,1,,0,0,0,0
+00347400,University of South Dakota,2021,3,,1,0,0,0
+00347900,Belmont University,2011,0,0,,,,
+00347900,Belmont University,2012,2,0,,,,
+00347900,Belmont University,2013,6,0,,,,
+00347900,Belmont University,2014,1,2,,,,
+00347900,Belmont University,2015,4,1,,,,
+00347900,Belmont University,2016,2,2,,,,
+00347900,Belmont University,2017,1,,2,0,0,0
+00347900,Belmont University,2018,1,,3,0,0,0
+00347900,Belmont University,2019,0,,1,0,0,0
+00347900,Belmont University,2020,0,,3,0,0,0
+00347900,Belmont University,2021,0,,0,0,0,0
+00350200,Lincoln Memorial University,2014,1,0,,,,
+00350200,Lincoln Memorial University,2015,4,0,,,,
+00350200,Lincoln Memorial University,2016,6,0,,,2.63,
+00350200,Lincoln Memorial University,2017,33,,0,2.74,2.42,2.27
+00350200,Lincoln Memorial University,2018,3,,10,0,0,0
+00350200,Lincoln Memorial University,2019,1,,0,0,0,0
+00350200,Lincoln Memorial University,2020,0,,2,0,0,0
+00350200,Lincoln Memorial University,2021,2,,1,0,0,0
+00350900,University of Memphis,2011,2,2,,,,
+00350900,University of Memphis,2012,4,7,,,,
+00350900,University of Memphis,2013,2,0,,,,
+00350900,University of Memphis,2014,1,3,,,,
+00350900,University of Memphis,2015,3,5,,,,
+00350900,University of Memphis,2016,1,3,,,,
+00350900,University of Memphis,2017,4,,1,0,0,0
+00350900,University of Memphis,2018,0,,3,0,0,0
+00350900,University of Memphis,2019,6,,3,0,3.06,0
+00350900,University of Memphis,2020,1,,5,0,0,0
+00350900,University of Memphis,2021,2,,2,0,0,0
+00353000,University of Tennessee,2011,7,3,,,,
+00353000,University of Tennessee,2012,6,3,,,,
+00353000,University of Tennessee,2013,5,0,,,,
+00353000,University of Tennessee,2014,11,3,,,2.96,
+00353000,University of Tennessee,2015,7,1,,,3.19,
+00353000,University of Tennessee,2016,5,2,,,,
+00353000,University of Tennessee,2017,1,,1,0,0,0
+00353000,University of Tennessee,2018,8,,3,0,3.31,0
+00353000,University of Tennessee,2019,4,,0,0,0,0
+00353000,University of Tennessee,2020,1,,1,0,0,0
+00353000,University of Tennessee,2021,2,,1,0,0,0
+00353500,Vanderbilt University,2011,13,4,,,,
+00353500,Vanderbilt University,2012,10,2,,,,
+00353500,Vanderbilt University,2013,7,3,,,,
+00353500,Vanderbilt University,2014,9,3,,,3.38,
+00353500,Vanderbilt University,2015,16,1,,3.5,3.42,3.33
+00353500,Vanderbilt University,2016,13,4,,3.54,3.39,3.35
+00353500,Vanderbilt University,2017,8,,3,0,0,0
+00353500,Vanderbilt University,2018,13,,4,3.64,3.36,3.32
+00353500,Vanderbilt University,2019,13,,2,3.69,3.55,3.43
+00353500,Vanderbilt University,2020,16,,6,3.58,3.46,3.41
+00353500,Vanderbilt University,2021,23,,4,3.69,3.45,3.14
+00354500,Baylor University,2011,0,3,,,,
+00354500,Baylor University,2012,1,4,,,,
+00354500,Baylor University,2013,2,2,,,,
+00354500,Baylor University,2014,3,9,,,,
+00354500,Baylor University,2015,1,4,,,,
+00354500,Baylor University,2016,0,1,,,,
+00354500,Baylor University,2017,0,,1,0,0,0
+00354500,Baylor University,2018,2,,0,0,0,0
+00354500,Baylor University,2019,0,,0,0,0,0
+00354500,Baylor University,2020,2,,0,0,0,0
+00354500,Baylor University,2021,0,,1,0,0,0
+00361300,Southern Methodist University,2011,21,2,,,,
+00361300,Southern Methodist University,2012,31,4,,,,
+00361300,Southern Methodist University,2013,29,7,,,,
+00361300,Southern Methodist University,2014,22,4,,3.42,3.16,2.95
+00361300,Southern Methodist University,2015,20,4,,3.15,2.93,2.8
+00361300,Southern Methodist University,2016,26,3,,3.28,3.15,3.08
+00361300,Southern Methodist University,2017,42,,0,3.34,2.9,2.74
+00361300,Southern Methodist University,2018,14,,2,3.32,3.14,3
+00361300,Southern Methodist University,2019,9,,2,0,3.15,0
+00361300,Southern Methodist University,2020,15,,5,3.28,3.6,3.68
+00361300,Southern Methodist University,2021,16,,1,3.47,3.19,3.11
+00362300,"St. Mary's University",2011,4,5,,,,
+00362300,"St. Mary's University",2012,3,5,,,,
+00362300,"St. Mary's University",2013,5,20,,,,
+00362300,"St. Mary's University",2014,4,16,,,,
+00362300,"St. Mary's University",2015,9,5,,,146,
+00362300,"St. Mary's University",2016,7,12,,,2.61,
+00362300,"St. Mary's University",2017,6,,2,0,0,0
+00362300,"St. Mary's University",2018,7,,2,0,2.6,0
+00362300,"St. Mary's University",2019,2,,3,0,0,0
+00362300,"St. Mary's University",2020,7,,1,0,2.48,0
+00362300,"St. Mary's University",2021,4,,2,0,0,0
+00364200,Texas Southern University,2011,1,4,,,,
+00364200,Texas Southern University,2012,5,13,,,,
+00364200,Texas Southern University,2013,2,12,,,,
+00364200,Texas Southern University,2014,0,14,,,,
+00364200,Texas Southern University,2015,0,13,,,,
+00364200,Texas Southern University,2016,0,14,,,,
+00364200,Texas Southern University,2017,0,,19,0,0,0
+00364200,Texas Southern University,2018,3,,10,0,0,0
+00364200,Texas Southern University,2019,1,,5,0,0,0
+00364200,Texas Southern University,2020,4,,11,0,0,0
+00364200,Texas Southern University,2021,9,,2,0,3.27,0
+00364400,Texas Tech University,2011,9,2,,,,
+00364400,Texas Tech University,2012,3,5,,,,
+00364400,Texas Tech University,2013,5,9,,,,
+00364400,Texas Tech University,2014,4,7,,,,
+00364400,Texas Tech University,2015,2,12,,,,
+00364400,Texas Tech University,2016,5,6,,,,
+00364400,Texas Tech University,2017,4,,5,0,0,0
+00364400,Texas Tech University,2018,1,,2,0,0,0
+00364400,Texas Tech University,2019,1,,3,0,0,0
+00364400,Texas Tech University,2020,3,,8,0,0,0
+00364400,Texas Tech University,2021,6,,4,0,3.26,0
+00364500,Texas A&M University,2011,5,14,,,,
+00364500,Texas A&M University,2012,6,13,,,,
+00364500,Texas A&M University,2013,7,9,,,,
+00364500,Texas A&M University,2014,0,4,,,,
+00364500,Texas A&M University,2015,0,6,,,,
+00364500,Texas A&M University,2016,0,3,,,,
+00364500,Texas A&M University,2017,2,,0,0,0,0
+00364500,Texas A&M University,2018,5,,0,0,3.27,0
+00364500,Texas A&M University,2019,5,,1,0,0,0
+00364500,Texas A&M University,2020,8,,1,0,3.4,0
+00364500,Texas A&M University,2021,5,,1,0,0,0
+00365200,University of Houston,2011,24,3,,,,
+00365200,University of Houston,2012,22,2,,,,
+00365200,University of Houston,2013,23,4,,,,
+00365200,University of Houston,2014,27,6,,3.39,3.09,2.98
+00365200,University of Houston,2015,26,13,,3.31,3.11,2.91
+00365200,University of Houston,2016,36,9,,3.53,3.31,3.12
+00365200,University of Houston,2017,27,,3,3.55,3.43,3.32
+00365200,University of Houston,2018,25,,3,3.51,3.42,3.31
+00365200,University of Houston,2019,11,,0,0,3.51,0
+00365200,University of Houston,2020,23,,4,3.71,3.57,3.38
+00365200,University of Houston,2021,23,,7,3.74,3.51,3.32
+00365800,University of Texas at Austin,2011,6,6,,,,
+00365800,University of Texas at Austin,2012,9,3,,,,
+00365800,University of Texas at Austin,2013,59,1,,,,
+00365800,University of Texas at Austin,2014,43,1,,3.62,3.45,3.11
+00365800,University of Texas at Austin,2015,37,6,,3.6,3.46,3.32
+00365800,University of Texas at Austin,2016,25,2,,3.74,3.47,3.34
+00365800,University of Texas at Austin,2017,18,,4,4.01,3.61,3.5
+00365800,University of Texas at Austin,2018,12,,2,3.7,3.67,3.52
+00365800,University of Texas at Austin,2019,8,,4,0,3.7,0
+00365800,University of Texas at Austin,2020,8,,3,0,3.6,0
+00365800,University of Texas at Austin,2021,7,,4,0,3.77,0
+00367000,Brigham Young University,2011,2,1,,,,
+00367000,Brigham Young University,2012,4,1,,,,
+00367000,Brigham Young University,2013,0,0,,,,
+00367000,Brigham Young University,2014,2,0,,,,
+00367000,Brigham Young University,2015,8,3,,,3.35,
+00367000,Brigham Young University,2016,11,1,,,3.35,
+00367000,Brigham Young University,2017,5,,1,0,0,0
+00367000,Brigham Young University,2018,4,,0,0,0,0
+00367000,Brigham Young University,2019,3,,1,0,0,0
+00367000,Brigham Young University,2020,2,,1,0,0,0
+00367000,Brigham Young University,2021,5,,0,0,0,0
+00367500,University of Utah,2011,24,2,,,,
+00367500,University of Utah,2012,20,0,,,,
+00367500,University of Utah,2013,34,1,,,,
+00367500,University of Utah,2014,17,2,,3.3,3.07,2.88
+00367500,University of Utah,2015,16,1,,3.3,3.12,2.93
+00367500,University of Utah,2016,5,2,,,,
+00367500,University of Utah,2017,0,,2,0,0,0
+00367500,University of Utah,2018,5,,3,0,0,0
+00367500,University of Utah,2019,4,,5,0,0,0
+00367500,University of Utah,2020,4,,2,0,0,0
+00367500,University of Utah,2021,4,,4,0,0,0
+00370500,William and Mary Law School,2011,11,3,,,,
+00370500,William and Mary Law School,2012,11,12,,,,
+00370500,William and Mary Law School,2013,5,11,,,,
+00370500,William and Mary Law School,2014,0,5,,,,
+00370500,William and Mary Law School,2015,4,6,,,,
+00370500,William and Mary Law School,2016,0,8,,,,
+00370500,William and Mary Law School,2017,0,,0,0,0,0
+00370500,William and Mary Law School,2018,0,,0,0,0,0
+00370500,William and Mary Law School,2019,0,,11,0,0,0
+00370500,William and Mary Law School,2020,0,,9,0,0,0
+00370500,William and Mary Law School,2021,0,,6,0,0,0
+00374400,University of Richmond,2011,20,10,,,,
+00374400,University of Richmond,2012,17,7,,,,
+00374400,University of Richmond,2013,20,8,,,,
+00374400,University of Richmond,2014,17,5,,3.4,3.01,2.61
+00374400,University of Richmond,2015,13,6,,3.25,3.15,2.87
+00374400,University of Richmond,2016,10,5,,,3.18,
+00374400,University of Richmond,2017,6,,0,0,0,0
+00374400,University of Richmond,2018,7,,0,0,3.41,0
+00374400,University of Richmond,2019,4,,11,0,0,0
+00374400,University of Richmond,2020,3,,7,0,0,0
+00374400,University of Richmond,2021,4,,8,0,0,0
+00374500,University of Virginia,2011,12,1,,,,
+00374500,University of Virginia,2012,10,3,,,,
+00374500,University of Virginia,2013,14,3,,,,
+00374500,University of Virginia,2014,4,5,,,,
+00374500,University of Virginia,2015,6,1,,,3.74,
+00374500,University of Virginia,2016,5,5,,,,
+00374500,University of Virginia,2017,4,,1,0,0,0
+00374500,University of Virginia,2018,1,,1,0,0,0
+00374500,University of Virginia,2019,0,,1,0,0,0
+00374500,University of Virginia,2020,0,,2,0,0,0
+00374500,University of Virginia,2021,0,,3,0,0,0
+00374900,George Mason University,2011,5,16,,,,
+00374900,George Mason University,2012,23,18,,,,
+00374900,George Mason University,2013,12,11,,,,
+00374900,George Mason University,2014,14,18,,3.38,3.05,2.9
+00374900,George Mason University,2015,14,12,,3.63,3.27,3.03
+00374900,George Mason University,2016,11,19,,,3.39,
+00374900,George Mason University,2017,12,,8,3.18,3.21,3.4
+00374900,George Mason University,2018,9,,4,0,3.31,0
+00374900,George Mason University,2019,6,,9,0,3.22,0
+00374900,George Mason University,2020,30,,6,3.3,2.95,2.79
+00374900,George Mason University,2021,29,,5,3.36,3.27,3.18
+00376800,Washington and Lee University,2011,22,15,,,,
+00376800,Washington and Lee University,2012,8,3,,,,
+00376800,Washington and Lee University,2013,1,1,,,,
+00376800,Washington and Lee University,2014,0,11,,,,
+00376800,Washington and Lee University,2015,9,7,,,3.38,
+00376800,Washington and Lee University,2016,1,6,,,,
+00376800,Washington and Lee University,2017,1,,3,0,0,0
+00376800,Washington and Lee University,2018,0,,6,0,0,0
+00376800,Washington and Lee University,2019,0,,7,0,0,0
+00376800,Washington and Lee University,2020,1,,5,0,0,0
+00376800,Washington and Lee University,2021,3,,15,0,0,0
+00377800,Gonzaga University,2011,7,8,,,,
+00377800,Gonzaga University,2012,2,12,,,,
+00377800,Gonzaga University,2013,1,7,,,,
+00377800,Gonzaga University,2014,2,10,,,,
+00377800,Gonzaga University,2015,0,9,,,,
+00377800,Gonzaga University,2016,0,4,,,,
+00377800,Gonzaga University,2017,4,,3,0,0,0
+00377800,Gonzaga University,2018,1,,2,0,0,0
+00377800,Gonzaga University,2019,1,,4,0,0,0
+00377800,Gonzaga University,2020,2,,9,0,0,0
+00377800,Gonzaga University,2021,0,,8,0,0,0
+00379001,Seattle University,2011,23,20,,,,
+00379001,Seattle University,2012,16,18,,,,
+00379001,Seattle University,2013,14,26,,,,
+00379001,Seattle University,2014,7,15,,,3,
+00379001,Seattle University,2015,5,22,,,,
+00379001,Seattle University,2016,2,13,,,,
+00379001,Seattle University,2017,6,,13,0,0,0
+00379001,Seattle University,2018,5,,10,0,0,0
+00379001,Seattle University,2019,9,,10,0,2.97,0
+00379001,Seattle University,2020,5,,11,0,0,0
+00379001,Seattle University,2021,6,,11,0,3.04,0
+00379800,University of Washington,2011,12,4,,,,
+00379800,University of Washington,2012,20,4,,,,
+00379800,University of Washington,2013,27,2,,,,
+00379800,University of Washington,2014,18,1,,3.56,3.44,3.18
+00379800,University of Washington,2015,14,3,,3.62,3.5,3.35
+00379800,University of Washington,2016,14,5,,3.52,3.38,3.08
+00379800,University of Washington,2017,10,,4,0,0,0
+00379800,University of Washington,2018,8,,3,0,3.52,0
+00379800,University of Washington,2019,6,,6,0,3.63,0
+00379800,University of Washington,2020,6,,7,0,3.3,0
+00379800,University of Washington,2021,10,,7,0,3.65,0
+00382700,West Virginia University,2011,3,4,,,,
+00382700,West Virginia University,2012,3,5,,,,
+00382700,West Virginia University,2013,2,3,,,,
+00382700,West Virginia University,2014,2,2,,,,
+00382700,West Virginia University,2015,4,2,,,,
+00382700,West Virginia University,2016,2,9,,,,
+00382700,West Virginia University,2017,4,,2,0,0,0
+00382700,West Virginia University,2018,2,,0,0,0,0
+00382700,West Virginia University,2019,3,,4,0,0,0
+00382700,West Virginia University,2020,0,,2,0,0,0
+00382700,West Virginia University,2021,1,,2,0,0,0
+00386300,Marquette University,2011,13,10,,,,
+00386300,Marquette University,2012,10,7,,,,
+00386300,Marquette University,2013,8,7,,,,
+00386300,Marquette University,2014,6,18,,,3.12,
+00386300,Marquette University,2015,9,16,,,2.93,
+00386300,Marquette University,2016,3,14,,,,
+00386300,Marquette University,2017,5,,0,0,0,0
+00386300,Marquette University,2018,3,,4,0,0,0
+00386300,Marquette University,2019,1,,1,0,0,0
+00386300,Marquette University,2020,4,,7,0,0,0
+00386300,Marquette University,2021,4,,5,0,0,0
+00389500,University of Wisconsin,2011,24,8,,,,
+00389500,University of Wisconsin,2012,17,9,,,,
+00389500,University of Wisconsin,2013,6,8,,,,
+00389500,University of Wisconsin,2014,11,10,,,3.45,
+00389500,University of Wisconsin,2015,9,6,,,3.57,
+00389500,University of Wisconsin,2016,5,7,,,,
+00389500,University of Wisconsin,2017,8,,0,0,0,0
+00389500,University of Wisconsin,2018,7,,4,0,3.36,0
+00389500,University of Wisconsin,2019,8,,6,0,3.5,0
+00389500,University of Wisconsin,2020,8,,2,0,3.77,0
+00389500,University of Wisconsin,2021,8,,2,0,3.3,0
+00393200,University of Wyoming,2011,5,3,,,,
+00393200,University of Wyoming,2012,7,1,,,,
+00393200,University of Wyoming,2013,4,1,,,,
+00393200,University of Wyoming,2014,3,0,,,,
+00393200,University of Wyoming,2015,2,0,,,,
+00393200,University of Wyoming,2016,1,4,,,,
+00393200,University of Wyoming,2017,1,,0,0,0,0
+00393200,University of Wyoming,2018,2,,0,0,0,0
+00393200,University of Wyoming,2019,0,,1,0,0,0
+00393200,University of Wyoming,2020,2,,0,0,0,0
+00393200,University of Wyoming,2021,3,,1,0,0,0
+00393600,Pontifical Catholic University of P.R.,2011,15,36,,,,
+00393600,Pontifical Catholic University of P.R.,2012,0,35,,,,
+00393600,Pontifical Catholic University of P.R.,2013,1,28,,,,
+00393600,Pontifical Catholic University of P.R.,2014,0,26,,,,
+00393600,Pontifical Catholic University of P.R.,2015,0,10,,,,
+00393600,Pontifical Catholic University of P.R.,2016,1,7,,,,
+00393600,Pontifical Catholic University of P.R.,2017,2,,6,0,0,0
+00393600,Pontifical Catholic University of P.R.,2018,0,,2,0,0,0
+00393600,Pontifical Catholic University of P.R.,2019,0,,1,0,0,0
+00393600,Pontifical Catholic University of P.R.,2020,2,,1,0,0,0
+00393600,Pontifical Catholic University of P.R.,2021,0,,5,0,0,0
+00393801,Inter American University of Puerto Rico,2011,31,20,,,,
+00393801,Inter American University of Puerto Rico,2012,27,18,,,,
+00393801,Inter American University of Puerto Rico,2013,29,13,,,,
+00393801,Inter American University of Puerto Rico,2014,23,5,,3.31,3.17,3
+00393801,Inter American University of Puerto Rico,2015,9,10,,,3.29,
+00393801,Inter American University of Puerto Rico,2016,7,7,,,3.16,
+00393801,Inter American University of Puerto Rico,2017,12,,8,3.57,3.38,3
+00393801,Inter American University of Puerto Rico,2018,4,,3,0,0,0
+00393801,Inter American University of Puerto Rico,2019,2,,3,0,0,0
+00393801,Inter American University of Puerto Rico,2020,5,,2,0,3.32,0
+00393801,Inter American University of Puerto Rico,2021,3,,3,0,0,0
+00394200,University of Puerto Rico,2011,11,0,,,,
+00394200,University of Puerto Rico,2012,14,0,,,,
+00394200,University of Puerto Rico,2013,11,0,,,,
+00394200,University of Puerto Rico,2014,7,0,,,3.43,
+00394200,University of Puerto Rico,2015,10,0,,,3.46,
+00394200,University of Puerto Rico,2016,6,0,,,3.57,
+00394200,University of Puerto Rico,2017,8,,4,0,0,0
+00394200,University of Puerto Rico,2018,2,,0,0,0,0
+00394200,University of Puerto Rico,2019,4,,0,0,0,0
+00394200,University of Puerto Rico,2020,2,,1,0,0,0
+00394200,University of Puerto Rico,2021,3,,0,0,0,0
+00394700,University of California-Hastings,2011,32,20,,,,
+00394700,University of California-Hastings,2012,28,24,,,,
+00394700,University of California-Hastings,2013,26,21,,,,
+00394700,University of California-Hastings,2014,24,39,,3.51,3.39,3.24
+00394700,University of California-Hastings,2015,20,43,,3.45,3.3,3.18
+00394700,University of California-Hastings,2016,10,15,,,3.23,
+00394700,University of California-Hastings,2017,5,,0,0,0,0
+00394700,University of California-Hastings,2018,11,,0,0,3.6,0
+00394700,University of California-Hastings,2019,3,,20,0,0,0
+00394700,University of California-Hastings,2020,7,,29,0,3.59,0
+00394700,University of California-Hastings,2021,6,,17,0,3.2,0
+00396900,University of Minnesota,2011,31,9,,,,
+00396900,University of Minnesota,2012,42,8,,,,
+00396900,University of Minnesota,2013,45,6,,,,
+00396900,University of Minnesota,2014,37,5,,3.3,3.1,2.64
+00396900,University of Minnesota,2015,31,13,,3.43,3.12,2.96
+00396900,University of Minnesota,2016,12,5,,3.33,3.29,3.18
+00396900,University of Minnesota,2017,4,,8,0,0,0
+00396900,University of Minnesota,2018,9,,6,0,3.42,0
+00396900,University of Minnesota,2019,4,,4,0,0,0
+00396900,University of Minnesota,2020,9,,7,0,3.42,0
+00396900,University of Minnesota,2021,8,,4,0,3.31,0
+00497700,South Texas College of Law,2011,14,10,,,,
+00497700,South Texas College of Law,2012,11,10,,,,
+00497700,South Texas College of Law,2013,15,16,,,,
+00497700,South Texas College of Law,2014,4,23,,,,
+00497700,South Texas College of Law,2015,9,19,,,2.79,
+00497700,South Texas College of Law,2016,6,32,,,2.8,
+00497700,South Texas College of Law,2017,8,,35,0,0,0
+00497700,South Texas College of Law,2018,6,,13,0,2.93,0
+00497700,South Texas College of Law,2019,1,,8,0,0,0
+00497700,South Texas College of Law,2020,7,,18,0,2.93,0
+00497700,South Texas College of Law,2021,0,,21,0,0,0
+00891600,New England Law | Boston,2011,2,33,,,,
+00891600,New England Law | Boston,2012,2,57,,,,
+00891600,New England Law | Boston,2013,2,43,,,,
+00891600,New England Law | Boston,2014,4,26,,,,
+00891600,New England Law | Boston,2015,0,22,,,,
+00891600,New England Law | Boston,2016,0,6,,,,
+00891600,New England Law | Boston,2017,1,,8,0,0,0
+00891600,New England Law | Boston,2018,0,,6,0,0,0
+00891600,New England Law | Boston,2019,2,,9,0,0,0
+00891600,New England Law | Boston,2020,0,,8,0,0,0
+00891600,New England Law | Boston,2021,5,,12,0,0,0
+00927500,Northern Kentucky University,2011,3,8,,,,
+00927500,Northern Kentucky University,2012,5,5,,,,
+00927500,Northern Kentucky University,2013,3,10,,,,
+00927500,Northern Kentucky University,2014,5,6,,,,
+00927500,Northern Kentucky University,2015,3,5,,,,
+00927500,Northern Kentucky University,2016,2,2,,,,
+00927500,Northern Kentucky University,2017,8,,2,0,0,0
+00927500,Northern Kentucky University,2018,0,,1,0,0,0
+00927500,Northern Kentucky University,2019,0,,3,0,0,0
+00927500,Northern Kentucky University,2020,0,,3,0,0,0
+00927500,Northern Kentucky University,2021,1,,1,0,0,0
+00963500,Florida International University,2011,10,4,,,,
+00963500,Florida International University,2012,10,5,,,,
+00963500,Florida International University,2013,14,7,,,,
+00963500,Florida International University,2014,22,6,,3.53,3.18,2.89
+00963500,Florida International University,2015,24,0,,3.25,3.15,3.04
+00963500,Florida International University,2016,16,4,,3.3,3.12,2.98
+00963500,Florida International University,2017,7,,1,0,0,0
+00963500,Florida International University,2018,9,,5,0,3.26,0
+00963500,Florida International University,2019,16,,0,3.38,3.16,3.06
+00963500,Florida International University,2020,20,,2,3.42,3.34,3.23
+00963500,Florida International University,2021,21,,2,3.62,3.41,3.31
+01014205,Touro College,2011,23,51,,,,
+01014205,Touro College,2012,13,41,,,,
+01014205,Touro College,2013,8,51,,,,
+01014205,Touro College,2014,6,40,,,2.38,
+01014205,Touro College,2015,3,34,,,,
+01014205,Touro College,2016,0,26,,,,
+01014205,Touro College,2017,4,,1,0,0,0
+01014205,Touro College,2018,0,,18,0,0,0
+01014205,Touro College,2019,3,,24,0,0,0
+01014205,Touro College,2020,1,,24,0,0,0
+01014205,Touro College,2021,0,,24,0,0,0
+01014913,Pepperdine University,2011,16,8,,,,
+01014913,Pepperdine University,2012,17,4,,,,
+01014913,Pepperdine University,2013,15,10,,,,
+01014913,Pepperdine University,2014,10,13,,,3.13,
+01014913,Pepperdine University,2015,12,15,,3.39,3.31,3.11
+01014913,Pepperdine University,2016,4,15,,,,
+01014913,Pepperdine University,2017,6,,12,0,0,0
+01014913,Pepperdine University,2018,5,,10,0,0,0
+01014913,Pepperdine University,2019,14,,8,3.36,3.25,3.07
+01014913,Pepperdine University,2020,6,,16,0,3.52,0
+01014913,Pepperdine University,2021,2,,10,0,0,0
+01039501,University of San Diego,2011,35,15,,,,
+01039501,University of San Diego,2012,9,20,,,,
+01039501,University of San Diego,2013,29,11,,,,
+01039501,University of San Diego,2014,16,14,,3.44,3.26,3.11
+01039501,University of San Diego,2015,8,7,,,3.2,
+01039501,University of San Diego,2016,12,8,,3.48,3.43,3.04
+01039501,University of San Diego,2017,11,,0,0,0,0
+01039501,University of San Diego,2018,19,,9,3.54,3.37,3.16
+01039501,University of San Diego,2019,11,,7,0,3.46,0
+01039501,University of San Diego,2020,11,,12,0,3.51,0
+01039501,University of San Diego,2021,7,,13,0,3.37,0
+01085400,Thomas Jefferson School of Law,2011,3,43,,,,
+01085400,Thomas Jefferson School of Law,2012,9,49,,,,
+01085400,Thomas Jefferson School of Law,2013,1,30,,,,
+01085400,Thomas Jefferson School of Law,2014,4,23,,,,
+01085400,Thomas Jefferson School of Law,2015,1,17,,,,
+01085400,Thomas Jefferson School of Law,2016,1,31,,,,
+01085400,Thomas Jefferson School of Law,2017,0,,10,0,0,0
+01085400,Thomas Jefferson School of Law,2018,0,,21,0,0,0
+01085400,Thomas Jefferson School of Law,2019,1,,6,0,0,0
+01164901,Loyola Marymount University-Los Angeles,2011,44,13,,,,
+01164901,Loyola Marymount University-Los Angeles,2012,46,16,,,,
+01164901,Loyola Marymount University-Los Angeles,2013,27,15,,,,
+01164901,Loyola Marymount University-Los Angeles,2014,32,22,,3,3,3
+01164901,Loyola Marymount University-Los Angeles,2015,17,8,,3.29,3.26,3.12
+01164901,Loyola Marymount University-Los Angeles,2016,43,9,,3.3,3.16,3.02
+01164901,Loyola Marymount University-Los Angeles,2017,41,,0,3.23,3.2,3.06
+01164901,Loyola Marymount University-Los Angeles,2018,34,,12,3.28,3.22,3.07
+01164901,Loyola Marymount University-Los Angeles,2019,41,,12,3.39,3.2,3.11
+01164901,Loyola Marymount University-Los Angeles,2020,30,,13,3.38,3.25,3.12
+01164901,Loyola Marymount University-Los Angeles,2021,23,,7,3.48,3.38,3.3
+01193400,Vermont Law School,2011,4,4,,,,
+01193400,Vermont Law School,2012,2,8,,,,
+01193400,Vermont Law School,2013,0,14,,,,
+01193400,Vermont Law School,2014,4,13,,,,
+01193400,Vermont Law School,2015,0,12,,,,
+01193400,Vermont Law School,2016,1,3,,,,
+01193400,Vermont Law School,2017,6,,6,0,0,0
+01193400,Vermont Law School,2018,2,,16,0,0,0
+01193400,Vermont Law School,2019,2,,10,0,0,0
+01193400,Vermont Law School,2020,2,,6,0,0,0
+01193400,Vermont Law School,2021,0,,8,0,0,0
+01262700,Western Michigan University,2011,11,227,,,,
+01262700,Western Michigan University,2012,9,165,,,,
+01262700,Western Michigan University,2013,7,67,,,,
+01262700,Western Michigan University,2014,2,77,,,,
+01262700,Western Michigan University,2015,8,30,,,,
+01262700,Western Michigan University,2016,2,19,,,,
+01262700,Western Michigan University,2017,6,,9,0,0,0
+01262700,Western Michigan University,2018,6,,31,0,2.31,0
+01262700,Western Michigan University,2019,2,,27,0,0,0
+01262700,Western Michigan University,2020,0,,11,0,0,0
+01262700,Western Michigan University,2021,2,,7,0,0,0
+01310300,California Western School of Law,2011,6,10,,,,
+01310300,California Western School of Law,2012,4,12,,,,
+01310300,California Western School of Law,2013,3,14,,,,
+01310300,California Western School of Law,2014,4,6,,,,
+01310300,California Western School of Law,2015,4,8,,,,
+01310300,California Western School of Law,2016,1,11,,,,
+01310300,California Western School of Law,2017,6,,6,0,0,0
+01310300,California Western School of Law,2018,2,,6,0,0,0
+01310300,California Western School of Law,2019,2,,9,0,0,0
+01310300,California Western School of Law,2020,0,,9,0,0,0
+01310300,California Western School of Law,2021,0,,11,0,0,0
+02053000,Liberty University,2011,2,4,,,,
+02053000,Liberty University,2012,1,4,,,,
+02053000,Liberty University,2013,2,11,,,,
+02053000,Liberty University,2014,1,0,,,,
+02053000,Liberty University,2015,1,2,,,,
+02053000,Liberty University,2016,1,0,,,,
+02053000,Liberty University,2017,1,,0,0,0,0
+02053000,Liberty University,2018,0,,0,0,0,0
+02053000,Liberty University,2019,1,,1,0,0,0
+02053000,Liberty University,2020,2,,1,0,0,0
+02053000,Liberty University,2021,3,,0,0,0,0
+02179937,Western State College of Law,2011,11,16,,,,
+02179937,Western State College of Law,2012,7,12,,,,
+02179937,Western State College of Law,2013,7,11,,,,
+02179937,Western State College of Law,2014,3,5,,,,
+02179937,Western State College of Law,2015,2,5,,,,
+02179937,Western State College of Law,2016,13,8,,3.32,2.85,2.7
+02179937,Western State College of Law,2017,26,,4,2.94,2.86,2.74
+02179937,Western State College of Law,2018,2,,3,0,0,0
+02179937,Western State College of Law,2019,1,,40,0,0,0
+02179937,Western State College of Law,2020,3,,0,0,0,0
+02179937,Western State College of Law,2021,3,,4,0,0,0
+03091300,Regent University,2011,4,6,,,,
+03091300,Regent University,2012,3,2,,,,
+03091300,Regent University,2013,0,3,,,,
+03091300,Regent University,2014,3,1,,,,
+03091300,Regent University,2015,4,2,,,,
+03091300,Regent University,2016,2,0,,,,
+03091300,Regent University,2017,4,,0,0,0,0
+03091300,Regent University,2018,1,,2,0,0,0
+03091300,Regent University,2019,2,,2,0,0,0
+03091300,Regent University,2020,0,,2,0,0,0
+03091300,Regent University,2021,1,,1,0,0,0
+03173300,"Atlanta's John Marshall Law School",2011,17,26,,,,
+03173300,"Atlanta's John Marshall Law School",2012,11,33,,,,
+03173300,"Atlanta's John Marshall Law School",2013,15,38,,,,
+03173300,"Atlanta's John Marshall Law School",2014,9,46,,,2.44,
+03173300,"Atlanta's John Marshall Law School",2015,17,44,,2.53,2.37,2.14
+03173300,"Atlanta's John Marshall Law School",2016,8,32,,,2.57,
+03173300,"Atlanta's John Marshall Law School",2017,14,,11,2.83,2.54,2.41
+03173300,"Atlanta's John Marshall Law School",2018,1,,14,0,0,0
+03173300,"Atlanta's John Marshall Law School",2019,0,,4,0,0,0
+03173300,"Atlanta's John Marshall Law School",2020,2,,7,0,0,0
+03173300,"Atlanta's John Marshall Law School",2021,2,,7,0,0,0
+03191300,City University of New York,2011,3,2,,,,
+03191300,City University of New York,2012,5,2,,,,
+03191300,City University of New York,2013,2,2,,,,
+03191300,City University of New York,2014,8,2,,,2.91,
+03191300,City University of New York,2015,8,1,,,2.86,
+03191300,City University of New York,2016,5,5,,,,
+03191300,City University of New York,2017,0,,5,0,0,0
+03191300,City University of New York,2018,2,,5,0,0,0
+03191300,City University of New York,2019,2,,3,0,0,0
+03191300,City University of New York,2020,0,,5,0,0,0
+03191300,City University of New York,2021,1,,5,0,0,0
+03374300,Florida Coastal School of Law,2011,3,90,,,,
+03374300,Florida Coastal School of Law,2012,7,114,,,,
+03374300,Florida Coastal School of Law,2013,5,97,,,,
+03374300,Florida Coastal School of Law,2014,9,55,,,2.29,
+03374300,Florida Coastal School of Law,2015,2,73,,,,
+03374300,Florida Coastal School of Law,2016,2,40,,,,
+03374300,Florida Coastal School of Law,2017,6,,33,0,0,0
+03374300,Florida Coastal School of Law,2018,0,,14,0,0,0
+03374300,Florida Coastal School of Law,2019,0,,7,0,0,0
+03374300,Florida Coastal School of Law,2020,2,,5,0,0,0
+03559300,Appalachian School of Law,2011,0,6,,,,
+03559300,Appalachian School of Law,2012,3,14,,,,
+03559300,Appalachian School of Law,2013,6,4,,,,
+03559300,Appalachian School of Law,2014,3,5,,,,
+03559300,Appalachian School of Law,2015,1,4,,,,
+03559300,Appalachian School of Law,2016,0,2,,,,
+03559300,Appalachian School of Law,2017,21,,0,3.18,2.87,2.51
+03559300,Appalachian School of Law,2018,2,,0,0,0,0
+03559300,Appalachian School of Law,2019,1,,1,0,0,0
+03559300,Appalachian School of Law,2020,0,,3,0,0,0
+03559300,Appalachian School of Law,2021,1,,5,0,0,0
+03691400,Ave Maria School of Law,2011,2,18,,,,
+03691400,Ave Maria School of Law,2012,1,21,,,,
+03691400,Ave Maria School of Law,2013,3,17,,,,
+03691400,Ave Maria School of Law,2014,1,22,,,,
+03691400,Ave Maria School of Law,2015,1,12,,,,
+03691400,Ave Maria School of Law,2016,1,12,,,,
+03691400,Ave Maria School of Law,2017,1,,6,0,0,0
+03691400,Ave Maria School of Law,2018,2,,1,0,0,0
+03691400,Ave Maria School of Law,2019,0,,8,0,0,0
+03691400,Ave Maria School of Law,2020,1,,8,0,0,0
+03691400,Ave Maria School of Law,2021,1,,4,0,0,0
+04096300,Charleston School of Law,2011,5,13,,,,
+04096300,Charleston School of Law,2012,5,24,,,,
+04096300,Charleston School of Law,2013,4,44,,,,
+04096300,Charleston School of Law,2014,4,41,,,,
+04096300,Charleston School of Law,2015,3,42,,,,
+04096300,Charleston School of Law,2016,2,12,,,,
+04096300,Charleston School of Law,2017,61,,20,2.48,2.33,2.17
+04096300,Charleston School of Law,2018,14,,13,2.56,2.35,2.27
+04096300,Charleston School of Law,2019,4,,11,0,0,0
+04096300,Charleston School of Law,2020,4,,5,0,0,0
+04096300,Charleston School of Law,2021,7,,5,0,2.43,0
+04131400,Arizona Summit Law School,2011,11,31,,,,
+04131400,Arizona Summit Law School,2012,4,77,,,,
+04131400,Arizona Summit Law School,2013,3,95,,,,
+04131400,Arizona Summit Law School,2014,2,62,,,,
+04131400,Arizona Summit Law School,2015,0,57,,,,
+04131400,Arizona Summit Law School,2016,1,60,,,,
+04131400,Arizona Summit Law School,2017,0,,15,0,0,0
+04131400,Arizona Summit Law School,2018,0,,12,0,0,0
+04143500,Charlotte School of Law,2011,10,22,,,,
+04143500,Charlotte School of Law,2012,5,43,,,,
+04143500,Charlotte School of Law,2013,5,66,,,,
+04143500,Charlotte School of Law,2014,1,52,,,,
+04143500,Charlotte School of Law,2015,3,38,,,,
+04143500,Charlotte School of Law,2016,3,17,,,,
+04242101,UNT Dallas College Of Law,2015,0,0,,,,
+04242101,UNT Dallas College Of Law,2016,0,0,,,,
+04242101,UNT Dallas College Of Law,2017,0,,0,0,0,0
+04242101,UNT Dallas College Of Law,2018,0,,0,0,0,0
+04242101,UNT Dallas College Of Law,2019,0,,3,0,0,0
+04242101,UNT Dallas College Of Law,2020,1,,7,0,0,0
+04242101,UNT Dallas College Of Law,2021,2,,10,0,0,0
