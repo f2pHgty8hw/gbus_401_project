@@ -156,14 +156,15 @@ tab softs
 
 destring cycle_id, replace
 gen year = 2000 + cycle_id + 3
-la var year "Spring of admissions year (e.g., 2023 for fall 2022 – spring 2023 season)"
+la var year "Spring of admissions cycle"
 
 ///*** school_name ***///
 
 ren school_name school
 
 replace school = stritrim(strtrim(school))
-drop if strpos(school,"Part-time") // Drop 1,314 part-time observations
+replace school = subinstr(school,"(Part-time)","",.)
+replace school = stritrim(strtrim(school))
 
 ///*** Cleaning ***///
 
@@ -179,7 +180,7 @@ la var attend "=1 if chose to attend"
 la var lsat "Applicant's LSAT"
 la var gpa "Applicant's GPA"
 la var urm "=1 if applicant is URM"
-la var sent_at "Date application was sent"
+la var sent_at "Date app was sent"
 la var received_at "Date app was received"
 la var complete_at "Date app was marked complete"
 la var ur_at "Date app was marked under review (1st round)"
@@ -189,11 +190,11 @@ la var decision_at "Date of decision release"
 la var in_state "=1 if school is in state"
 la var fee_waived "=1 if application fee was waived"
 la var got_merit_aid "=1 if received conditional scholarship"
-la var softs "Soft skill tier (1 is best)"
+la var softs "Soft skill tier (4 is best)"
 la var non_trad "=1 if non-traditional applicant"
-la var intl "=1 if international student"
+la var intl "=1 if international"
 la var gpa_intl "International GPA"
-la var years_out "Years since college graduation"
+la var years_out "# years since college graduation"
 la var lsn_import "=1 if imported from Law School Numbers"
 la var military "=1 if military service"
 la var sus "=1 if character/fitness issues"
@@ -210,36 +211,30 @@ save "gbus_401_project_master.dta", replace
 ///*** Analytix Admissions Data ***///
 //////////////////////////////////////
 
-/*I ignore distinction between full and part time students, which may be problematic. Note calendaryear variable refers to spring year of admissions cycle (e.g., 2021 = fall 2020 – spring 2021 cycle).*/
+/*I ignore the distinction between full- and part-time students, which may be problematic. Note calendaryear variable refers to spring year of admissions cycle (e.g., 2021 = fall 2020 – spring 2021 cycle).*/
 
 import delim "DataSet Admissions.csv", clear
 
-drop numapps numptapps
-ren numftapps apps // Only full-time
+drop numptapps numftapps numptoffers numftoffers numftmatriculants numptmatriculants totalfirstyear ftfirstyear ptfirstyear otherfirstyear
 
-drop numoffers numptoffers
-ren numftoffers offers // Only full-time
+gen acc_rate = numoffers / numapps
+la var acc_rate "Acceptance rate (official)"
 
-drop nummatriculants numptmatriculants
-ren numftmatriculants matrics // Only full-time
-
-drop totalfirstyear ptfirstyear otherfirstyear
-ren ftfirstyear l1s // Only full-time
+gen yield = nummatriculants / numoffers
+la var yield "Yield (official)"
 
 forval i = 25(25)75 {
-	drop uggpa`i' ptuggpa`i'
-	ren ftuggpa`i' gpa`i' // Only full-time
+	drop ftuggpa`i' ptuggpa`i'
+	ren uggpa`i' gpa`i' // Only full-time
 }
 
 drop uggpaexcl ftuggpaexcl ptuggpaexcl // Why excluded? What does negative value signify?
 
 forval i = 25(25)75 {
-	drop ptlsat`i' lsat`i'
-	ren ftlsat`i' lsat`i' // Only full-time
+	drop ptlsat`i' ftlsat`i'
 }
 
 drop *lsatexcl // Why excluded? Why does negative value signify?
-
 drop gmatenrolled-ptgreverbal75 // Minimal and not available in LSD.law data
 
 compress
@@ -252,7 +247,7 @@ save "admissions.dta", replace
 
 import delim "DataSet Attrition.csv", clear
 
-keep schoolid schoolname calendaryear pctjd1attrition // Cannot disaggregate part-time vs. full-time
+keep schoolid schoolname calendaryear pctjd1attrition
 
 ren pctjd1attrition attrition
 
@@ -266,7 +261,7 @@ save "attrition.dta", replace
 
 import delim "DataSet Degrees.csv", clear
 
-keep schoolid schoolname calendaryear totaljddeg minorityjddeg // Cannot disaggregate part-time vs. full-time
+keep schoolid schoolname calendaryear totaljddeg minorityjddeg
 
 ren totaljddeg jds_tot
 ren minorityjddeg jds_urm // All minorities, not necessarily underrepresented
@@ -302,16 +297,11 @@ save "employment.dta", replace
 
 import delim "DataSet Enrollment.csv", clear
 
-keep schoolid schoolname calendaryear totalftjd ftminorityjd totaljd menjd womenjd
+keep schoolid schoolname calendaryear totaljd minorityjd menjd womenjd
 
-*Only full-time
-gen stud_urm = ftminorityjd / totalftjd
-
-*All students, full- and part-time
+gen stud_urm = minorityjd / totaljd
 gen stud_men = menjd / totaljd
-la var stud_men "Incl. part-time"
 gen stud_wom = womenjd / totaljd
-la var stud_wom "Incl. part-time"
 
 keep schoolid schoolname calendaryear stud_*
 
@@ -375,17 +365,17 @@ save "faculty.dta", replace
 
 import delim "DataSet Financial Aid.csv", clear
 
-keep schoolid schoolname calendaryear condscholind ftnumstudents ftrecvgrant ftgrantfull ftgrantgtfull ftgrantalhalf ftgrantlthalf
+keep schoolid schoolname calendaryear condscholind numstudents totalrecvgrant totalrecvgrant totalgrantfull totalgrantgtfull totalgrantalhalf totalgrantlthalf
 
 ren condscholind merit_aid
 replace merit_aid = "1" if merit_aid=="Y"
 replace merit_aid = "0" if merit_aid=="N"
 destring merit_aid, replace
 
-gen stud_aid = ftrecvgrant / ftnumstudents
-gen stud_aid_0to50 = ftgrantlthalf / ftnumstudents
-gen stud_aid_50to100 = ftgrantalhalf / ftnumstudents
-gen stud_aid_100toX = (ftgrantfull + ftgrantgtfull) / ftnumstudents
+gen stud_aid = totalrecvgrant / numstudents
+gen stud_aid_0to50 = totalgrantlthalf / numstudents
+gen stud_aid_50to100 = totalgrantalhalf / numstudents
+gen stud_aid_100toX = (totalgrantfull + totalgrantgtfull) / numstudents
 
 keep schoolid schoolname calendaryear merit_aid stud_*
 
@@ -506,50 +496,54 @@ la var school "School name"
 ren calendaryear year
 la var year "Spring of admissions cycle"
 
-la var apps "FT applications"
-la var offers "FT offers"
-la var matrics "FT matriculants"
-la var l1s "FT 1Ls"
+ren numapps apps
+la var apps "# applications"
+
+ren numoffers offers
+la var offers "# offers"
+
+ren nummatriculants matrics
+la var matrics "# matriculants"
 
 forval i = 25(25)75 {
 	foreach j in gpa lsat {
-		la var `j'`i' "`i'th percentile score of FT applicants"
+		la var `j'`i' "`i'th pctile of all applicants"
 	}
 }
 
-la var attrition "1L attrition rate (FT and PT)"
+la var attrition "1L attrition rate"
 
-la var jds_tot "Degrees awarded to all students (FT and PT)"
-la var jds_urm "Degrees awarded to minorities (FT and PT)"
+la var jds_tot "# degrees awarded to all students"
+la var jds_urm "# degrees awarded to URM"
 
-la var emp_rate "FT long-term employment rate (FT and PT students)"
+la var emp_rate "FT long-term employment rate"
 
-la var stud_urm "% share of URM students (FT)"
-la var stud_men "% share of male students (FT and PT)"
-la var stud_wom "% share of female students (FT and PT)"
+la var stud_urm "% URM students"
+la var stud_men "% male students"
+la var stud_wom "% female students"
 
-la var fac_tot "Total faculty members"
-la var fac_men "% share of male faculty"
-la var fac_wom "% share of female faculty"
-la var fac_urm "% share of URM faculty"
+la var fac_tot "# faculty"
+la var fac_men "% male faculty"
+la var fac_wom "% female faculty"
+la var fac_urm "% URM faculty"
 
-la var merit_aid "=1 if conditional scholarships offered"
-la var stud_aid "% share of students with any aid (FT)"
-la var stud_aid_0to50 "% share of students with 0-50% aid (FT)"
-la var stud_aid_50to100 "% share of students with 50-100% aid (FT)"
-la var stud_aid_100toX "% share of students with 100%+ aid (FT)"
+la var merit_aid "=1 if school offers conditional scholarships"
+la var stud_aid "% students with any aid"
+la var stud_aid_0to50 "% students with 0-50% aid"
+la var stud_aid_50to100 "% students with 50-100% aid"
+la var stud_aid_100toX "% students with 100%+ aid"
 
-la var bar_pass_school "School's mean first-attempt bar pass rate (FT and PT)"
-la var bar_pass_state "State's mean first-attempt bar pass rate (FT and PT)"
-la var bar_pass_diff "Percentage points above/below state's mean"
+la var bar_pass_school "School's mean 1st-attempt bar pass rate"
+la var bar_pass_state "State's mean 1st-attempt bar pass rate"
+la var bar_pass_diff "Pct points above/below state's mean"
 
 la var city "City"
 la var state "State"
 la var zip "ZIP code"
 la var active "=1 if school is active as of 2021"
 la var private "=1 if school is private as of 2021"
-la var tuition_res "FT residential tuition (nominal USD)"
-la var tuition_nonres "FT nonresidential tuition (nominal USD)"
+la var tuition_res "Residential FT tuition (nominal USD)"
+la var tuition_nonres "Nonresidential FT tuition (nominal USD)"
 
 ///*** Prep for Merge ***///
 
