@@ -218,10 +218,9 @@ import delim "DataSet Admissions.csv", clear
 drop numptapps numftapps numptoffers numftoffers numftmatriculants numptmatriculants totalfirstyear ftfirstyear ptfirstyear otherfirstyear
 
 gen acc_rate = numoffers / numapps
-la var acc_rate "Acceptance rate (official)"
+
 
 gen yield = nummatriculants / numoffers
-la var yield "Yield (official)"
 
 forval i = 25(25)75 {
 	drop ftuggpa`i' ptuggpa`i'
@@ -497,13 +496,13 @@ ren calendaryear year
 la var year "Spring of admissions cycle"
 
 ren numapps apps
-la var apps "# applications"
+la var apps "# applications (official)"
 
 ren numoffers offers
-la var offers "# offers"
+la var offers "# offers (official)"
 
 ren nummatriculants matrics
-la var matrics "# matriculants"
+la var matrics "# matriculants (official)"
 
 forval i = 25(25)75 {
 	foreach j in gpa lsat {
@@ -512,6 +511,8 @@ forval i = 25(25)75 {
 }
 
 la var attrition "1L attrition rate"
+la var acc_rate "Acceptance rate (official)"
+la var yield "Yield (official)"
 
 la var jds_tot "# degrees awarded to all students"
 la var jds_urm "# degrees awarded to URM"
