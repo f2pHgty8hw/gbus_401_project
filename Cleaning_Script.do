@@ -5,7 +5,7 @@
 
 *Name: Noah Blake Smith
 
-*Last Updated: November 26, 2022
+*Last Updated: November 27, 2022
 
 
 /////////////////////////////////////
@@ -14,7 +14,7 @@
 
 ///*** Cleaning ***///
 
-cd "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/1 Data - Intermediate"
+cd "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project/Data_Intermediate"
 
 import delim "lsdata.csv", clear // User should specify appropriate filepath
 
@@ -96,15 +96,28 @@ ren attendance attend
 replace attend = "Attending" if attend=="Deferred, Attending"
 replace attend = "Withdrawn" if attend=="Deferred, Withdrawn"
 
+replace attend = "0" if attend=="Withdrawn"
 replace attend = "1" if attend=="Attending"
 replace attend = "2" if attend=="Deferred"
-replace attend = "3" if attend=="Withdrawn"
 
 destring attend, replace
 
-la def attend_label 1 "Attending" 2 "Deferred" 3 "Declined"
-
+la def attend_label 0 "Declined" 1 "Attending" 2 "Deferred"
 la val attend "attend_label"
+
+///*** intl_gpa ***///
+
+ren international_gpa gpa_intl
+
+replace gpa_intl = "1" if gpa_intl=="Below Average"
+replace gpa_intl = "2" if gpa_intl=="Average"
+replace gpa_intl = "3" if gpa_intl=="Above Average"
+replace gpa_intl = "4" if gpa_intl=="Superior"
+
+destring gpa_intl, replace
+
+la def gpa_intl_label 1 "Below Average" 2 "Average" 3 "Above Average" 4 "Superior"
+la val gpa_intl "gpa_intl_label"
 
 ///*** true/false ***///
 
@@ -121,7 +134,6 @@ ren is_in_state in_state
 ren is_fee_waived fee_waived
 ren is_conditional_scholarship got_merit_aid
 ren is_international intl
-ren international_gpa gpa_intl
 ren is_lsn_import lsn_import // lsn = law school numbers, another data source
 ren is_military military
 ren is_character_and_fitness_issues sus
@@ -130,6 +142,13 @@ ren is_character_and_fitness_issues sus
 
 replace softs = subinstr(softs,"T","",.) // See definitions: https://www.lsd.law/softs
 destring softs, replace
+
+/*Currently, 1 is highest level, and 4 is lowest. I reverse that below.*/
+
+tab softs // Note ~1.6k 1s, 18.3k 2s, 98.1k 3s, and 74k 4s
+replace softs = softs - 5
+replace softs = -1 * softs
+tab softs
 
 ///*** year ***///
 
