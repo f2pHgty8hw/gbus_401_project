@@ -25,7 +25,6 @@ foreach var of varlist * {
 drop in 1
 
 destring user_id, replace
-ren user_id id
 
 ///*** Simple Status ***///
 
@@ -198,7 +197,7 @@ foreach i of varlist lsat gpa gpa_intl years_out {
 	destring `i', replace
 }
 
-la var id "Application ID"
+la var user_id "User ID"
 la var school "School name (LSD.law)"
 la var status "Status"
 la var result "Result"
@@ -227,8 +226,8 @@ la var sus "=1 if character/fitness issues"
 la var cycle_id "Cycle ID"
 la var year "Spring of admissions cycle"
 
-sort id
-order id year school status result attend lsat gpa urm *_at *
+sort user_id
+order user_id year school status result attend lsat gpa urm *_at *
 compress
 
 save "gbus_401_project_master.dta", replace
@@ -1365,7 +1364,7 @@ drop _merge
 bysort schoolid (private): replace private = private[1] if missing(private) // Fills in for missing years, which were all pre-2011 and/or post-2021
 
 ren schoolid school_id
-la var school_id "LSAC school ID"
+la var school_id "School ID"
 
 ren schoolname school
 la var school "School name"
@@ -1565,6 +1564,6 @@ foreach i in "gpa" "lsat" {
 ///*** Outro ***///
 
 compress
-sort year school id
+sort year school user_id
 
 save "gbus_401_project_master.dta", replace
