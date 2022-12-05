@@ -1,0 +1,7 @@
+ipykernel
+jupyter
+pandas
+numpy
+plotly.express
+scikit-learn
+matplotlib
