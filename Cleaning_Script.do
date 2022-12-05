@@ -1486,6 +1486,15 @@ tab _merge if _merge!=3 & year>2021 // ~32k applications from current admissions
 drop if _merge==2 // Law schools without any corresponding applications
 drop _merge
 
+///*** Cleanup ***///
+
+la var school "School name"
+
+sort school school_id year
+bysort school (school_id): replace school_id = school_id[1]
+count if missing(school_id) // Nashville Law School lacks an ID because it is not ABA-accredited; I add a fake school_id for consistency
+replace school_id = 123456 if school=="NASHVILLE SCHOOL OF LAW"
+
 ///*** Outro ***///
 
 sort school (year)
