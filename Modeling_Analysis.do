@@ -4,9 +4,9 @@
 
 *Name: Noah Blake Smith
 
-*Last updated: November 27, 2022
+*Last updated: December 5, 2022
 
-use "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project_master.dta", clear
+use "/Users/justinpotisit/Documents/GitHub/gbus_401_project/Data_Intermediate/gbus_401_project_master.dta", clear
 
 ////////////////////////////////
 ///*** Consistency Checks ***///
@@ -110,16 +110,16 @@ tab cycle_id lsn_import, m
 ///*** Applications, Offers, and Acceptance Rates ***///
 
 *Pooled
-corr acc_rate acc_rate2
+corr accr accr2
 corr apps apps2
 corr offers offers2
 
 *By Year
-forval i = 2011/2022 {
-	di `i'
-	corr acc_rate acc_rate2 if year==`i'
-	corr apps apps2 if year==`i'
-	corr offers offers2 if year==`i' // Why is this correlation so much lower?
+cap forval i = 2011/2022 {
+	cap di `i'
+	cap corr accr accr2 if year==`i'
+	cap corr apps apps2 if year==`i'
+	cap corr offers offers2 if year==`i' // Why is this correlation so much lower?
 }
 
 //////////////////////////////////
@@ -157,7 +157,7 @@ reg admit gpa lsat urm fee_waived non_trad intl i.year i.school_id, r // N=373k 
 ///*** Model 2: Logit ***///
 ////////////////////////////
 
-logit admit gpa lsat urm fee_waived non_trad intl i.year i.school_id, r or
+//logit admit gpa lsat urm fee_waived non_trad intl i.year i.school_id, r or
 
 /////////////////////////////////////
 ///*** Analysis: T14 Subsample ***///
