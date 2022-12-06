@@ -36,6 +36,34 @@ gen dyear = year(decision_at)
 tabstat syear ryear uyear u2year iyear dyear, by(cycle_id) s(count mean)
 drop ?year
 
+////////////////////////////////
+///*** Consistency Checks ***///
+////////////////////////////////
+
+///*** User ID ***///
+
+preserve
+
+duplicates tag user_id, gen(apps_per_person)
+replace apps_per_person = apps_per_person + 1 // Note line above marks unique observations as 0
+duplicates drop user_id, force
+
+sum apps_per_person
+hist apps_per_person, freq bin(40) // Distribution and summary stats seem reasonable
+
+restore
+
+///*** Cycle ***///
+
+gen syear = year(sent_at)
+gen ryear = year(received_at)
+gen uyear = year(ur_at)
+gen u2year = year(ur2_at)
+gen iyear = year(interview_at)
+gen dyear = year(decision_at)
+tabstat syear ryear uyear u2year iyear dyear, by(cycle_id) s(count mean)
+drop ?year
+
 ///*** Status/Result ***///
 
 tab result status

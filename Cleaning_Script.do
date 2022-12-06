@@ -5,7 +5,7 @@
 
 *Name: Noah Blake Smith
 
-*Last Updated: December 4, 2022
+*Last Updated: December 5, 2022
 
 
 /////////////////////////////////////
@@ -224,7 +224,7 @@ la var lsn_import "=1 if imported from Law School Numbers"
 la var military "=1 if military service"
 la var sus "=1 if character/fitness issues"
 la var cycle_id "Cycle ID"
-la var year "Spring of admissions cycle"
+la var year "Year (spring of admissions cycle)"
 
 sort user_id
 order user_id year school status result attend lsat gpa urm *_at *
@@ -1538,6 +1538,7 @@ la var offers2 "# offers (LSD.law)"
 
 gen accr2 = offers2 / apps2
 la var accr2 "Acceptance rate (LSD.law)"
+format accr %9.2f
 
 drop one
 
