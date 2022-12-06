@@ -12,7 +12,7 @@
 ///*** LSD.law Admissions Data ***///
 /////////////////////////////////////
 
-cd "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project/Data_Intermediate"
+cd "/Users/justinpotisit/Documents/GitHub/gbus_401_project/Data_Intermediate"
 
 import delim "lsdata.csv", clear // User must specify appropriate filepath
 
@@ -1523,8 +1523,8 @@ la var admit2 "=1 if admitted (status)"
 ///*** T14 Indicator ***///
 
 gen t14 = 0
-replace t14 = 1 if school=="Columbia University" | school=="Cornell University" | school=="Duke University" | school=="Georgetown University" | school=="Harvard University" | school=="New York University" | school=="Northwestern University" | school=="Stanford University" | school=="University of California—Berkeley" | school=="University of Chicago" | school=="University of Michigan" | school=="University of Pennsylvania" | school=="University of Virginia" | school=="Yale University"
-la var t14 "=1 if T14 law school"
+replace t14 = 1 if school=="CCOLUMBIA UNIVERSITY" | school=="CORNELL UNIVERSITY" | school=="DUKE UNIVERSITY" | school=="GEORGETOWN UNIVERSITY" | school=="HAVARD UNIVERSITY" | school=="NEW YORK UNIVERSITY" | school=="NORTHWESTERN UNIVERSITY" | school=="STANFORD UNIVERSITY" | school=="UNIVERSITY OF CALIFORNIA-BERKELEY"| school=="UNIVERSITY OF CHICAGO" | school=="UNIVERSITY OF MICHIGAN" | school=="UNIVERSITY OF PENNSYLVANIA" | school=="UNIVERSITY OF VIRGINIA" | school=="YALE UNIVERSITY"
+la var t14 "=1 if T14 law school" //traditional list of T-14 schools according to https://7sage.com/top-law-school-rankings/
 
 ///*** Alternative Acceptance Rate ***///
 
