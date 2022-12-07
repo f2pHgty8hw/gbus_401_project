@@ -9,7 +9,7 @@
 global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project"
 cd "${path}"
 
-use "${path}/gbus_401_project_master.dta", clear
+use "${path}/gbus_401_project/Data_Final/gbus_401_project_master.dta", clear
 
 net install cleanplots, from("https://tdmize.github.io/data/cleanplots")
 set scheme cleanplots, perm

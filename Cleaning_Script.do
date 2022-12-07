@@ -12,9 +12,10 @@
 ///*** LSD.law Admissions Data ***///
 /////////////////////////////////////
 
-cd "/Users/justinpotisit/Documents/GitHub/gbus_401_project/Data_Intermediate"
+global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project"
+cd "${path}/gbus_401_project/Data_Intermediate" // User must specify appropriate file path
 
-import delim "lsdata.csv", clear // User must specify appropriate filepath
+import delim "lsdata.csv", clear
 
 drop in 1
 
@@ -1576,4 +1577,17 @@ foreach i in "gpa" "lsat" {
 compress
 sort year school user_id
 
+cd "${path}/gbus_401_project/Data_Final"
 save "gbus_401_project_master.dta", replace
+
+////////////////////////////
+///*** Primary Sample ***///
+////////////////////////////
+
+use "gbus_401_project_master.dta", replace
+
+drop if missing(admit) | missing(gpa) | missing(lsat) | missing(urm) | missing(fee_waived) | missing(non_trad) | year<2011
+
+compress
+
+save "primary_sample.dta", replace
