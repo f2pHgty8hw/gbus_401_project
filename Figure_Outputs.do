@@ -3,7 +3,6 @@
 ///////////////////////////////////////////////////////////
 
 *Name: Noah Blake Smith
-
 *Last updated: December 5, 2022
 
 global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project"
@@ -18,7 +17,7 @@ set scheme cleanplots, perm
 ///*** Consistency Checks ***///
 ////////////////////////////////
 
-///*** User ID ***///
+///*** Applicants (LSD.law) ***///
 
 preserve
 
@@ -36,6 +35,16 @@ hist apps_per_person if apps_per_person<30 & year>2014, normal bin(29) by(year, 
 graph export "${path}/gbus_401_project/Outputs/apps_per_user_histogram2.png", as(png) name("Graph") replace
 
 restore
+
+///*** Applicants (Analytix) ***///
+
+preserve
+
+duplicates tag school_id, gen(apps_per_person)
+la var apps_per_person "Applications submitted per user"
+replace apps_per_person = apps_per_person + 1 // Note line above marks unique observations as 0
+duplicates drop user_id, force
+
 
 ///*** LSAT ***///
 
