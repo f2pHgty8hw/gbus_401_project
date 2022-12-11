@@ -45,7 +45,6 @@ la var apps_per_person "Applications submitted per user"
 replace apps_per_person = apps_per_person + 1 // Note line above marks unique observations as 0
 duplicates drop user_id, force
 
-
 ///*** LSAT ***///
 
 // Note mean is consistently above national average. How should we therefore interpret our results?

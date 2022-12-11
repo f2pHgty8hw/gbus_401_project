@@ -172,13 +172,16 @@ gen id = _n
 
 preserve
 
+use "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project/Data_Final/gbus_401_project_master.dta", clear
+
 sort school_id (year)
 order school_id school year accr apps apps2 offers offers *
 
-drop if missing(accr) | missing(accr2)
+duplicates drop school_id year, force
+drop if missing(accr) | missing(accr2) | missing(apps2) | missing(offers2)
 
 gen z_accr = .
-la var z "Z-score of one-sample test of proportion"
+la var z_accr "Z-score of one-sample test of proportion"
 gen p_accr = .
 la var p_accr "p-value of one-sample test of proportion"
 
@@ -193,10 +196,12 @@ forval i = 1/`r(N)' {
 	local accr = accr[`i']
 	
 	cap prtesti `n' `a' `accr', count // Test
-	cap replace z_accr = `r(z)' if z==z[`i']
-	cap replace p_accr = `r(p)' if p==p[`i']
+	cap replace z_accr = `r(z)' if z_accr==z_accr[`i']
+	cap replace p_accr = `r(p)' if p_accr==p_accr[`i']
 
 }
+
+sum *_accr
 
 restore
 

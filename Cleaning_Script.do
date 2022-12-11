@@ -79,9 +79,11 @@ replace result = "Waitlisted" if result=="WL, Withdrawn" | result=="waitlisted" 
 replace result = "Other/Unknown" if result!="Accepted" & result!="Rejected" & result!="Waitlisted"
 
 replace result = "0" if result=="Rejected"
+replace result = "0" if result=="Waitlisted" // We code waitlists as rejects because most will be rejected; more justification in analysis
 replace result = "1" if result=="Accepted"
-replace result = "2" if result=="Waitlisted"
 replace result = "-1" if result=="Other/Unknown"
+
+
 
 destring result, replace
 
@@ -1520,6 +1522,8 @@ gen admit2 = 1 if status==1
 replace admit2 = 0 if status==0 // Exclude ~115k waitlisted and 182k other/unknown
 la var admit2 "=1 if admitted (status)"
 
+drop if missing(admit)
+
 ///*** T14 Indicator ***///
 
 gen t14 = 0
@@ -1538,7 +1542,7 @@ la var offers2 "# offers (LSD.law)"
 
 gen accr2 = offers2 / apps2
 la var accr2 "Acceptance rate (LSD.law)"
-format accr %9.2f
+format accr2 %9.2f
 
 drop one
 
