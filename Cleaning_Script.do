@@ -83,8 +83,6 @@ replace result = "0" if result=="Waitlisted" // We code waitlists as rejects bec
 replace result = "1" if result=="Accepted"
 replace result = "-1" if result=="Other/Unknown"
 
-
-
 destring result, replace
 
 la val result "status_label"
@@ -233,7 +231,6 @@ order user_id year school status result attend lsat gpa urm *_at *
 compress
 
 save "gbus_401_project_master.dta", replace
-
 
 //////////////////////////////////////
 ///*** Analytix Admissions Data ***///
@@ -1438,9 +1435,121 @@ foreach i in "admissions.dta" "bar_passage.dta" "degrees.dta" "employment.dta" "
 	erase `i'
 }
 
-/////////////////////////////////////////////////
-///*** Merge All Analytix and LSD.law Data ***///
-/////////////////////////////////////////////////
+/////////////////////////////////
+///*** USNWR Rankings Data ***///
+/////////////////////////////////
+
+///*** Intro ***///
+
+import delim "School Rankings.csv", clear
+
+///*** Cleanup ***///
+
+drop rank yearavg v4 v5
+drop if missing(school)
+
+foreach i of varlist v* {
+    local lbl : var label `i'
+    local lbl = strtoname("y`lbl'")
+    rename `i' `lbl'
+}
+
+order school *, alpha
+
+list if missing(real(y2019))
+replace y2019 = "65" if school=="Pepperdine" // Included asterisk in original
+destring y2019, replace
+
+///*** Prepare School Names for Merge ***///
+
+replace school = stritrim(strtrim(ustrregexra(upper(school),"[^A-Za-z\s]"," ")))
+replace school = upper(school)
+
+/*Some of these school names were unclear, so I cross-checked with rankings for this year.*/
+
+replace school = school + " " + "UNIVERSITY" if school=="YALE" | school=="STANFORD" | school=="HARVARD" | school=="COLUMBIA" | school=="DUKE" | school=="NORTHWESTERN" | school=="CORNELL" | school=="GEORGETOWN" | school=="VANDERBILT" | school=="EMORY" | school=="OHIO STATE" | school=="FORDHAM" | school=="WAKE FOREST" | school=="TULANE" | school=="TEMPLE" | school=="PEPPERDINE" | school=="VILLANOVA" | school=="AMERICAN" | school=="NORTHEASTERN" | school=="RUTGERS" | school=="MICHIGAN STATE" | school=="SYRACUSE" | school=="MARQUETTE" | school=="WEST VIRGINIA" | school=="GEORGE MASON" | school=="BAYLOR" | school=="SETON HALL" | school=="WAYNE STATE" | school=="TEXAS A M"
+
+replace school = "UNIVERSITY OF" + " " + school if school=="CHICAGO" | school=="PENNSYLVANIA" | school=="VIRGINIA" | school=="MICHIGAN" | school=="ALABAMA" | school=="IOWA" | school=="MINNESOTA" | school=="NOTRE DAME" | school=="GEORGIA" | school=="WISCONSIN" | school=="FLORIDA" | school=="ILLINOIS" | school=="MARYLAND" | school=="UTAH" | school=="COLORADO" | school=="ARIZONA" | school=="CONNECTICUT" | school=="HOUSTON" | school=="TENNESSEE" | school=="KENTUCKY" | school=="MISSOURI" | school=="MIAMI" | school=="CINCINNATI" | school=="SAN DIEGO" | school=="PITTSBURGH" | school=="NEW MEXICO" | school=="OREGON" | school=="KANSAS" | school=="OKLAHOMA" | school=="NEBRASKA" | school=="LOUISVILLE" | school=="TULSA" | school=="HAWAII" | school=="NEW HAMPSHIRE" | school=="SOUTH CAROLINA"
+
+foreach i in "BERKELEY" "IRVINE" "DAVIS" "HASTINGS" {
+	replace school = "UNIVERSITY OF CALIFORNIA" + " " + "`i'" if strpos(school, "`i'")
+}
+
+replace school = "NEW YORK UNIVERSITY" if school=="NYU"
+replace school = "UNIVERSITY OF CALIFORNIA LOS ANGELES" if school=="UCLA"
+replace school = "UNIVERSITY OF SOUTHERN CALIFORNIA" if school=="USC"
+replace school = "GEORGE WASHINGTON UNIVERSITY" if school=="GW"
+replace school = "WASHINGTON UNIVERSITY" if school=="WASH"
+replace school = "UNIVERSITY OF TEXAS AT AUSTIN" if school=="TEXAS"
+replace school = "BRIGHAM YOUNG UNIVERSITY" if school=="BYU"
+replace school = "SOUTHERN METHODIST UNIVERSITY" if school=="SMU"
+replace school = "CARDOZO SCHOOL OF LAW" if school=="CARDOZO"
+replace school = "CHICAGO KENT COLLEGE OF LAW IIT" if school=="CHICAGO KENT"
+replace school = "UNIVERSITY OF ARKANSAS FAYETTEVILLE" if school=="ARKANSAS FAY"
+replace school = "UNIVERSITY OF NEVADA LAS VEGAS" if school=="UNLV"
+replace school = "LOYOLA UNIVERSITY CHICAGO" if school=="LOYOLA CHICAGO"
+replace school = "WILLIAM AND MARY LAW SCHOOL" if school=="WILLIAM AND MARY"
+replace school = "LOYOLA MARYMOUNT UNIVERSITY LOS ANGELES" if school=="LOYOLA L A"
+replace school = "ST JOHNS UNIVERSITY" if school=="ST JOHN S"
+replace school = "BROOKLYN LAW SCHOOL" if school=="BROOKLYN"
+replace school = "LOUISIANA STATE UNIVERSITY" if school=="LSU"
+replace school = "UNIVERSITY OF BUFFALO SUNY" if school=="BUFFALO SUNY"
+replace school = "INDIANA UNIVERSITY INDIANAPOLIS" if school=="INDIANA IND"
+replace school = "CASE WESTERN RESERVE UNIVERSITY" if school=="CASE WESTERN"
+replace school = "CATHOLIC UNIVERSITY OF AMERICA" if school=="CATHOLIC"
+replace school = "INDIANA UNIVERSITY BLOOMINGTON" if school=="INDIANA UNIVERSITY BLOOMINGDALE"
+replace school = "LEWIS AND CLARK COLLEGE" if school=="LEWIS CLARK"
+replace school = "SAINT LOUIS UNIVERSITY" if school=="ST LOUIS UNIVERSITY"
+replace school = "WASHINGTON AND LEE UNIVERSITY" if school=="WASHINGTON LEE"
+
+drop if school=="UNIVERSITY OF SAN DIEGO" & y2023==78 // Unsure why San Diego is listed twice with different rankings, but I used the one corresponding with this year's USNW rankings; I emailed author for details
+
+///*** Reshape ***///
+
+reshape long y, i(school) j(year)
+
+ren y rank
+la var rank "USNWR Ranking"
+la var school ""
+
+///*** Adjust Penn State ***///
+
+egen temp = mean(rank) if school=="PENN STATE UNIVERSITY COLLEGE PARK" | school=="PENN STATE UNIVERSITY DICK", by(year) // Ideally, this should have been a weighted average by student population, I think, but we were on a time crunch and the imapct should be minimal
+drop if school=="PENN STATE UNIVERSITY DICK"
+replace school = "PENNSYLVANIA STATE UNIVERSITY" if school=="PENN STATE UNIVERSITY COLLEGE PARK"
+replace rank = temp if school=="PENNSYLVANIA STATE UNIVERSITY"
+drop temp
+
+///*** Generate Tiers ***///
+
+tabstat year, by(year) s(count)
+
+sort year (rank)
+
+egen tier = xtile(rank), by(year) n(4)
+la var tier "Tier (of 5) based on USNWR rankings" // Note I later define unranked law schools as the fifth group
+
+///*** Outro ***///
+
+sort school (year)
+compress
+save "school_rankings.dta", replace
+
+///////////////////////////////////////////
+///*** Merge Analytix and USNWR Data ***///
+///////////////////////////////////////////
+
+use "analytix_data.dta", clear
+
+merge 1:1 school year using "school_rankings.dta" // All in using matched, as expected; 1.3k unmatched in master because rankings only available 2009-present
+
+drop _merge
+
+save "analytix_data.dta", replace
+
+////////////////////////////
+///*** Merge All Data ***///
+////////////////////////////
 
 use "gbus_401_project_master.dta", clear
 
@@ -1496,6 +1605,8 @@ sort school school_id year
 bysort school (school_id): replace school_id = school_id[1]
 count if missing(school_id) // Nashville Law School lacks an ID because it is not ABA-accredited; I add a fake school_id for consistency
 replace school_id = 123456 if school=="NASHVILLE SCHOOL OF LAW"
+
+replace tier = 5 if missing(tier) & year>2008 // I put all unranked law schools in tier 5
 
 ///*** Outro ***///
 
@@ -1580,17 +1691,8 @@ foreach i in "gpa" "lsat" {
 compress
 sort year school user_id
 
-cd "${path}/gbus_401_project/Data_Final"
-save "gbus_401_project_master.dta", replace
+save "${path}/gbus_401_project/Data_Final/gbus_401_project_master.dta", replace
 
-////////////////////////////
-///*** Primary Sample ***///
-////////////////////////////
-
-use "gbus_401_project_master.dta", replace
-
-drop if missing(admit) | missing(gpa) | missing(lsat) | missing(urm) | missing(fee_waived) | missing(non_trad) | year<2011
-
-compress
-
-save "primary_sample.dta", replace
+cd "${path}/gbus_401_project/Data_Intermediate"
+erase "school_rankings.dta"
+erase "gbus_401_project_master.dta"
