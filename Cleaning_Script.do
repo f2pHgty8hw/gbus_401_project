@@ -36,13 +36,13 @@ replace simple_status = "Waitlisted" if simple_status=="WL, Withdrawn" | simple_
 replace simple_status = "Other/Unknown" if simple_status!="Accepted" & simple_status!="Rejected" & simple_status!="Waitlisted"
 
 replace simple_status = "0" if simple_status=="Rejected"
-replace simple_status = "1" if simple_status=="Accepted"
+replace simple_status = "0" if simple_status=="Waitlisted" // We code waitlists as rejects because most will be rejected; more justification in analysis
 replace simple_status = "2" if simple_status=="Waitlisted"
 replace simple_status = "-1" if simple_status=="Other/Unknown"
 
 destring simple_status, replace
 
-la def status_label -1 "Other/Unknown" 0 "Rejected" 1 "Accepted" 2 "Waitlisted"
+la def status_label -1 "Other/Unknown" 0 "Rejected" 1 "Accepted"
 la val simple_status "status_label"
 
 ren simple_status status
