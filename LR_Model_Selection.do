@@ -12,7 +12,10 @@
 mat drop _all
 clear all
 
-use "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project/Data_Final/gbus_401_project_master.dta", clear
+global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+cd "${path}/Data_Final" // User must specify appropriate paths
+
+use "gbus_401_project_master.dta", clear
 
 ssc install tuples
 tuples gpa lsat urm fee_waived non_trad intl, nopython varlist
@@ -39,7 +42,7 @@ forval i = 1/`ntuples' {
 	}
 }
 
-save "/Users/nbs/Desktop/lr_predictions.dta", replace
+save "lr_predictions.dta", replace
 
 //////////////////////////////////////
 ///*** Cross-Validation Metrics ***///
@@ -50,9 +53,10 @@ save "/Users/nbs/Desktop/lr_predictions.dta", replace
 mat drop _all
 clear all
 
-use "/Users/nbs/Desktop/lr_predictions.dta", clear
+use "lr_predictions.dta", clear
 
-cd "/Users/nbs/Desktop/LR"
+mkdir "${path}/Data_Final/LR"
+cd "${path}/Data_Final/LR"
 
 keep admit yhat_*_split_*
 compress
@@ -194,4 +198,4 @@ drop one
 
 compress
 
-save "/Users/nbs/Desktop/lr_cv_metrics.dta", replace
+save "${path}/Data_Final/lr_cv_metrics.dta", replace

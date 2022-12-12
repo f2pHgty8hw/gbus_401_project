@@ -12,7 +12,7 @@
 /////////////////////////////////////
 
 global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project"
-cd "${path}/gbus_401_project/Data_Intermediate" // User must specify appropriate file path
+cd "${path}/gbus_401_project/Data_Intermediate" // User must specify appropriate paths
 
 import delim "lsdata.csv", clear
 
