@@ -1465,11 +1465,13 @@ destring y2019, replace
 replace school = stritrim(strtrim(ustrregexra(upper(school),"[^A-Za-z\s]"," ")))
 replace school = upper(school)
 
+replace school = "DENVER" if school=="SAN DIEGO" & y2023==78 // Coding error confirmed by author of data source
+
 /*Some of these school names were unclear, so I cross-checked with rankings for this year.*/
 
 replace school = school + " " + "UNIVERSITY" if school=="YALE" | school=="STANFORD" | school=="HARVARD" | school=="COLUMBIA" | school=="DUKE" | school=="NORTHWESTERN" | school=="CORNELL" | school=="GEORGETOWN" | school=="VANDERBILT" | school=="EMORY" | school=="OHIO STATE" | school=="FORDHAM" | school=="WAKE FOREST" | school=="TULANE" | school=="TEMPLE" | school=="PEPPERDINE" | school=="VILLANOVA" | school=="AMERICAN" | school=="NORTHEASTERN" | school=="RUTGERS" | school=="MICHIGAN STATE" | school=="SYRACUSE" | school=="MARQUETTE" | school=="WEST VIRGINIA" | school=="GEORGE MASON" | school=="BAYLOR" | school=="SETON HALL" | school=="WAYNE STATE" | school=="TEXAS A M"
 
-replace school = "UNIVERSITY OF" + " " + school if school=="CHICAGO" | school=="PENNSYLVANIA" | school=="VIRGINIA" | school=="MICHIGAN" | school=="ALABAMA" | school=="IOWA" | school=="MINNESOTA" | school=="NOTRE DAME" | school=="GEORGIA" | school=="WISCONSIN" | school=="FLORIDA" | school=="ILLINOIS" | school=="MARYLAND" | school=="UTAH" | school=="COLORADO" | school=="ARIZONA" | school=="CONNECTICUT" | school=="HOUSTON" | school=="TENNESSEE" | school=="KENTUCKY" | school=="MISSOURI" | school=="MIAMI" | school=="CINCINNATI" | school=="SAN DIEGO" | school=="PITTSBURGH" | school=="NEW MEXICO" | school=="OREGON" | school=="KANSAS" | school=="OKLAHOMA" | school=="NEBRASKA" | school=="LOUISVILLE" | school=="TULSA" | school=="HAWAII" | school=="NEW HAMPSHIRE" | school=="SOUTH CAROLINA"
+replace school = "UNIVERSITY OF" + " " + school if school=="CHICAGO" | school=="PENNSYLVANIA" | school=="VIRGINIA" | school=="MICHIGAN" | school=="ALABAMA" | school=="IOWA" | school=="MINNESOTA" | school=="NOTRE DAME" | school=="GEORGIA" | school=="WISCONSIN" | school=="FLORIDA" | school=="ILLINOIS" | school=="MARYLAND" | school=="UTAH" | school=="COLORADO" | school=="ARIZONA" | school=="CONNECTICUT" | school=="HOUSTON" | school=="TENNESSEE" | school=="KENTUCKY" | school=="MISSOURI" | school=="MIAMI" | school=="CINCINNATI" | school=="SAN DIEGO" | school=="PITTSBURGH" | school=="NEW MEXICO" | school=="OREGON" | school=="KANSAS" | school=="OKLAHOMA" | school=="NEBRASKA" | school=="LOUISVILLE" | school=="TULSA" | school=="HAWAII" | school=="NEW HAMPSHIRE" | school=="SOUTH CAROLINA" | school=="DENVER"
 
 foreach i in "BERKELEY" "IRVINE" "DAVIS" "HASTINGS" {
 	replace school = "UNIVERSITY OF CALIFORNIA" + " " + "`i'" if strpos(school, "`i'")
@@ -1502,8 +1504,6 @@ replace school = "LEWIS AND CLARK COLLEGE" if school=="LEWIS CLARK"
 replace school = "SAINT LOUIS UNIVERSITY" if school=="ST LOUIS UNIVERSITY"
 replace school = "WASHINGTON AND LEE UNIVERSITY" if school=="WASHINGTON LEE"
 
-drop if school=="UNIVERSITY OF SAN DIEGO" & y2023==78 // Unsure why San Diego is listed twice with different rankings, but I used the one corresponding with this year's USNW rankings; I emailed author for details
-
 ///*** Reshape ***///
 
 reshape long y, i(school) j(year)
@@ -1526,7 +1526,9 @@ tabstat year, by(year) s(count)
 
 sort year (rank)
 
+ssc install egenmore
 egen tier = xtile(rank), by(year) n(4)
+replace tier = abs(tier - 6) // Makes 5 highest level, so regression coefficients are more-easily interpreted
 la var tier "Tier (of 5) based on USNWR rankings" // Note I later define unranked law schools as the fifth group
 
 ///*** Outro ***///
