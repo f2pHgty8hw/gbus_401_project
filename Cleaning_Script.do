@@ -37,7 +37,7 @@ replace simple_status = "Other/Unknown" if simple_status!="Accepted" & simple_st
 
 replace simple_status = "0" if simple_status=="Rejected"
 replace simple_status = "0" if simple_status=="Waitlisted" // We code waitlists as rejects because most will be rejected; more justification in analysis
-replace simple_status = "2" if simple_status=="Waitlisted"
+replace simple_status = "1" if simple_status=="Accepted"
 replace simple_status = "-1" if simple_status=="Other/Unknown"
 
 destring simple_status, replace
