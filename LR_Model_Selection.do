@@ -86,7 +86,7 @@ foreach i of varlist yhat_*_split_* {
 	qui gen mae = abs(`i' - admit)
 	qui sum mae
 	
-	local mae = r(mean)
+	local mae = -r(mean)
 	
 	qui drop mae
 	
@@ -123,7 +123,7 @@ foreach i of varlist yhat_*_split_* {
 	qui replace `i'_recode = r(max) if `i'_recode==0 & missing(`i')==0
 	
 	*Calculate
-	qui gen log_loss = -(admit * ln(`i'_recode) + (1 - admit) * (1 - `i'_recode)) if missing(`i')==0
+	qui gen log_loss = -(admit * ln(`i'_recode) + (1 - admit) * ln(1 - `i'_recode)) if missing(`i')==0
 	qui sum log_loss if missing(`i')==0
 	
 	local log_loss = r(mean)
