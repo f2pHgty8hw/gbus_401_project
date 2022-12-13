@@ -419,6 +419,11 @@ drop if schoolname=="`campus2'"
 gen accr = numoffers / numapps
 format accr %9.2f
 
+tsset schoolid calendaryear, yearly
+gen accrl = L.accr
+format accrl %9.2f
+tsset, clear
+
 gen yield = nummatriculants / numoffers
 format yield %9.2f
 
@@ -1390,6 +1395,7 @@ forval i = 25(25)75 {
 }
 
 la var accr "Acceptance rate (official)"
+la var accrl "Lagged acceptance rate (official)"
 la var yield "Yield (official)"
 
 la var jds_urm "% degrees earners URM"
