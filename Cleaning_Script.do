@@ -177,6 +177,7 @@ replace cycle_id = 20 if cycle_id==21
 
 *Generate year variable
 gen year = 2000 + cycle_id + 3
+drop if year==2023
 
 ///*** School ***///
 
@@ -225,6 +226,8 @@ la var military "=1 if military service"
 la var sus "=1 if character/fitness issues"
 la var cycle_id "Cycle ID"
 la var year "Year (spring of admissions cycle)"
+
+drop gpa_intl // This variable is not used and causes problems later on unless dropped
 
 sort user_id
 order user_id year school status result attend lsat gpa urm *_at *
