@@ -1,0 +1,722 @@
+{\rtf1\ansi\deff0 {\fonttbl{\f0\fnil Latin Modern Roman;}}
+{\info {\author .}{\company .}{\title .}}
+\deflang1033\plain\fs24
+{\footer\pard\qc\plain\f0\fs24\chpgn\par}
+{
+{\b\qc\line Table 2.3a: Summary of Variables }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1440
+\fs24 \pard\intbl \ql { name}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5440
+\fs24 \pard\intbl \ql { varlab}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { year}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {Year (spring of admissions cycle)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {Applicant LSAT}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {Applicant GPA}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { urm}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if applicant is URM}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { fee_waived}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if application fee was waived}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { non_trad}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if non-traditional applicant}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { intl}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if international}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa_intl}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {International GPA}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa75}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {75th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa50}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {50th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa25}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {25th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat75}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {75th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat50}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {50th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat25}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {25th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { accr}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {Acceptance rate (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { yield}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {Yield (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { admit}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if admitted (result)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { t14}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if T14 law school}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa_0to25}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if GPA in 0-25th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa_25to50}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if GPA in 25-50th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa_50to75}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if GPA in 50-75th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { gpa_75to100}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if GPA in 75-100th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat_0to25}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if LSAT in 0-25th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat_25to50}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if LSAT in 25-50th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat_50to75}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if LSAT in 50-75th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1440
+\fs24 \pard\intbl \ql { lsat_75to100}\cell
+\cellx5440
+\fs24 \pard\intbl \ql {=1 if LSAT in 75-100th pctile}\cell
+\row}
+
+{\fs24\b\qc\line Table 2.3b: Summary Statistics }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1584
+\fs24\pard\intbl\qr { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2908
+\fs24\pard\intbl\qr {{ Mean}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4232
+\fs24\pard\intbl\qr {{ SD}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx5556
+\fs24\pard\intbl\qr {{ Min}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6880
+\fs24\pard\intbl\qr {{ Max}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ admit}}\cell
+\cellx2908
+\qr {{.52}}\cell
+\cellx4232
+\qr {{.5}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ urm}}\cell
+\cellx2908
+\qr {{.15}}\cell
+\cellx4232
+\qr {{.35}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ fee waived}}\cell
+\cellx2908
+\qr {{.071}}\cell
+\cellx4232
+\qr {{.26}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ non trad}}\cell
+\cellx2908
+\qr {{.13}}\cell
+\cellx4232
+\qr {{.33}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ intl}}\cell
+\cellx2908
+\qr {{.022}}\cell
+\cellx4232
+\qr {{.15}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa}}\cell
+\cellx2908
+\qr {{3.5}}\cell
+\cellx4232
+\qr {{.38}}\cell
+\cellx5556
+\qr {{2}}\cell
+\cellx6880
+\qr {{4.3}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa75}}\cell
+\cellx2908
+\qr {{3.8}}\cell
+\cellx4232
+\qr {{.22}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{15}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa50}}\cell
+\cellx2908
+\qr {{3.7}}\cell
+\cellx4232
+\qr {{.25}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{14}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa25}}\cell
+\cellx2908
+\qr {{3.4}}\cell
+\cellx4232
+\qr {{.28}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{13}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa 0to25}}\cell
+\cellx2908
+\qr {{.63}}\cell
+\cellx4232
+\qr {{.48}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa 25to50}}\cell
+\cellx2908
+\qr {{.15}}\cell
+\cellx4232
+\qr {{.36}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa 50to75}}\cell
+\cellx2908
+\qr {{.093}}\cell
+\cellx4232
+\qr {{.29}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa 75to100}}\cell
+\cellx2908
+\qr {{.13}}\cell
+\cellx4232
+\qr {{.34}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat}}\cell
+\cellx2908
+\qr {{164}}\cell
+\cellx4232
+\qr {{7.6}}\cell
+\cellx5556
+\qr {{120}}\cell
+\cellx6880
+\qr {{180}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat75}}\cell
+\cellx2908
+\qr {{166}}\cell
+\cellx4232
+\qr {{9.4}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{665}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat50}}\cell
+\cellx2908
+\qr {{164}}\cell
+\cellx4232
+\qr {{9.4}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{648}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat25}}\cell
+\cellx2908
+\qr {{160}}\cell
+\cellx4232
+\qr {{9.2}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{632}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat 0to25}}\cell
+\cellx2908
+\qr {{.58}}\cell
+\cellx4232
+\qr {{.49}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat 25to50}}\cell
+\cellx2908
+\qr {{.15}}\cell
+\cellx4232
+\qr {{.36}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat 50to75}}\cell
+\cellx2908
+\qr {{.078}}\cell
+\cellx4232
+\qr {{.27}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ lsat 75to100}}\cell
+\cellx2908
+\qr {{.19}}\cell
+\cellx4232
+\qr {{.39}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ accr}}\cell
+\cellx2908
+\qr {{.3}}\cell
+\cellx4232
+\qr {{.15}}\cell
+\cellx5556
+\qr {{.041}}\cell
+\cellx6880
+\qr {{.89}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ year}}\cell
+\cellx2908
+\qr {{2014}}\cell
+\cellx4232
+\qr {{5.8}}\cell
+\cellx5556
+\qr {{2004}}\cell
+\cellx6880
+\qr {{2023}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ t14}}\cell
+\cellx2908
+\qr {{.25}}\cell
+\cellx4232
+\qr {{.43}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx1584
+\fs24\pard\intbl\ql {{ yield}}\cell
+\clbrdrb\brdrw15\brdrs\cellx2908
+\qr {{.27}}\cell
+\clbrdrb\brdrw15\brdrs\cellx4232
+\qr {{.1}}\cell
+\clbrdrb\brdrw15\brdrs\cellx5556
+\qr {{0}}\cell
+\clbrdrb\brdrw15\brdrs\cellx6880
+\qr {{.92}}\cell
+\row}
+
+{\b\qc\line Table 2.3c: Observations & LSN Imports by Year }{\par}
+{\trowd\trgaph108\trleft-108
+\clvmgf \clvertalb \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx732
+\fs24\pard\intbl\ql {Year}\cell
+\clmgf \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx1464
+\fs24\pard\intbl\qc {LSN import}\cell
+\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx2196
+\fs24\pard\intbl\qr {}\cell
+\clmrg \clbrdrt\brdrw10\brdrs \clbrdrb\brdrw10\brdrs\cellx2928
+\fs24\pard\intbl\qr {}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clvmrg  \clvertalb \clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {}\cell
+\cellx1464
+\fs24\pard\intbl\qr {False}\cell
+\cellx2196
+\fs24\pard\intbl\qr {True}\cell
+\cellx2928
+\fs24\pard\intbl\qr {Total}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \clbrdrt\brdrw25\brdrs\cellx732
+\fs24\pard\intbl\ql {2004}\cell
+\clbrdrt\brdrw25\brdrs\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\clbrdrt\brdrw25\brdrs\cellx2196
+\fs24\pard\intbl\qr {12533}\cell
+\clbrdrt\brdrw25\brdrs\cellx2928
+\fs24\pard\intbl\qr {12533}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2005}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {21665}\cell
+\cellx2928
+\fs24\pard\intbl\qr {21665}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2006}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {24296}\cell
+\cellx2928
+\fs24\pard\intbl\qr {24296}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2007}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {24019}\cell
+\cellx2928
+\fs24\pard\intbl\qr {24019}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2008}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {25452}\cell
+\cellx2928
+\fs24\pard\intbl\qr {25452}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2009}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {30405}\cell
+\cellx2928
+\fs24\pard\intbl\qr {30405}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2010}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {28640}\cell
+\cellx2928
+\fs24\pard\intbl\qr {28640}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2011}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {21638}\cell
+\cellx2928
+\fs24\pard\intbl\qr {21638}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2012}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {15701}\cell
+\cellx2928
+\fs24\pard\intbl\qr {15701}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2013}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {19975}\cell
+\cellx2928
+\fs24\pard\intbl\qr {19975}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2014}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {19501}\cell
+\cellx2928
+\fs24\pard\intbl\qr {19501}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2015}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {19092}\cell
+\cellx2928
+\fs24\pard\intbl\qr {19092}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2016}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {14889}\cell
+\cellx2928
+\fs24\pard\intbl\qr {14889}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2017}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {20673}\cell
+\cellx2928
+\fs24\pard\intbl\qr {20673}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2018}\cell
+\cellx1464
+\fs24\pard\intbl\qr {0}\cell
+\cellx2196
+\fs24\pard\intbl\qr {27399}\cell
+\cellx2928
+\fs24\pard\intbl\qr {27399}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2019}\cell
+\cellx1464
+\fs24\pard\intbl\qr {3200}\cell
+\cellx2196
+\fs24\pard\intbl\qr {21097}\cell
+\cellx2928
+\fs24\pard\intbl\qr {24297}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2020}\cell
+\cellx1464
+\fs24\pard\intbl\qr {25901}\cell
+\cellx2196
+\fs24\pard\intbl\qr {8884}\cell
+\cellx2928
+\fs24\pard\intbl\qr {34785}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2021}\cell
+\cellx1464
+\fs24\pard\intbl\qr {58002}\cell
+\cellx2196
+\fs24\pard\intbl\qr {539}\cell
+\cellx2928
+\fs24\pard\intbl\qr {58541}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2022}\cell
+\cellx1464
+\fs24\pard\intbl\qr {51304}\cell
+\cellx2196
+\fs24\pard\intbl\qr {2}\cell
+\cellx2928
+\fs24\pard\intbl\qr {51306}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \cellx732
+\fs24\pard\intbl\ql {2023}\cell
+\cellx1464
+\fs24\pard\intbl\qr {2229}\cell
+\cellx2196
+\fs24\pard\intbl\qr {10}\cell
+\cellx2928
+\fs24\pard\intbl\qr {2239}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx732
+\fs24\pard\intbl\ql {Total}\cell
+\clbrdrt\brdrw10\brdrs\cellx1464
+\fs24\pard\intbl\qr {140636}\cell
+\clbrdrt\brdrw10\brdrs\cellx2196
+\fs24\pard\intbl\qr {356410}\cell
+\clbrdrt\brdrw10\brdrs\cellx2928
+\fs24\pard\intbl\qr {497046}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw25\brdrs\cellx2928
+\fs24\pard\intbl\ql {}\cell
+\row}
+
+
+\writepositionforappend
+}}
