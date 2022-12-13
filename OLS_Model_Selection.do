@@ -223,7 +223,7 @@ save "${path}/Data_Final/ols_cv_metrics.dta", replace
 
 // This is just me messing around. There are some good graphs here you might consider adding.
 
-use "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project/Data_Final/lr_cv_metrics.dta", clear
+use "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project/Data_Final/ols_cv_metrics.dta", clear
 
 
 
@@ -231,10 +231,11 @@ use "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbu
 use "${path}/Data_Final/lr_cv_metrics.dta", clear
 
 *Model no. labels
-egen temp = seq(), block(10) from(1) to(60)
 
-forval i = 1/60 {
-	if (mod(`i', 10) & `i'!=1) {
+gen temp = model_no
+
+forval i = 1/127 {
+	if (mod(`i', 20)) {
 		la def temp_lbl `i' `"{c 0xa0}"', add 
 	}
 }
@@ -248,6 +249,8 @@ la val temp temp_lbl
 ///*** Negative MSE ***///
 
 graph box mse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative MSE")
+
+
 
 graph export "fig_41a.png", as(png) name("Graph") replace
 

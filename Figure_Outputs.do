@@ -185,10 +185,11 @@ graph export "fig_241e.png", as(png) name("Graph") replace
 use "${path}/Data_Final/ols_cv_metrics.dta", clear
 
 *Model no. labels
-egen temp = seq(), block(10) from(1) to(127)
+gen temp = model_no
 
-forval i = 1/127 {
-	if mod(`i', 10) {
+qui levelsof model_no
+forval i = 1/`r(r)' {
+	if mod(`i', 20) {
 		la def temp_lbl `i' `"{c 0xa0}"', add 
 	}
 }
@@ -244,10 +245,11 @@ la drop temp_lbl
 use "${path}/Data_Final/logit_cv_metrics.dta", clear
 
 *Model no. labels
-egen temp = seq(), block(10) from(1) to(127)
+gen temp = model_no
 
-forval i = 1/127 {
-	if mod(`i', 10) {
+qui levelsof model_no
+forval i = 1/`r(r)' {
+	if mod(`i', 20) {
 		la def temp_lbl `i' `"{c 0xa0}"', add 
 	}
 }
@@ -265,16 +267,3 @@ graph export "fig_42a.png", as(png) name("Graph") replace
 graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.2b: Negative Log Loss across Logit Models}") b1title("Model no.") ytitle("Negative log loss")
 
 graph export "fig_42b.png", as(png) name("Graph") replace
-
-
-
-
-
-
-
-
-
-
-
-
-
