@@ -48,8 +48,6 @@ save "lr_predictions.dta", replace
 ///*** Cross-Validation Metrics ***///
 //////////////////////////////////////
 
-///*** Calculate Metrics ***///
-
 mat drop _all
 clear all
 
@@ -69,7 +67,15 @@ foreach i of varlist yhat_*_split_* {
 
 	di "`i'"
 
-	///*** Out-of-Sample R^2 ***///
+	///*** Mean Squared Error ***///
+	
+	qui egen mse = mean((admit - `i')^2) if missing(`i')==0
+	qui sum mse if missing(`i')==0
+	local mse = r(mean)
+	
+	drop mse
+	
+	///*** R^2 ***///
 	
 	qui egen madmit = mean(admit) if missing(`i')==0
 	qui egen ssr = sum((admit - `i')^2) if missing(`i')==0
@@ -132,7 +138,7 @@ foreach i of varlist yhat_*_split_* {
 	
 	///*** Save Results ***///
 	
-	mat cv_metrics = [`r2', `mae', `accuracy', `log_loss']
+	mat cv_metrics = [`mse', `r2', `mae', `accuracy', `log_loss']
 	
 	svmat cv_metrics, names(matcol)
 	
