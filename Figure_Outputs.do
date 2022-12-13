@@ -191,9 +191,9 @@ graph export "fig_241e.png", as(png) name("Graph") replace
 use "${path}/Data_Final/lr_cv_metrics.dta", clear
 
 *Model no. labels
-egen temp = seq(), block(10) from(1) to(60)
+egen temp = seq(), block(10) from(1) to(63)
 
-forval i = 1/60 {
+forval i = 1/63 {
 	if (mod(`i', 10) & `i'!=1) {
 		la def temp_lbl `i' `"{c 0xa0}"', add 
 	}
@@ -203,7 +203,7 @@ la val temp temp_lbl
 
 ///*** Negative MSE ***///
 
-graph box mse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative MSE")
+graph box mse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative MSE") 
 
 graph export "fig_41a.png", as(png) name("Graph") replace
 
@@ -213,23 +213,29 @@ graph box r2, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolo
 
 graph export "fig_41b.png", as(png) name("Graph") replace
 
-///*** Negative MAE ***///
+tsset model_no split, yearly
 
-graph box mae, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1c: Negative Mean Absolute Error across OLS Models}") b1title("Model no.") ytitle("Negative MAE")
+tsline r2 if model_no==26 || tsline r2 if model_no==27 || tsline r2 if model_no==28 || tsline r2 if model_no==29 || tsline r2 if model_no==30 || tsline r2 if model_no==31 || tsline r2 if model_no==38 || tsline r2 if model_no==40, legend(cols(8) position(6) label(1 "26") label(2 "27") label(3 "28") label(4 "29") label(5 "30") label(6 "31") label(7 "38") label(8 "40") title("Model no.", size(small))) yscale(range(0.1 0.3)) ylabel(0.1(0.05)0.3) xscale(range(2004 2022)) xlabel(2005 2010 2015 2020) xmtick(2004(1)2022) title("{bf:Figure 4.1c: Time Series of R-squared for Selected OLS Models}")
 
 graph export "fig_41c.png", as(png) name("Graph") replace
 
-///*** Accuracy ***///
+///*** Negative MAE ***///
 
-graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1d: Accuracy across OLS Models}") b1title("Model no.") ytitle("Accuracy")
+graph box mae, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1d: Negative Mean Absolute Error across OLS Models}") b1title("Model no.") ytitle("Negative MAE")
 
 graph export "fig_41d.png", as(png) name("Graph") replace
 
-///*** Negative Log Loss ***///
+///*** Accuracy ***///
 
-graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1e: Negative Log Loss across OLS Models}") b1title("Model no.") ytitle("Negative log loss")
+graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1e: Accuracy across OLS Models}") b1title("Model no.") ytitle("Accuracy")
 
 graph export "fig_41e.png", as(png) name("Graph") replace
+
+///*** Negative Log Loss ***///
+
+graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1f: Negative Log Loss across OLS Models}") b1title("Model no.") ytitle("Negative log loss")
+
+graph export "fig_41f.png", as(png) name("Graph") replace
 
 *Outro
 drop temp
