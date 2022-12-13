@@ -54,12 +54,6 @@
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1440
-\fs24 \pard\intbl \ql { gpa_intl}\cell
-\cellx5440
-\fs24 \pard\intbl \ql {International GPA}\cell
-\row}
-{\trowd\trgaph108\trleft-108
-\cellx1440
 \fs24 \pard\intbl \ql { gpa75}\cell
 \cellx5440
 \fs24 \pard\intbl \ql {75th pctile of all apps (official)}\cell
@@ -208,9 +202,9 @@
 \cellx1584
 \fs24\pard\intbl\ql {{ fee waived}}\cell
 \cellx2908
-\qr {{.071}}\cell
+\qr {{.07}}\cell
 \cellx4232
-\qr {{.26}}\cell
+\qr {{.25}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
@@ -292,7 +286,7 @@
 \cellx1584
 \fs24\pard\intbl\ql {{ gpa 0to25}}\cell
 \cellx2908
-\qr {{.63}}\cell
+\qr {{.62}}\cell
 \cellx4232
 \qr {{.48}}\cell
 \cellx5556
@@ -412,7 +406,7 @@
 \cellx1584
 \fs24\pard\intbl\ql {{ lsat 50to75}}\cell
 \cellx2908
-\qr {{.078}}\cell
+\qr {{.079}}\cell
 \cellx4232
 \qr {{.27}}\cell
 \cellx5556
@@ -454,7 +448,7 @@
 \cellx5556
 \qr {{2004}}\cell
 \cellx6880
-\qr {{2023}}\cell
+\qr {{2022}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -693,24 +687,14 @@
 \fs24\pard\intbl\qr {51306}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrr\brdrw10\brdrs \cellx732
-\fs24\pard\intbl\ql {2023}\cell
-\cellx1464
-\fs24\pard\intbl\qr {2229}\cell
-\cellx2196
-\fs24\pard\intbl\qr {10}\cell
-\cellx2928
-\fs24\pard\intbl\qr {2239}\cell
-\row}
-{\trowd\trgaph108\trleft-108
 \clbrdrr\brdrw10\brdrs \clbrdrt\brdrw10\brdrs\cellx732
 \fs24\pard\intbl\ql {Total}\cell
 \clbrdrt\brdrw10\brdrs\cellx1464
-\fs24\pard\intbl\qr {140636}\cell
+\fs24\pard\intbl\qr {138407}\cell
 \clbrdrt\brdrw10\brdrs\cellx2196
-\fs24\pard\intbl\qr {356410}\cell
+\fs24\pard\intbl\qr {356400}\cell
 \clbrdrt\brdrw10\brdrs\cellx2928
-\fs24\pard\intbl\qr {497046}\cell
+\fs24\pard\intbl\qr {494807}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \clbrdrt\brdrw25\brdrs\cellx2928

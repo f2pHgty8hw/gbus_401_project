@@ -29,16 +29,10 @@ restore
 
 ///*** Summary Statistics ***///
 
-preserve
-
-drop gpa_intl
-
 asdoc tabstat admit urm fee_waived non_trad intl gpa* lsat* accr year t14 yield, m stat(mean sd min max) c(s) title(Table 2.3b: Summary Statistics) save(Appendix.doc) format(%9.2gc) font(Latin Modern Roman) fs(12) append
 
 /*estpost tabstat admit urm fee_waived non_trad intl gpa* lsat* accr year t14 yield, m s(n mean sd min max) c(s)
 esttab using Appendix.doc, cells("count(fmt(%9.3gc)) mean sd min max") nonumber nomtitle noobs title(Table 2.3a: Summary Statistics) fonttbl("\f0\fnil Times New Roman") replace*/
-
-restore
 
 ///*** Observations and LSN Imports by Year ***///
 
@@ -188,13 +182,13 @@ graph export "fig_241e.png", as(png) name("Graph") replace
 ///*** 4.1 OLS ***///
 /////////////////////
 
-use "${path}/Data_Final/lr_cv_metrics.dta", clear
+use "${path}/Data_Final/ols_cv_metrics.dta", clear
 
 *Model no. labels
-egen temp = seq(), block(10) from(1) to(63)
+egen temp = seq(), block(10) from(1) to(127)
 
-forval i = 1/63 {
-	if (mod(`i', 10) & `i'!=1) {
+forval i = 1/127 {
+	if mod(`i', 10) {
 		la def temp_lbl `i' `"{c 0xa0}"', add 
 	}
 }
@@ -215,7 +209,9 @@ graph export "fig_41b.png", as(png) name("Graph") replace
 
 tsset model_no split, yearly
 
-tsline r2 if model_no==26 || tsline r2 if model_no==27 || tsline r2 if model_no==28 || tsline r2 if model_no==29 || tsline r2 if model_no==30 || tsline r2 if model_no==31 || tsline r2 if model_no==38 || tsline r2 if model_no==40, legend(cols(8) position(6) label(1 "26") label(2 "27") label(3 "28") label(4 "29") label(5 "30") label(6 "31") label(7 "38") label(8 "40") title("Model no.", size(small))) yscale(range(0.1 0.3)) ylabel(0.1(0.05)0.3) xscale(range(2004 2022)) xlabel(2005 2010 2015 2020) xmtick(2004(1)2022) title("{bf:Figure 4.1c: Time Series of R-squared for Selected OLS Models}")
+// Below is a nice graph of R^2 but not sure if still relevant. Choose best models and swap if statements below.
+
+/*tsline r2 if model_no==26 || tsline r2 if model_no==27 || tsline r2 if model_no==28 || tsline r2 if model_no==29 || tsline r2 if model_no==30 || tsline r2 if model_no==31 || tsline r2 if model_no==38 || tsline r2 if model_no==40, legend(cols(8) position(6) label(1 "26") label(2 "27") label(3 "28") label(4 "29") label(5 "30") label(6 "31") label(7 "38") label(8 "40") title("Model no.", size(small))) yscale(range(0.1 0.3)) ylabel(0.1(0.05)0.3) xscale(range(2004 2022)) xlabel(2005 2010 2015 2020) xmtick(2004(1)2022) title("{bf:Figure 4.1c: Time Series of R-squared for Selected OLS Models}")*/
 
 graph export "fig_41c.png", as(png) name("Graph") replace
 
@@ -240,6 +236,36 @@ graph export "fig_41f.png", as(png) name("Graph") replace
 *Outro
 drop temp
 la drop temp_lbl
+
+///////////////////////
+///*** 4.2 Logit ***///
+///////////////////////
+
+use "${path}/Data_Final/logit_cv_metrics.dta", clear
+
+*Model no. labels
+egen temp = seq(), block(10) from(1) to(127)
+
+forval i = 1/127 {
+	if mod(`i', 10) {
+		la def temp_lbl `i' `"{c 0xa0}"', add 
+	}
+}
+
+la val temp temp_lbl
+
+///*** Accuracy ***///
+
+graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.2a: Accuracy across Logit Models}") b1title("Model no.") ytitle("Accuracy")
+
+graph export "fig_42a.png", as(png) name("Graph") replace
+
+///*** Negative Log Loss ***///
+
+graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.2b: Negative Log Loss across Logit Models}") b1title("Model no.") ytitle("Negative log loss")
+
+graph export "fig_42b.png", as(png) name("Graph") replace
+
 
 
 
