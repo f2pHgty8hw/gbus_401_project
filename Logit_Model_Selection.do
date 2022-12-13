@@ -62,7 +62,7 @@ forval i = 1/`ntuples' {
 		
 		///*** Save Results ***///
 		
-		cap qui mat cv_metrics = [`gof', `accuracy', `log_loss']
+		cap qui mat cv_metrics = [`j', `gof', `accuracy', `log_loss']
 		cap qui svmat cv_metrics, names(matcol)
 	
 		cap qui mat drop cv_metrics
@@ -93,17 +93,20 @@ destring model, replace
 ren model model_no
 la var model_no "Model no."
 
-ren cv_metricsc1 gof
+ren cv_metricsc1 split
+la var split "Year of CV split"
+
+ren cv_metricsc2 gof
 la var gof "Pearson goodness-of-fit test"
 
-ren cv_metricsc2 accuracy
+ren cv_metricsc3 accuracy
 replace accuracy = accuracy / 100 // Rescaled for consistency with OLS models
 la var accuracy "Accuracy"
 
-ren cv_metricsc3 log_loss
+ren cv_metricsc4 log_loss
 la var log_loss "Negative log loss"
 
-sort model_no
+sort model_no (split)
 
 compress
 
