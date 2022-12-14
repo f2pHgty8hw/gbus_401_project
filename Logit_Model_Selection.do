@@ -8,7 +8,8 @@
 mat drop _all
 clear all
 
-global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+//global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
 cd "${path}/Data_Final" // User must specify appropriate paths
 
 use "gbus_401_project_master.dta", clear

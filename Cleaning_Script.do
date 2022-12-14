@@ -11,8 +11,9 @@
 ///*** LSD.law Admissions Data ***///
 /////////////////////////////////////
 
-global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project"
-cd "${path}/gbus_401_project/Data_Intermediate" // User must specify appropriate paths
+//global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
+cd "${path}/Data_Intermediate" // User must specify appropriate paths
 
 import delim "lsdata.csv", clear
 
@@ -243,7 +244,7 @@ save "gbus_401_project_master.dta", replace
 
 import delim "DataSet Admissions.csv", clear
 
-keep schoolid schoolname calendaryear numapps numoffers nummatriculants uggpa?? lsat??
+keep schoolid schoolname calendaryear numapps numoffers nummatriculants uggpa?? lsat?? 
 
 forval i = 25(25)75 {
 	ren uggpa`i' gpa`i'
@@ -1702,8 +1703,8 @@ foreach i in "gpa" "lsat" {
 compress
 sort year school user_id
 
-save "${path}/gbus_401_project/Data_Final/gbus_401_project_master.dta", replace
+save "${path}/Data_Final/gbus_401_project_master.dta", replace
 
-cd "${path}/gbus_401_project/Data_Intermediate"
+cd "${path}/Data_Intermediate"
 erase "school_rankings.dta"
 erase "gbus_401_project_master.dta"

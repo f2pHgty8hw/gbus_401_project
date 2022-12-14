@@ -5,7 +5,8 @@
 *Name: Noah Blake Smith
 *Last updated: December 5, 2022
 
-global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+//global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
 cd "${path}/Outputs"
 
 use "${path}/Data_Final/gbus_401_project_master.dta", clear
@@ -22,6 +23,8 @@ use "${path}/Data_Final/gbus_401_project_master.dta", clear
 preserve
 
 keep admit urm fee_waived non_trad intl gpa* lsat* accr year t14 yield
+
+ssc install asdoc, replace
 
 asdoc des, font(Latin Modern Roman) fs(12) replace save(Appendix.doc) title(Table 2.3a: Summary of Variables) align(center)
 
