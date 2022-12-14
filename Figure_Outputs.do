@@ -5,8 +5,8 @@
 *Name: Noah Blake Smith
 *Last updated: December 5, 2022
 
-//global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
-global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
+global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+// global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
 cd "${path}/Outputs"
 
 use "${path}/Data_Final/gbus_401_project_master.dta", clear
@@ -166,16 +166,67 @@ graph export "fig_241e.png", as(png) name("Graph") replace
 ///*** 2.4.2 Hypothesis Tests ***///
 ////////////////////////////////////
 
+/////////////////////////////////////
+///*** 2.4.2.1 Admission Rates ***///
+/////////////////////////////////////
 
+///*** Correlations ***///
 
+preserve
 
+collapse (firstnm) school accr* apps* offers*, by(school_id year)
 
+*By Year
+drop if missing(year) | missing(accr) | missing(accr2)
+gen corr = .
 
+forval i = 2011/2021 {
+	di `i'
+	corr accr accr2 if year==`i'
+	replace corr = r(rho) if year==`i'
+}
 
+*Pooled
+tostring year, replace
+qui des
+local no = `r(N)' + 1
+set obs `no'
+replace year = "Pooled" if missing(year)
+corr accr accr2
+local temp "`r(rho)'"
+replace corr = `temp' if year=="Pooled"
 
+asdoc tabstat corr if school_id==3691400 | year=="Pooled", by(year) stat(mean) title(Figure 2.4.2.1b: Correlation of Sample and Official Admission Rates) font(Latin Modern Roman) fs(12) save(Appendix.doc) append // School ID chosen arbitrarily (does not matteras long as it has 11 observations); mean is not relevant because equal across years
 
+restore
 
+///*** t-tests ***///
 
+qui des
+duplicates drop school_id year, force
+drop if missing(accr) | missing(apps2) | missing(offers2)
+
+gen z_accr = .
+la var z_accr "Z-score of one-sample test of proportion"
+gen p_accr = .
+la var p_accr "p-value of one-sample test of proportion"
+
+qui des
+forval i = 1/`r(N)' {
+
+	di `i'
+	
+	local n = apps2[`i']
+	local a = offers2[`i']
+	local accr = accr[`i']
+	
+	cap prtesti `n' `a' `accr', count // Test
+	cap replace z_accr = `r(z)' if z_accr==z_accr[`i']
+	cap replace p_accr = `r(p)' if p_accr==p_accr[`i']
+
+}
+
+asdoc tabstat *_accr, stat(count mean sd min max) col(s) title(Figure 2.4.2.1a: One-Sample Proportional t-tests by School and Year) font(Latin Modern Roman) fs(12) save(Appendix.doc) append
 
 ///////////////////////
 ///*** 4 Results ***///

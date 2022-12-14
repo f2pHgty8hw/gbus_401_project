@@ -252,11 +252,11 @@
 \cellx2908
 \qr {{3.8}}\cell
 \cellx4232
-\qr {{.22}}\cell
+\qr {{.15}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
-\qr {{15}}\cell
+\qr {{4}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -264,11 +264,11 @@
 \cellx2908
 \qr {{3.7}}\cell
 \cellx4232
-\qr {{.25}}\cell
+\qr {{.21}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
-\qr {{14}}\cell
+\qr {{3.9}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -276,11 +276,11 @@
 \cellx2908
 \qr {{3.4}}\cell
 \cellx4232
-\qr {{.28}}\cell
+\qr {{.24}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
-\qr {{13}}\cell
+\qr {{3.9}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -348,11 +348,11 @@
 \cellx2908
 \qr {{166}}\cell
 \cellx4232
-\qr {{9.4}}\cell
+\qr {{6}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
-\qr {{665}}\cell
+\qr {{177}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -360,11 +360,11 @@
 \cellx2908
 \qr {{164}}\cell
 \cellx4232
-\qr {{9.4}}\cell
+\qr {{6.3}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
-\qr {{648}}\cell
+\qr {{174}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -372,11 +372,11 @@
 \cellx2908
 \qr {{160}}\cell
 \cellx4232
-\qr {{9.2}}\cell
+\qr {{6.3}}\cell
 \cellx5556
 \qr {{0}}\cell
 \cellx6880
-\qr {{632}}\cell
+\qr {{172}}\cell
 \row}
 {\trowd\trgaph108\trleft-108
 \cellx1584
@@ -699,6 +699,130 @@
 {\trowd\trgaph108\trleft-108
 \clbrdrt\brdrw25\brdrs\cellx2928
 \fs24\pard\intbl\ql {}\cell
+\row}
+
+{\fs24\b\qc\line Figure 2.4.2.1b: Correlation of Sample and Official Admission Rates }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1100
+\fs24\pard\intbl\qr { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2424
+\fs24\pard\intbl\qr {{ corr}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2011}}\cell
+\cellx2424
+\qr {{.761}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2012}}\cell
+\cellx2424
+\qr {{.684}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2013}}\cell
+\cellx2424
+\qr {{.844}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2014}}\cell
+\cellx2424
+\qr {{.796}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2015}}\cell
+\cellx2424
+\qr {{.719}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2016}}\cell
+\cellx2424
+\qr {{.727}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2017}}\cell
+\cellx2424
+\qr {{.799}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2018}}\cell
+\cellx2424
+\qr {{.802}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2019}}\cell
+\cellx2424
+\qr {{.846}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2020}}\cell
+\cellx2424
+\qr {{.823}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ 2021}}\cell
+\cellx2424
+\qr {{.908}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx1100
+\fs24\pard\intbl\ql {{ Pooled}}\cell
+\clbrdrb\brdrw15\brdrs\cellx2424
+\qr {{.795}}\cell
+\row}
+
+{\fs24\b\qc\line Figure 2.4.2.1a: One-Sample Proportional t-tests by School and Year }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1100
+\fs24\pard\intbl\qr { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2424
+\fs24\pard\intbl\qr {{ N}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx3748
+\fs24\pard\intbl\qr {{ Mean}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx5072
+\fs24\pard\intbl\qr {{ SD}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6396
+\fs24\pard\intbl\qr {{ Min}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx7720
+\fs24\pard\intbl\qr {{ Max}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1100
+\fs24\pard\intbl\ql {{ z accr}}\cell
+\cellx2424
+\qr {{2139}}\cell
+\cellx3748
+\qr {{5.061}}\cell
+\cellx5072
+\qr {{4.017}}\cell
+\cellx6396
+\qr {{-1.657}}\cell
+\cellx7720
+\qr {{31.857}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw15\brdrs\cellx1100
+\fs24\pard\intbl\ql {{ p accr}}\cell
+\clbrdrb\brdrw15\brdrs\cellx2424
+\qr {{2139}}\cell
+\clbrdrb\brdrw15\brdrs\cellx3748
+\qr {{.058}}\cell
+\clbrdrb\brdrw15\brdrs\cellx5072
+\qr {{0.161}}\cell
+\clbrdrb\brdrw15\brdrs\cellx6396
+\qr {{0}}\cell
+\clbrdrb\brdrw15\brdrs\cellx7720
+\qr {{1}}\cell
 \row}
 
 
