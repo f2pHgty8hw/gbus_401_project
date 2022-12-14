@@ -250,9 +250,9 @@ forval i = 1/`r(r)' {
 
 la val temp temp_lbl
 
-///*** Negative MSE ***///
+///*** Negative RMSE ***///
 
-graph box mse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative MSE") 
+graph box rmse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Root Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative RMSE") 
 
 graph export "fig_41a.png", as(png) name("Graph") replace
 
