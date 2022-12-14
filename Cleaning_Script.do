@@ -4,15 +4,15 @@
 
 
 *Name: Noah Blake Smith
-*Last Updated: December 5, 2022
+*Last Updated: December 13, 2022
 
 
 /////////////////////////////////////
 ///*** LSD.law Admissions Data ***///
 /////////////////////////////////////
 
-//global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
-global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
+global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
+*global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
 cd "${path}/Data_Intermediate" // User must specify appropriate paths
 
 import delim "lsdata.csv", clear
@@ -373,7 +373,7 @@ replace schoolid = 239101 if schoolname=="`campus1'" // Use post-2015 schoolid
 replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Total applications
-egen numapps_tot = sum(numapps) if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+egen numapps_tot = sum(numapps) if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 replace numapps_tot = . if schoolname!="`system'"
 
 *Additional applications
@@ -383,7 +383,7 @@ replace numapps_addl = . if schoolname!="`system'"
 drop tempvar
 
 *Average normalized variables
-foreach i of varlist gpa* lsat* {
+foreach i of varlist gpa50 {
 	gen tempvar = `i' if schoolname=="`campus2'"
 	egen `i'_addl = mean(tempvar), by(calendaryear)
 	drop tempvar
@@ -405,7 +405,7 @@ drop numapps_tot numapps_addl
 
 *Add count variables
 foreach i of varlist num* {
-	egen `i'_tot = sum(`i') if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+	egen `i'_tot = sum(`i') if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 	replace `i'_tot = . if schoolname!="`system'"
 	
 	replace `i' = `i'_tot if schoolname=="`system'" & calendaryear<2016
@@ -500,7 +500,7 @@ replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Add degrees
 foreach i of varlist jds_* {
-	egen `i'_tot = sum(`i') if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+	egen `i'_tot = sum(`i') if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 	replace `i'_tot = . if schoolname!="`system'"
 	
 	replace `i' = `i'_tot if schoolname=="`system'" & calendaryear<2016
@@ -592,7 +592,7 @@ replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Add employment
 foreach i of varlist *_tot {
-	egen `i'_tot = sum(`i') if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+	egen `i'_tot = sum(`i') if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 	replace `i'_tot = . if schoolname!="`system'"
 	
 	replace `i' = `i'_tot if schoolname=="`system'" & calendaryear<2016
@@ -683,7 +683,7 @@ replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Add students
 foreach i of varlist *jd* {
-	egen `i'_tot = sum(`i') if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+	egen `i'_tot = sum(`i') if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 	replace `i'_tot = . if schoolname!="`system'"
 	
 	replace `i' = `i'_tot if schoolname=="`system'" & calendaryear<2016
@@ -810,7 +810,7 @@ replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Add faculty
 foreach i of varlist fac_*  {
-	egen `i'_tot = sum(`i') if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+	egen `i'_tot = sum(`i') if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 	replace `i'_tot = . if schoolname!="`system'"
 	
 	replace `i' = `i'_tot if schoolname=="`system'" & calendaryear<2016
@@ -911,7 +911,7 @@ replace condscholind = "Y" if schoolname=="`system'"
 
 *Add recipients
 foreach i of varlist numstudents-totalgrantgtfull {
-	egen `i'_tot = sum(`i') if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+	egen `i'_tot = sum(`i') if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 	replace `i'_tot = . if schoolname!="`system'"
 	
 	replace `i' = `i'_tot if schoolname=="`system'" & calendaryear<2016
@@ -1042,7 +1042,7 @@ replace schoolid = 239101 if schoolname=="`campus1'" // Use post-2015 schoolid
 replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Total takers
-egen takers_tot = sum(takers) if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+egen takers_tot = sum(takers) if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 replace takers_tot = . if schoolname!="`system'"
 
 *Additional takers
@@ -1296,7 +1296,7 @@ replace schoolid = 239101 if schoolname=="`campus1'" // Use post-2015 schoolid
 replace schoolname = "`system'" if schoolname=="`campus1'"
 
 *Total students
-egen stud_tot = sum(stud) if strpos(schoolname,"`system'") & calendaryear<2016, by(calendaryear)
+egen stud_tot = sum(stud) if strpos(schoolname,"Mitchell") & calendaryear<2016, by(calendaryear)
 replace stud_tot = . if schoolname!="`system'"
 
 *Additional students
