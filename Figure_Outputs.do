@@ -34,9 +34,6 @@ restore
 
 asdoc tabstat admit urm fee_waived non_trad intl gpa* lsat* accr year t14 yield, m stat(mean sd min max) c(s) title(Table 2.3b: Summary Statistics) save(Appendix.doc) format(%9.2gc) font(Latin Modern Roman) fs(12) append
 
-/*estpost tabstat admit urm fee_waived non_trad intl gpa* lsat* accr year t14 yield, m s(n mean sd min max) c(s)
-esttab using Appendix.doc, cells("count(fmt(%9.3gc)) mean sd min max") nonumber nomtitle noobs title(Table 2.3a: Summary Statistics) fonttbl("\f0\fnil Times New Roman") replace*/
-
 ///*** Observations and LSN Imports by Year ***///
 
 preserve
@@ -238,6 +235,7 @@ asdoc tabstat *_accr, stat(count mean sd min max) col(s) title(Figure 2.4.2.1a: 
 
 use "${path}/Data_Final/ols_cv_metrics.dta", clear
 
+/*
 *Model no. labels
 gen temp = model_no
 
@@ -249,54 +247,132 @@ forval i = 1/`r(r)' {
 }
 
 la val temp temp_lbl
+*/
 
+/////////////////////////////////////////
+///*** All Goodness-of-Fit Metrics ***///
+/////////////////////////////////////////
+
+asdoc sum rmse r2 mae accuracy log_loss, title(Table ??: OLS Goodness-of-Fit Metrics) save(Appendix.doc) format(%9.2gc) font(Latin Modern Roman) fs(12) append
+
+///////////////////////////
 ///*** Negative RMSE ***///
+///////////////////////////
 
+*Box scatter
 graph box rmse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Root Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative RMSE") 
-
 graph export "fig_41a.png", as(png) name("Graph") replace
 
+*Mean
+egen mrmse = mean(rmse), by(model_no)
+la var mrmse "Mean of RMSE"
+
+*Variance
+egen vrmse = sd(rmse), by(model_no)
+la var vrmse "SD of RMSE"
+
+*Bias-variance tradeoff
+ssc install colorscatter
+colorscatter mrmse vrmse model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation", yoffset(-10)) title("{bf:Figure 4.1i: Negative RMSE by OLS Model}") xscale(range(0 0.045)) xlabel(0(0.01)0.04) graphregion(margin(large))
+graph export "fig_41i.png", as(png) name("Graph") replace
+
+*Over time
+colorscatter rmse split model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Negative RMSE") xtitle("Year of CV split", yoffset(-15) margin(vlarge)) title("{bf:Figure 4.1j: Negative RMSE over Time by OLS Model}") legend(title("Model no.", size(small) margin(small))) ysize(11) xsize(8.5) yscale(range(-0.55 -0.4)) ylabel(-0.55(0.05)-0.4)
+graph export "fig_41j.png", as(png) name("Graph") replace
+
+/////////////////
 ///*** R^2 ***///
+/////////////////
 
+*Box scatter
 graph box r2, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1b: R-squared across OLS Models}") b1title("Model no.") ytitle("R-squared")
-
 graph export "fig_41b.png", as(png) name("Graph") replace
 
-*tsset model_no split, yearly
+*Mean
+egen mr2 = mean(r2), by(model_no)
+la var r2 "Mean of R^2"
 
-// Below is a nice graph of R^2 but not sure if still relevant. Choose best models and swap if statements below.
+*Variance
+egen vr2 = sd(r2), by(model_no)
+la var vr2 "SD of RMSE"
 
-/*tsline r2 if model_no==26 || tsline r2 if model_no==27 || tsline r2 if model_no==28 || tsline r2 if model_no==29 || tsline r2 if model_no==30 || tsline r2 if model_no==31 || tsline r2 if model_no==38 || tsline r2 if model_no==40, legend(cols(8) position(6) label(1 "26") label(2 "27") label(3 "28") label(4 "29") label(5 "30") label(6 "31") label(7 "38") label(8 "40") title("Model no.", size(small))) yscale(range(0.1 0.3)) ylabel(0.1(0.05)0.3) xscale(range(2004 2022)) xlabel(2005 2010 2015 2020) xmtick(2004(1)2022) title("{bf:Figure 4.1c: Time Series of R-squared for Selected OLS Models}")*/
+*Bias-variance tradeoff
+ssc install colorscatter
+colorscatter mr2 vr2 model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation", yoffset(-10)) title("{bf:Figure 4.1k: R-squared by OLS Model}") graphregion(margin(large))
+graph export "fig_41k.png", as(png) name("Graph") replace
 
-*graph export "fig_41c.png", as(png) name("Graph") replace
+*Over time
+colorscatter r2 split model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("R-squared") xtitle("Year of CV split", yoffset(-15) margin(vlarge)) title("{bf:Figure 4.1j: R-squared over Time by OLS Model}") legend(title("Model no.", size(small) margin(small))) ysize(11) xsize(8.5) yscale(range(-0.3 0.4)) ylabel(-0.3(0.1)0.4)
+graph export "fig_41j.png", as(png) name("Graph") replace
 
+//////////////////////////
 ///*** Negative MAE ***///
+//////////////////////////
 
+*Box scatter
 graph box mae, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1d: Negative Mean Absolute Error across OLS Models}") b1title("Model no.") ytitle("Negative MAE")
-
 graph export "fig_41d.png", as(png) name("Graph") replace
 
+*Mean
+egen mmae = mean(mae), by(model_no)
+la var r2 "Mean of negative MAE"
+
+*Variance
+egen vmae = sd(mae), by(model_no)
+la var vr2 "SD of negative MAE"
+
+*Bias-variance tradeoff
+ssc install colorscatter
+colorscatter mmae vmae model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation", yoffset(-10)) title("{bf:Figure 4.1l: Negative MAE by OLS Model}") graphregion(margin(large))
+graph export "fig_41l.png", as(png) name("Graph") replace
+
+*Over time
+colorscatter mae split model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("MAE") xtitle("Year of CV split", yoffset(-15) margin(vlarge)) title("{bf:Figure 4.1m: Negative MAE over Time by OLS Model}") legend(title("Model no.", size(small) margin(small))) ysize(11) xsize(8.5)
+graph export "fig_41m.png", as(png) name("Graph") replace
+
+//////////////////////
 ///*** Accuracy ***///
+//////////////////////
 
+*Mean
+egen maccuracy = mean(accuracy), by(model_no)
+la var maccuracy "Mean accuracy score"
+
+*Variance
+egen vaccuracy = sd(accuracy), by(model_no)
+la var vaccuracy "SD of accuracy"
+
+*Box scatter
 graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1e: Accuracy across OLS Models}") b1title("Model no.") ytitle("Accuracy")
-
 graph export "fig_41e.png", as(png) name("Graph") replace
 
-///*** Negative Log Loss ***///
-
-graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1f: Negative Log Loss across OLS Models}") b1title("Model no.") ytitle("Negative log loss")
-
+*Bias-variance tradeoff
+ssc install colorscatter
+colorscatter maccuracy vaccuracy model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation", yoffset(-10)) title("{bf:Figure 4.1f: Accuracy by OLS Model}") xscale(range(0 0.045)) xlabel(0(0.01)0.04) graphregion(margin(large))
 graph export "fig_41f.png", as(png) name("Graph") replace
 
-*Outro
-drop temp
-la drop temp_lbl
+*Over time
+colorscatter accuracy split model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Accuracy") xtitle("Year of CV split", yoffset(-15) margin(vlarge)) title("{bf:Figure 4.1g: Accuracy over Time by OLS Model}") legend(title("Model no.", size(small) margin(small))) ysize(11) xsize(8.5) ylabel(0.5(0.05)0.8)
+graph export "fig_41g.png", as(png) name("Graph") replace
+
+///////////////////////////////
+///*** Negative Log Loss ***///
+///////////////////////////////
+
+////////////////////////////
+///*** Favorite Model ***///
+////////////////////////////
+
+use "${path}/Data_Final/gbus_401_project_master.dta", clear
+
+asdoc reg admit gpa_* lsat i.year i.school_id if year>2011 & year<2022, nest drop(i.year i.school_id) title(Table ??: Model 22 Estimation on Full Sample) save(Appendix.doc) format(%9.2gc) font(Latin Modern Roman) fs(12) append
 
 ///////////////////////
 ///*** 4.2 Logit ***///
 ///////////////////////
 
 use "${path}/Data_Final/logit_cv_metrics.dta", clear
+
 
 *Model no. labels
 gen temp = model_no

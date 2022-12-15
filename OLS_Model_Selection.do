@@ -245,62 +245,38 @@ la val temp temp_lbl
 
 
 
+*Mean
+egen mmae = mean(mae), by(model_no)
+la var r2 "Mean of negative MAE"
 
+*Variance
+egen vmae = sd(mae), by(model_no)
+la var vr2 "SD of negative MAE"
 
-///*** Negative MSE ***///
-
-egen mrmse = mean(rmse), by(model_no)
-
-sort mrmse
-
-scatter mrmse model_no if mrmse>-0.44
-
-graph box mse, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.1a: Negative Mean Squared Error across OLS Models}") b1title("Model no.") ytitle("Negative MSE")
-
-
-
-
-
-
-// @ JUSTIN, this is where I start playing around. See code below, especially graphs
-
-
-///*** Accuracy ***///
-
-sum accuracy
-
-*Mean accuracy
-egen maccuracy = mean(accuracy), by(model_no)
-la var maccuracy "Mean accuracy score"
-
-tabstat accuracy, by(model_no) s(mean sd)
-
-scatter maccuracy model_no
-
-scatter maccuracy model_no if maccuracy>0.74, xsize(10) xlabel(#20)
-
-*Variance/SD
-egen vaccuracy = sd(accuracy), by(model_no)
-la var vaccuracy "SD of accuracy"
-
-
-// BEST PERFORMERS
-scatter vaccuracy model_no
-
-
-scatter vaccuracy maccuracy
-
+*Bias-variance tradeoff
 ssc install colorscatter
+colorscatter mmae vmae model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation", yoffset(-10)) title("{bf:Figure 4.1l: Negative MAE by OLS Model}") graphregion(margin(large))
+graph export "fig_41l.png", as(png) name("Graph") replace
 
-colorscatter maccuracy vaccuracy model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation") title("{bf:Accuracy Mean and Standard Deviation by OLS Model}") legend(off) xscale(range(0 0.045)) xlabel(0(0.01)0.04)
+*Over time
+colorscatter mae split model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("MAE") xtitle("Year of CV split", yoffset(-15) margin(vlarge)) title("{bf:Figure 4.1m: Negative MAE over Time by OLS Model}") legend(title("Model no.", size(small) margin(small))) ysize(11) xsize(8.5)
+yscale(range(-0.3 0.4)) ylabel(-0.3(0.1)0.4
+graph export "fig_41m.png", as(png) name("Graph") replace
 
-list model_no if maccuracy>0.73 & vaccuracy<0.01 & split==2015 // Random year chosen to omit repeats
 
-sepscatter maccuracy vaccuracy if maccuracy>0.73 & vaccuracy<0.01, separate(model_no) legend(on)
 
-// WORST PERFORMERS
+sepscatter mr2 vr2 if mr2>0.25 & vr2<0.05, separate(model_no) legend(on)
 
-sepscatter maccuracy vaccuracy if maccuracy<0.6, separate(model_no) legend(on)
+
+
+
+
+
+
+// CHANGE OVER TIME
+
+
+
 
 
 
