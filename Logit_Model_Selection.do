@@ -80,9 +80,11 @@ forval i = 1/`ntuples' {
 
 ///*** Combine and Cleanup ***///
 
+cd "/Users/nbs/Desktop/models_as_of_dec13_10pm/Logit"
+
 use "yhat_1_split_2012_logit.dta", clear
 
-local filelist: dir . files "*2*.dta"
+local filelist: dir . files "*.dta"
 
 foreach i in `filelist' {
 	
@@ -108,6 +110,11 @@ ren cv_metricsc4 log_loss
 la var log_loss "Negative log loss"
 
 sort model_no (split)
+
+duplicates drop model_no split, force
+
+save "/Users/nbs/Desktop/logit_cv_metrics.dta", replace
+
 
 ///
 

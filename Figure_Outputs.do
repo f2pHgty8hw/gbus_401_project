@@ -24,9 +24,7 @@ preserve
 
 keep admit urm fee_waived non_trad intl gpa* lsat* accr year t14 yield
 
-ssc install asdoc, replace
-
-asdoc des, font(Latin Modern Roman) fs(12) replace save(Appendix.doc) title(Table 2.3a: Summary of Variables) align(center)
+asdoc des, font(Latin Modern Roman) fs(12) replace save(Appendix.doc) title(Table 2.3a: Summary of Variables) align(center) append
 
 restore
 
@@ -249,9 +247,9 @@ forval i = 1/`r(r)' {
 la val temp temp_lbl
 */
 
-/////////////////////////////////////////
-///*** All Goodness-of-Fit Metrics ***///
-/////////////////////////////////////////
+////////////////////////////////////////////////
+///*** Summary of Goodness-of-Fit Metrics ***///
+////////////////////////////////////////////////
 
 asdoc sum rmse r2 mae accuracy log_loss, title(Table ??: OLS Goodness-of-Fit Metrics) save(Appendix.doc) format(%9.2gc) font(Latin Modern Roman) fs(12) append
 
@@ -386,14 +384,37 @@ forval i = 1/`r(r)' {
 
 la val temp temp_lbl
 
+////////////////////////////////////////////////
+///*** Summary of Goodness-of-Fit Metrics ***///
+////////////////////////////////////////////////
+
+asdoc sum accuracy log_loss, title(Table 412?: Logit Goodness-of-Fit Metrics) save(Appendix.doc) format(%9.2gc) font(Latin Modern Roman) fs(12) append
+
+//////////////////////
 ///*** Accuracy ***///
+//////////////////////
 
+*Mean
+egen maccuracy = mean(accuracy), by(model_no)
+la var maccuracy "Mean accuracy score"
+
+*Variance
+egen vaccuracy = sd(accuracy), by(model_no)
+la var vaccuracy "SD of accuracy"
+
+*Box scatter
 graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.2a: Accuracy across Logit Models}") b1title("Model no.") ytitle("Accuracy")
-
 graph export "fig_42a.png", as(png) name("Graph") replace
+
+*Bias-variance tradeoff
+colorscatter maccuracy vaccuracy model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation", yoffset(-10)) title("{bf:Figure 4.2b: Accuracy by Logit Model}") xscale(range(0 0.045)) xlabel(0(0.01)0.04) graphregion(margin(large))
+graph export "fig_42b.png", as(png) name("Graph") replace
+
+*Over time
+colorscatter accuracy split model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Accuracy") xtitle("Year of CV split", yoffset(-15) margin(vlarge)) title("{bf:Figure 4.2c: Accuracy over Time by OLS Model}") legend(title("Model no.", size(small) margin(small)))
+graph export "fig_42c.png", as(png) name("Graph") replace
 
 ///*** Negative Log Loss ***///
 
-graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.2b: Negative Log Loss across Logit Models}") b1title("Model no.") ytitle("Negative log loss")
-
-graph export "fig_42b.png", as(png) name("Graph") replace
+graph box accuracy, over(temp) xsize(11) ysize(5) box(1, color(black)) marker(1, mcolor(black)) title("{bf:Figure 4.2d: Negative Log Loss across Logit Models}") b1title("Model no.") ytitle("Negative log loss")
+graph export "fig_42d.png", as(png) name("Graph") replace

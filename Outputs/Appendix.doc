@@ -3,247 +3,569 @@
 \deflang1033\plain\fs24
 {\footer\pard\qc\plain\f0\fs24\chpgn\par}
 {
-{\b\qc\line Table ??: Model 22 Estimation on Full Sample }{\par}
+{\b\qc\line Table 2.3a: Summary of Variables }{\par}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw10\brdrs   \cellx2000
-\fs24\pard\intbl\qc { }\cell
-\clbrdrt\brdrw10\brdrs   \cellx3250
-\fs24\pard\intbl\qc {{(1)}}\cell
-\clbrdrt\brdrw10\brdrs   \cellx4550
-\fs24\pard\intbl\qc {{(2)}}\cell
-\clbrdrt\brdrw10\brdrs   \cellx5850
-\fs24\pard\intbl\qc {{(3)}}\cell
-\clbrdrt\brdrw10\brdrs   \cellx7150
-\fs24\pard\intbl\qc {{(4)}}\cell
-\clbrdrt\brdrw10\brdrs   \cellx8450
-\fs24\pard\intbl\qc {{(5)}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx1920
+\fs24 \pard\intbl \ql { name}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs \cellx5920
+\fs24 \pard\intbl \ql { varlab}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrb\brdrw25\brdrs   \cellx2000
-\fs24\pard\intbl\qc { }\cell
-\clbrdrb\brdrw25\brdrs   \cellx3250
-\fs24\pard\intbl\qc { {admit}}\cell
-\clbrdrb\brdrw25\brdrs   \cellx4550
-\fs24\pard\intbl\qc { {admit}}\cell
-\clbrdrb\brdrw25\brdrs   \cellx5850
-\fs24\pard\intbl\qc { {admit}}\cell
-\clbrdrb\brdrw25\brdrs   \cellx7150
-\fs24\pard\intbl\qc { {admit}}\cell
-\clbrdrb\brdrw25\brdrs   \cellx8450
-\fs24\pard\intbl\qc { {admit}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { user_id}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {User ID}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {gpa_0to25}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{-.3***}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{-.3***}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{-.3***}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{-.3***}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{-.3***}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { year}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Year (spring of admissions cycle)}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { { }}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{(.0022)}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{(.0022)}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{(.0022)}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{(.0022)}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{(.0022)}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { school}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {School name}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {gpa_25to50}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{-.18***}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{-.18***}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{-.18***}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{-.18***}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{-.18***}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { status}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Status}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { { }}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{(.0023)}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{(.0023)}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{(.0023)}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{(.0023)}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{(.0023)}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { result}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Result}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {gpa_50to75}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{-.023***}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{-.023***}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{-.023***}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{-.023***}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{-.023***}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { attend}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if chose to attend}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { { }}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{(.0026)}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{(.0026)}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{(.0026)}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{(.0026)}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{(.0026)}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { lsat}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Applicant LSAT}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {gpa_75to100}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { gpa}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Applicant GPA}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { { }}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { urm}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if applicant is URM}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {lsat}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{.032***}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{.032***}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{.032***}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{.032***}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{.032***}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { sent_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date app was sent}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { { }}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{(.00014)}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{(.00014)}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{(.00014)}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{(.00014)}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{(.00014)}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { received_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date app was received}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {_cons}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{-3.8***}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{-3.8***}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{-3.8***}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{-3.8***}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{-3.8***}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { complete_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date app was marked complete}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { { }}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{(.053)}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{(.053)}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{(.053)}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{(.053)}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{(.053)}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { ur_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date app was marked under review (1st round)}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {Observations}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{251209}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{251209}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{251209}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{251209}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{251209}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { ur2_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date app was marked under review (2nd round)}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx2000
-\fs24\pard\intbl\ql { {R-squared}}\cell
-\cellx3250
-\fs24\pard\intbl\qc {{.35}}\cell
-\cellx4550
-\fs24\pard\intbl\qc {{.35}}\cell
-\cellx5850
-\fs24\pard\intbl\qc {{.35}}\cell
-\cellx7150
-\fs24\pard\intbl\qc {{.35}}\cell
-\cellx8450
-\fs24\pard\intbl\qc {{.35}}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { interview_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date of interview}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\clbrdrt\brdrw15\brdrs\cellx8450\i {Standard errors are in parentheses}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { decision_at}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Date of decision release}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx8450
-\fs24\pard\intbl\ql \i {*** p<.01, ** p<.05, * p<.1 }\cell
+\cellx1920
+\fs24 \pard\intbl \ql { in_state}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if school is in state}\cell
 \row}
 {\trowd\trgaph108\trleft-108
-\cellx8450
-\fs24\pard\intbl\ql {}\cell
+\cellx1920
+\fs24 \pard\intbl \ql { fee_waived}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if application fee was waived}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { got_merit_aid}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if received conditional scholarship}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { softs}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Soft skill tier (4 is best)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { non_trad}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if non-traditional applicant}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { intl}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if international}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { years_out}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {# years since college graduation}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsn_import}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if imported from Law School Numbers}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { military}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if military service}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { sus}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if character/fitness issues}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { cycle_id}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Cycle ID}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { school_id}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {School ID}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { apps}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {# applications (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { offers}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {# offers (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { matrics}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {# matriculants (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa75}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {75th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa50}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {50th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa25}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {25th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat75}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {75th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat50}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {50th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat25}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {25th pctile of all apps (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { accr}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Acceptance rate (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { accrl}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Lagged acceptance rate (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { yield}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Yield (official)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { jds_urm}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% degrees earners URM}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { empr}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% FT long-term employment}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { grads_tot}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Total_Grads}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_urm}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% URM students}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_men}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% male students}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_wom}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% female students}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { fac_men}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% male faculty}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { fac_wom}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% female faculty}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { fac_urm}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% URM faculty}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { merit_aid}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if school offers conditional scholarships}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_aid}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% students with any aid}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_aid_0to50}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% students with 0-50% aid}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_aid_50to100}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% students with 50-100% aid}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { stud_aid_100toX}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {% students with 100%+ aid}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { bar_pass_school}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {School 1st-attempt bar pass rate}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { bar_pass_state}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {State mean 1st-attempt bar pass rate}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { bar_pass_diff}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Pct points above/below state mean}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { private}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if private school}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { tuition_instate}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {In-state FT tuition (nominal USD)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { tuition_outstate}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Out-of-state FT tuition (nominal USD)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { city}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {City}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { state}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {State}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { zip}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {ZIP code}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { rank}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {USNWR Ranking}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { tier}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Tier (of 5) based on USNWR rankings}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { admit}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if admitted (result)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { admit2}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if admitted (status)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { t14}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if T14 law school}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { apps2}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {# applications (LSD.law)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { offers2}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {# offers (LSD.law)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { accr2}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {Acceptance rate (LSD.law)}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa_0to25}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if GPA in 0-25th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa_25to50}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if GPA in 25-50th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa_50to75}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if GPA in 50-75th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { gpa_75to100}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if GPA in 75-100th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat_0to25}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if LSAT in 0-25th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat_25to50}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if LSAT in 25-50th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat_50to75}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if LSAT in 50-75th pctile}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1920
+\fs24 \pard\intbl \ql { lsat_75to100}\cell
+\cellx5920
+\fs24 \pard\intbl \ql {=1 if LSAT in 75-100th pctile}\cell
 \row}
 
-
-\writepositionforappend
-}}
-
+{\fs24\b\qc\line Table 2.3b: Summary Statistics }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx1584
+\fs24\pard\intbl\qr { }\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx2908
+\fs24\pard\intbl\qr {{ Mean}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx4232
+\fs24\pard\intbl\qr {{ SD}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx5556
+\fs24\pard\intbl\qr {{ Min}}\cell
+\clbrdrt\brdrw10\brdrs \clbrdrb\brdrw25\brdrs  \cellx6880
+\fs24\pard\intbl\qr {{ Max}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ admit}}\cell
+\cellx2908
+\qr {{.52}}\cell
+\cellx4232
+\qr {{.5}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ urm}}\cell
+\cellx2908
+\qr {{.15}}\cell
+\cellx4232
+\qr {{.35}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ fee waived}}\cell
+\cellx2908
+\qr {{.07}}\cell
+\cellx4232
+\qr {{.25}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ non trad}}\cell
+\cellx2908
+\qr {{.13}}\cell
+\cellx4232
+\qr {{.33}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ intl}}\cell
+\cellx2908
+\qr {{.022}}\cell
+\cellx4232
+\qr {{.15}}\cell
+\cellx5556
+\qr {{0}}\cell
+\cellx6880
+\qr {{1}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx1584
+\fs24\pard\intbl\ql {{ gpa}}\cell
+\cellx2908
+\qr {{3.5}}\cell
+\cellx4232
+\qr {{.38}}\cell
+\cellx5556
 \qr {{2}}\cell
 \cellx6880
 \qr {{4.3}}\cell
@@ -876,6 +1198,115 @@
 }
 {\trowd\trgaph108\trleft-108
 \clbrdrt\brdrw15\brdrs\cellx8800{}\cell
+\row}
+
+{\b\qc\line Table ??: Model 22 Estimation on Full Sample }{\par}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw10\brdrs   \cellx2000
+\fs24\pard\intbl\qc { }\cell
+\clbrdrt\brdrw10\brdrs   \cellx3250
+\fs24\pard\intbl\qc {{(1)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrb\brdrw25\brdrs   \cellx2000
+\fs24\pard\intbl\qc { }\cell
+\clbrdrb\brdrw25\brdrs   \cellx3250
+\fs24\pard\intbl\qc { {admit}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {gpa_0to25}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{-.3***}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { { }}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{(.0022)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {gpa_25to50}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{-.18***}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { { }}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{(.0023)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {gpa_50to75}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{-.023***}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { { }}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{(.0026)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {o.gpa_75to100}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { { }}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {lsat}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{.032***}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { { }}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{(.00014)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {_cons}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{-3.8***}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { { }}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{(.053)}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {Observations}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{251209}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx2000
+\fs24\pard\intbl\ql { {R-squared}}\cell
+\cellx3250
+\fs24\pard\intbl\qc {{.35}}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\clbrdrt\brdrw15\brdrs\cellx3250\i {Standard errors are in parentheses}\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3250
+\fs24\pard\intbl\ql \i {*** p<.01, ** p<.05, * p<.1 }\cell
+\row}
+{\trowd\trgaph108\trleft-108
+\cellx3250
+\fs24\pard\intbl\ql {}\cell
 \row}
 
 
