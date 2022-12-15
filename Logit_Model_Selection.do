@@ -8,7 +8,6 @@
 mat drop _all
 clear all
 
-//global path "/Users/nbs/Documents/Georgetown/Semester 5/1 Courses/GBUS 401/1 Project/gbus_401_project"
 global path "/Users/justinpotisit/Documents/GitHub/gbus_401_project"
 cd "${path}/Data_Final" // User must specify appropriate paths
 
@@ -114,49 +113,3 @@ sort model_no (split)
 duplicates drop model_no split, force
 
 save "/Users/nbs/Desktop/logit_cv_metrics.dta", replace
-
-
-///
-
-use "/Users/justinpotisit/Documents/GitHub/gbus_401_project/Data_Final/logit_cv_metrics.dta"
-
-sum accuracy
-
-*Mean accuracy
-egen maccuracy = mean(accuracy), by(model_no)
-la var maccuracy "Mean accuracy score"
-
-
-tabstat accuracy, by(model_no) s(mean sd)
-
-scatter maccuracy model_no, xsize(10) xlabel(#20) 
-
-scatter maccuracy model_no if maccuracy >.73, xsize(10) xlabel(#20) 
-
-*Variance/SD
-egen vaccuracy = sd(accuracy), by(model_no)
-la var vaccuracy "SD of accuracy"
-
-scatter vaccuracy model_no if , xsize(10) xlabel(#20) 
-
-graph export "variance and model #", as(png) name("Graph") replace
-
-
-scatter vaccuracy model_no if vaccuracy <.013, xsize(10) xlabel(#20) 
-
-ssc install colorscatter
-
-ssc install sepscatter
-
-colorscatter maccuracy vaccuracy model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Mean") xtitle("Standard deviation") title("{bf:Accuracy Mean and Standard Deviation by Logit Model}") legend(off) 
-
-sepscatter maccuracy vaccuracy if maccuracy<0.5 & vaccuracy>0.03, separate(model_no) legend(on)
-
-colorscatter mll vaccuracy model_no, cmin(1) cmax(127) rgb_low(10 10 10) rgb_high(254 254 254) scatter_options(msymb(o)) ytitle("Log Loss") xtitle("Standard deviation") title("{bf:Log Loss and Standard Deviation by Logit Model}") legend(off) 
-
-sepscatter maccuracy vaccuracy if mll<0.5 & vaccuracy>0.03, separate(model_no) legend(on)
-
-
-compress
-
-save "${path}/Data_Final/logit_cv_metrics.dta", replace
